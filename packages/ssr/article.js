@@ -64,7 +64,7 @@ module.exports = (client, id) =>
         debounceTimeMs: 0,
         id
       },
-      ({ article, isLoading, error }) =>
+      ({ article, isLoading, error, refetch }) =>
         React.createElement(Article, {
           adConfig,
           analyticsStream: () => {},
@@ -73,7 +73,8 @@ module.exports = (client, id) =>
           error,
           onAuthorPress: () => {},
           onRelatedArticlePress: () => {},
-          onTopicPress: () => {}
+          onTopicPress: () => {},
+          refetch,
         })
     )
   );

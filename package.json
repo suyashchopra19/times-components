@@ -79,15 +79,6 @@
       "path": "cz-conventional-changelog"
     }
   },
-  "detox": {
-    "configurations": {
-      "ios.sim.debug": {
-        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/storybooknative.app",
-        "type": "ios.simulator",
-        "name": "iPhone 7"
-      }
-    }
-  },
   "workspaces": [
     "packages/*",
     "android-app",
@@ -127,7 +118,6 @@
     "coveralls": "2.13.1",
     "cz-conventional-changelog": "2.1.0",
     "dashify": "0.2.2",
-    "detox": "8.1.4",
     "dextrose": "4.0.7",
     "eslint": "4.9.0",
     "eslint-config-airbnb": "16.1.0",

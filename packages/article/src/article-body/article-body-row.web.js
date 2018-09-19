@@ -138,7 +138,7 @@ const ArticleRow = ({ content: { data, index } }) =>
         )
       };
     },
-    interactive(key, { url, metadata }) {
+    interactive(key, { url, metadata = {} }) {
       const { attributes, value } = metadata;
       return {
         element: (

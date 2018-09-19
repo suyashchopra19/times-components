@@ -125,9 +125,11 @@ async function verify(token) {
       audience: '951483460818-ec6ve8477lnok1k912nb0arub0bht5hu.apps.googleusercontent.com',
   });
   const payload = ticket.getPayload();
-  const userid = payload['sub'];
+  const userId = payload['sub'];
 
-  return userid;
+  console.log(payload);
+
+  return userId;
   // If request specified a G Suite domain:
   //const domain = payload['hd'];
 }
@@ -136,12 +138,12 @@ server.post("/authorize", async (req, res) => {
   const { token } = req.body;
   console.log(token);
 
-  const userid = await verify(token).catch(console.error);
-  console.log(userid);
+  const userId = await verify(token).catch(console.error);
+  console.log(userId);
 
   // Good user
-  if (userid === '106768301479716823288') {
-    res.send('OK');
+  if (userId === '106768301479716823288') {
+    res.status(200).send({authToken: process.env.AUTH_TOKEN});
   } else {
     res.status(401).send("Sorry, you don't have a Times subscription");
   } 

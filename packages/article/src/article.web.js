@@ -131,7 +131,8 @@ class ArticlePage extends Component {
             },
             body: JSON.stringify({token: credential.idToken}),
           })
-          .then(data => console.log(JSON.stringify(data)))
+          .then(response => response.json())
+          .then(data => console.log(data))
           .catch(error => console.error(error));
         }
       }, (error) => {

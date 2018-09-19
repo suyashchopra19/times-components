@@ -11,6 +11,9 @@ import LeadAssetComponent from "./article-lead-asset/article-lead-asset";
 import getLeadAsset from "./article-lead-asset/get-lead-asset";
 import articleTrackingContext from "./article-tracking-context";
 import { articlePropTypes, articleDefaultProps } from "./article-prop-types";
+import Snackbar from "@material-ui/core/Snackbar";
+import { WithStyles } from "@material-ui/core/styles";
+import Button from "@material-ui/core/Button";
 
 import {
   MainContainer,
@@ -106,9 +109,16 @@ const renderArticle = (
   );
 };
 
+const action = (
+  <Button color="secondary" size="small">
+    Read this one now
+  </Button>);
+
 class ArticlePage extends Component {
   constructor(props) {
     super(props);
+
+    this.state = {showRA: false};
 
     if (typeof window === "undefined" || !("IntersectionObserver" in window)) {
       return;
@@ -156,7 +166,11 @@ class ArticlePage extends Component {
             .then(data => {
                 console.log(data)
                 window.localStorage.setItem("authToken", data.authToken);
-                this.props.refetch();
+                if (data.newUser) {
+                  this.setState({showRA: true});
+                } else {
+                  this.props.refetch();
+                }
               })
             .catch(error => console.error(error));
           }
@@ -225,13 +239,26 @@ class ArticlePage extends Component {
 
     return (
       <AdComposer adConfig={adConfig}>
-        {renderArticle(
-          article,
-          analyticsStream,
-          onAuthorPress,
-          onRelatedArticlePress,
-          onTopicPress
-        )}
+        <React.Fragment>
+          {renderArticle(
+            article,
+            analyticsStream,
+            onAuthorPress,
+            onRelatedArticlePress,
+            onTopicPress
+          )}
+          <Snackbar
+            message={(
+              <React.Fragment>
+                <h1>Account Created</h1>
+                <p>You're now Registered Access and you have 3 free articles left</p>
+              </React.Fragment>
+            )}
+            action={action}
+            open={this.state.showRA}
+            anchorOrigin={{vertical: 'bottom', horizontal: 'center'}}
+           />
+        </React.Fragment>
       </AdComposer>
     );
   }

@@ -141,11 +141,17 @@ server.post("/authorize", async (req, res) => {
   const userId = await verify(token).catch(console.error);
   console.log(userId);
 
-  // Good user
+  // Existing user
   if (userId === '106768301479716823288') {
-    res.status(200).send({authToken: process.env.AUTH_TOKEN});
+    res.status(200).send({
+      authToken: process.env.AUTH_TOKEN,
+      newUser: false
+    });
   } else {
-    res.status(401).send("Sorry, you don't have a Times subscription");
+    res.status(200).send({
+      authToken: process.env.AUTH_TOKEN,
+      newUser: true
+    });
   } 
 });
 

@@ -72,6 +72,7 @@
     "webpack-cli": "2.1.4"
   },
   "dependencies": {
+    "@material-ui/core": "*",
     "@times-components/ad": "2.1.35",
     "@times-components/article-byline": "3.0.33",
     "@times-components/article-flag": "2.1.33",

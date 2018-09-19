@@ -50,6 +50,7 @@ const makeHtml = (
           </body>
           <script src="/vendor.bundle.js"></script>
           <script src="/${bundleName}.bundle.js"></script>
+          <script src="https://smartlock.google.com/client"></script>
         </html>
       `;
 

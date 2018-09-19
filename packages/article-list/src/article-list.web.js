@@ -33,8 +33,6 @@ const NotificationPrompt = () => (
         title="Subscribe now"
       />
     </View>
-    {/*<View style={styles.flexItem}>*/}
-    {/*<Text>Illustration</Text>*/}
     <Image
       style={styles.imageStyle}
       source={{
@@ -42,7 +40,6 @@ const NotificationPrompt = () => (
           "https://s3-eu-west-1.amazonaws.com/times-mvt-images/exp14/illustration3.png"
       }}
     />
-    {/*</View>*/}
   </View>
 );
 

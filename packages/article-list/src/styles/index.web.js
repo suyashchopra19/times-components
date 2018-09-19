@@ -89,7 +89,6 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.5,
     shadowRadius: 10,
     width: "100%",
-    // height: 80,
     paddingBottom: spacing(2),
     paddingLeft: spacing(2),
     paddingRight: spacing(2),
@@ -108,7 +107,6 @@ const styles = StyleSheet.create({
     fontSize: 14
   },
   notificationBody: {
-    // paddingBottom: 15,
     fontSize: 14,
     marginBottom: 10
   }
@@ -116,9 +114,7 @@ const styles = StyleSheet.create({
 
 const notificationButtonStyles = {
   alignSelf: "center",
-  marginBottom: spacing(2),
-  width: 220
-  // marginTop: spacing(8)
+  marginBottom: spacing(2)
 };
 
 const retryButtonStyles = {

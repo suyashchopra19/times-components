@@ -22,7 +22,7 @@ const ShowTopics = ({ device, onPress, topics }) => {
 
     return (
       <TopicsContainer>
-        <nav>
+        <nav id="ArticleTopics">
           <ArticleTopics
             onPress={onPress}
             style={styles.topicsContainer}

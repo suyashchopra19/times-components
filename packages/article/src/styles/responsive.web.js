@@ -75,3 +75,12 @@ export const BodyContainer = styled(View)`
   display: block;
   order: 4;
 `;
+
+export const Teaser = styled(View)`
+  background-image: linear-gradient(to bottom, rgba(64, 64, 64, 0) 50%, rgba(255, 255, 255, 1) 95%, rgba(255, 255, 255, 1) 100%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+`;

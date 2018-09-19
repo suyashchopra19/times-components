@@ -109,8 +109,8 @@ const renderArticle = (
   );
 };
 
-const action = (
-  <Button color="secondary" size="small">
+const Action = ({onClick}) => (
+  <Button color="secondary" size="small" onClick={onClick}>
     Read this one now
   </Button>);
 
@@ -226,7 +226,8 @@ class ArticlePage extends Component {
       isLoading,
       onAuthorPress,
       onRelatedArticlePress,
-      onTopicPress
+      onTopicPress,
+      refetch
     } = this.props;
 
     if (error) {
@@ -254,7 +255,11 @@ class ArticlePage extends Component {
                 <p>You're now Registered Access and you have 3 free articles left</p>
               </React.Fragment>
             )}
-            action={action}
+            action={<Action onClick={() => {
+                refetch();
+                this.setState({showRA: false});
+              }
+            }/>}
             open={this.state.showRA}
             anchorOrigin={{vertical: 'bottom', horizontal: 'center'}}
            />

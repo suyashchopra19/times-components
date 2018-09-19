@@ -7,6 +7,7 @@ const { fragmentMatcher } = require("@times-components/schema");
 const fetch = require("node-fetch");
 const { createHttpLink } = require("apollo-link-http");
 const getData = require("./get-data");
+const article = require("./article");
 const authorProfile = require("./author-profile");
 const topic = require("./topic");
 
@@ -61,6 +62,22 @@ const toNumber = s => {
 
   return parsed;
 };
+
+server.get("/article/:id", (req, res) => {
+  const { params: { id } } = req;
+  const client = makeClient();
+  const App = article(client, id);
+
+  getData(App).then(props =>
+    res.send(
+      makeHtml(client, id, null, {
+        ...props,
+        bundleName: "article",
+        title: "Article"
+      })
+    )
+  );
+});
 
 server.get("/profile/:slug", (req, res) => {
   const { params: { slug }, query: { page } } = req;

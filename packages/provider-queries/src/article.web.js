@@ -24,6 +24,7 @@ export default gql`
         }
       }
       relatedArticleSlice {
+        sliceName: __typename,
         ... on StandardSlice {
           items {
             article {

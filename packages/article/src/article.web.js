@@ -21,7 +21,8 @@ import {
   MetaContainer,
   LeadAssetContainer,
   BodyContainer,
-  HeaderAdContainer
+  HeaderAdContainer,
+  Teaser
 } from "./styles/responsive";
 
 const adStyle = {
@@ -33,7 +34,8 @@ const renderArticle = (
   analyticsStream,
   onAuthorPress,
   onRelatedArticlePress,
-  onTopicPress
+  onTopicPress,
+  loggedIn
 ) => {
   const {
     hasVideo,
@@ -98,6 +100,7 @@ const renderArticle = (
         </header>
         <BodyContainer>
           <ArticleBody content={content} contextUrl={url} section={section} />
+          {!loggedIn ? <Teaser /> : null}
         </BodyContainer>
       </MainContainer>
       <ArticleTopics onPress={onTopicPress} topics={topics} />
@@ -120,6 +123,7 @@ class ArticlePage extends Component {
 
     this.state = {
       showRA: false,
+      showLoggedInSnackbar: false,
       loggedIn: false,
     };
 
@@ -172,7 +176,7 @@ class ArticlePage extends Component {
                 if (data.newUser) {
                   this.setState({showRA: true});
                 } else {
-                  this.setState({loggedIn: true});
+                  this.setState({showLoggedInSnackbar: true, loggedIn: true});
                   this.props.refetch();
                 }
               })
@@ -251,7 +255,8 @@ class ArticlePage extends Component {
             analyticsStream,
             onAuthorPress,
             onRelatedArticlePress,
-            onTopicPress
+            onTopicPress,
+            this.state.loggedIn
           )}
           <Snackbar
             message={(
@@ -262,7 +267,7 @@ class ArticlePage extends Component {
             )}
             action={<Action onClick={() => {
                 refetch();
-                this.setState({showRA: false});
+                this.setState({loggedIn: true, showRA: false});
               }
             }/>}
             open={this.state.showRA}
@@ -270,9 +275,9 @@ class ArticlePage extends Component {
            />
            <Snackbar
             message={(<h1>Logged in successfully!</h1>)}
-            open={this.state.loggedIn}
+            open={this.state.showLoggedInSnackbar}
             autoHideDuration={1000}
-            onClose={() => this.setState({loggedIn: false})}
+            onClose={() => this.setState({showLoggedInSnackbar: false})}
             anchorOrigin={{vertical: 'bottom', horizontal: 'center'}}
            />
         </React.Fragment>

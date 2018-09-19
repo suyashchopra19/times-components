@@ -118,7 +118,10 @@ class ArticlePage extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {showRA: false};
+    this.state = {
+      showRA: false,
+      loggedIn: false,
+    };
 
     if (typeof window === "undefined" || !("IntersectionObserver" in window)) {
       return;
@@ -169,6 +172,7 @@ class ArticlePage extends Component {
                 if (data.newUser) {
                   this.setState({showRA: true});
                 } else {
+                  this.setState({loggedIn: true});
                   this.props.refetch();
                 }
               })
@@ -177,6 +181,7 @@ class ArticlePage extends Component {
         }, (error) => {
           switch (error.type) {
             case "userCanceled":
+              this.showingLogin = false;
               // The user closed the hint selector. Depending on the desired UX,
               // request manual sign up or do nothing.
               break;
@@ -261,6 +266,13 @@ class ArticlePage extends Component {
               }
             }/>}
             open={this.state.showRA}
+            anchorOrigin={{vertical: 'bottom', horizontal: 'center'}}
+           />
+           <Snackbar
+            message={(<h1>Logged in successfully!</h1>)}
+            open={this.state.loggedIn}
+            autoHideDuration={1000}
+            onClose={() => this.setState({loggedIn: false})}
             anchorOrigin={{vertical: 'bottom', horizontal: 'center'}}
            />
         </React.Fragment>

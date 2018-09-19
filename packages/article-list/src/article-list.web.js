@@ -1,6 +1,6 @@
 /* eslint-env browser */
 import React, { Component, Fragment } from "react";
-import { View } from "react-native";
+import { View, Text, Image } from "react-native";
 import Ad, { AdComposer } from "@times-components/ad";
 import Button from "@times-components/button";
 import ErrorView from "@times-components/error-view";
@@ -14,8 +14,37 @@ import ArticleListItemSeparator from "./article-list-item-separator";
 import ArticleListPagination from "./article-list-pagination";
 import { propTypes, defaultProps } from "./article-list-prop-types";
 import ArticleListEmptyState from "./article-list-empty-state";
-import styles, { retryButtonStyles } from "./styles";
+import styles, { retryButtonStyles, notificationButtonStyles } from "./styles";
 import { ListContentContainer } from "./styles/responsive";
+
+const NotificationPrompt = () => (
+  <View style={styles.notificationPrompt}>
+    <View style={styles.flexItem}>
+      <Text style={styles.notificationTitle}>So you love Brexit?</Text>
+      <Text style={styles.notificationBody}>
+        Do you want to subscribe to
+        <br />notifications on related topics?
+      </Text>
+      <Button
+        onPress={() => {
+          window.subscribeNotification();
+        }}
+        style={notificationButtonStyles}
+        title="Subscribe now"
+      />
+    </View>
+    {/*<View style={styles.flexItem}>*/}
+    {/*<Text>Illustration</Text>*/}
+    <Image
+      style={styles.imageStyle}
+      source={{
+        uri:
+          "https://s3-eu-west-1.amazonaws.com/times-mvt-images/exp14/illustration3.png"
+      }}
+    />
+    {/*</View>*/}
+  </View>
+);
 
 class ArticleList extends Component {
   constructor(props) {
@@ -239,8 +268,7 @@ class ArticleList extends Component {
                               showImage={showImages}
                             />
                           </ListContentContainer>
-                        )
-                      }
+                        )}
                     </ErrorView>
                   </div>
                 </Fragment>
@@ -256,6 +284,7 @@ class ArticleList extends Component {
       <View>
         {articleListHeader}
         {error ? ErrorComponent : Contents}
+        <NotificationPrompt />
       </View>
     );
   }

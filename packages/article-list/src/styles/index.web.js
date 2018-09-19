@@ -76,8 +76,50 @@ const styles = StyleSheet.create({
     alignSelf: "center",
     marginBottom: spacing(2),
     marginTop: spacing(4)
+  },
+  notificationPrompt: {
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    position: "fixed",
+    bottom: 0,
+    backgroundColor: "#fff",
+    shadowColor: "#777",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.5,
+    shadowRadius: 10,
+    width: "100%",
+    // height: 80,
+    paddingBottom: spacing(2),
+    paddingLeft: spacing(2),
+    paddingRight: spacing(2),
+    paddingTop: spacing(2)
+  },
+  imageStyle: {
+    width: 138,
+    height: 200,
+    position: "absolute",
+    bottom: 0,
+    right: 0
+  },
+  notificationTitle: {
+    fontWeight: "bold",
+    marginBottom: 10,
+    fontSize: 14
+  },
+  notificationBody: {
+    // paddingBottom: 15,
+    fontSize: 14,
+    marginBottom: 10
   }
 });
+
+const notificationButtonStyles = {
+  alignSelf: "center",
+  marginBottom: spacing(2),
+  width: 220
+  // marginTop: spacing(8)
+};
 
 const retryButtonStyles = {
   alignSelf: "center",

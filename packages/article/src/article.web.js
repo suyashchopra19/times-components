@@ -124,8 +124,15 @@ class ArticlePage extends Component {
       hintPromise.then((credential) => {
         if (credential.idToken) {
           // Send the token to your auth backend.
-          console.log(credential.idToken);
-          //useGoogleIdTokenForAuth(credential.idToken);
+          fetch("/authorize", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json; charset=utf-8",
+            },
+            body: JSON.stringify({token: credential.idToken}),
+          })
+          .then(data => console.log(JSON.stringify(data)))
+          .catch(error => console.error(error));
         }
       }, (error) => {
         switch (error.type) {

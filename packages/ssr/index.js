@@ -10,9 +10,12 @@ const getData = require("./get-data");
 const article = require("./article");
 const authorProfile = require("./author-profile");
 const topic = require("./topic");
+const bodyParser = require('body-parser');
 
 const port = 3000;
 const server = express();
+
+server.use(bodyParser.json());
 
 const makeClient = () =>
   new ApolloClient({
@@ -112,6 +115,36 @@ server.get("/topic/:slug", (req, res) => {
       })
     )
   );
+});
+
+const {OAuth2Client} = require('google-auth-library');
+const client = new OAuth2Client('951483460818-ec6ve8477lnok1k912nb0arub0bht5hu.apps.googleusercontent.com');
+async function verify(token) {
+  const ticket = await client.verifyIdToken({
+      idToken: token,
+      audience: '951483460818-ec6ve8477lnok1k912nb0arub0bht5hu.apps.googleusercontent.com',
+  });
+  const payload = ticket.getPayload();
+  const userid = payload['sub'];
+
+  return userid;
+  // If request specified a G Suite domain:
+  //const domain = payload['hd'];
+}
+
+server.post("/authorize", async (req, res) => {
+  const { token } = req.body;
+  console.log(token);
+
+  const userid = await verify(token).catch(console.error);
+  console.log(userid);
+
+  // Good user
+  if (userid === '106768301479716823288') {
+    res.send('OK');
+  } else {
+    res.status(401).send("Sorry, you don't have a Times subscription");
+  } 
 });
 
 server.use(express.static("dist"));

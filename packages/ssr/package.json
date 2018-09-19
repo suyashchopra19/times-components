@@ -47,6 +47,7 @@
     "apollo-client": "2.3.7",
     "apollo-link-http": "1.5.3",
     "express": "4.16.3",
+    "google-auth-library": "*",
     "node-fetch": "2.2.0",
     "react": "16.4.2",
     "react-apollo": "2.1.4",

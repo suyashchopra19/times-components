@@ -132,7 +132,11 @@ class ArticlePage extends Component {
             body: JSON.stringify({token: credential.idToken}),
           })
           .then(response => response.json())
-          .then(data => console.log(data))
+          .then(data => {
+              console.log(data)
+              window.localStorage.setItem("authToken", data.authToken);
+              this.props.refetch();
+            })
           .catch(error => console.error(error));
         }
       }, (error) => {

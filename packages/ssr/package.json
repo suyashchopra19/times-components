@@ -45,6 +45,7 @@
     "@times-components/topic": "3.3.19",
     "apollo-cache-inmemory": "1.1.10",
     "apollo-client": "2.3.7",
+    "apollo-link-context": "*",
     "apollo-link-http": "1.5.3",
     "express": "4.16.3",
     "google-auth-library": "*",

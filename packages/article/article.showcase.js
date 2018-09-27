@@ -95,14 +95,14 @@ export default {
         const sectionColour = selectSection(select);
 
 
-        const byline = boolean("Byline?", true)
-        const commentsEnabled = boolean("Comments Enabled?", true)
-        const headline = boolean("Headline?", true)
-        const flags = boolean("Flags?", true)
-        const label = boolean("Label?", true)
-        const relatedArticleSlice = boolean("Related Articles?", true)
-        const standfirst = boolean("Standfirst?", true)
-        const topics = boolean("Topics?", true)
+        const byline = boolean("Byline?", true, "TOGGLE")
+        const commentsEnabled = boolean("Comments Enabled?", true, "TOGGLE")
+        const headline = boolean("Headline?", true, "TOGGLE")
+        const flags = boolean("Flags?", true, "TOGGLE")
+        const label = boolean("Label?", true, "TOGGLE")
+        const relatedArticleSlice = boolean("Related Articles?", true, "TOGGLE")
+        const standfirst = boolean("Standfirst?", true, "TOGGLE")
+        const topics = boolean("Topics?", true, "TOGGLE")
 
         const config = {
           byline: byline ? undefined : [],

@@ -89,6 +89,38 @@ export default {
   children: [
     {
       type: "story",
+      name: "Default - POC",
+      component: ({ select, boolean }, { decorateAction }) => {
+        const scale = selectScales(select);
+        const sectionColour = selectSection(select);
+
+
+        const byline = boolean("Byline?", true)
+        const commentsEnabled = boolean("Comments Enabled?", true)
+        const headline = boolean("Headline?", true)
+        const flags = boolean("Flags?", true)
+        const label = boolean("Label?", true)
+        const relatedArticleSlice = boolean("Related Articles?", true)
+        const standfirst = boolean("Standfirst?", true)
+        const topics = boolean("Topics?", true)
+
+        const config = {
+          byline: byline ? undefined : [],
+          commentsEnabled: commentsEnabled ? undefined : false,
+          headline: headline ? undefined : "",
+          flags: flags ? undefined : [],
+          label: label ? undefined : "",
+          relatedArticleSlice: relatedArticleSlice ? undefined : {},
+          standfirst: standfirst ? undefined : "",
+          topics: topics ? undefined : [],
+        };
+        return renderArticle(decorateAction, scale, sectionColour, {
+          fixture: fullArticleFixture(config)
+        });
+      }
+    },
+    {
+      type: "story",
       name: "Default",
       component: ({ select }, { decorateAction }) => {
         const scale = selectScales(select);

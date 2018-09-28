@@ -3,6 +3,129 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.2.16"></a>
+## [2.2.16](https://github.com/newsuk/times-components/compare/@times-components/button@2.2.15...@times-components/button@2.2.16) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/button
+
+
+
+
+
+<a name="2.2.15"></a>
+## [2.2.15](https://github.com/newsuk/times-components/compare/@times-components/button@2.2.14...@times-components/button@2.2.15) (2018-09-27)
+
+
+### Bug Fixes
+
+* remove shadow from buttons ([#1363](https://github.com/newsuk/times-components/issues/1363)) ([a956eda](https://github.com/newsuk/times-components/commit/a956eda))
+
+
+
+
+
+<a name="2.2.14"></a>
+## [2.2.14](https://github.com/newsuk/times-components/compare/@times-components/button@2.2.13...@times-components/button@2.2.14) (2018-09-26)
+
+**Note:** Version bump only for package @times-components/button
+
+
+
+
+
+<a name="2.2.13"></a>
+## [2.2.13](https://github.com/newsuk/times-components/compare/@times-components/button@2.2.12...@times-components/button@2.2.13) (2018-09-21)
+
+**Note:** Version bump only for package @times-components/button
+
+
+
+
+
+<a name="2.2.12"></a>
+## [2.2.12](https://github.com/newsuk/times-components/compare/@times-components/button@2.2.11...@times-components/button@2.2.12) (2018-09-18)
+
+**Note:** Version bump only for package @times-components/button
+
+
+
+
+
+<a name="2.2.11"></a>
+## [2.2.11](https://github.com/newsuk/times-components/compare/@times-components/button@2.2.10...@times-components/button@2.2.11) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/button
+
+
+
+
+
+<a name="2.2.10"></a>
+## [2.2.10](https://github.com/newsuk/times-components/compare/@times-components/button@2.2.9...@times-components/button@2.2.10) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/button
+
+
+
+
+
+<a name="2.2.9"></a>
+## [2.2.9](https://github.com/newsuk/times-components/compare/@times-components/button@2.2.8...@times-components/button@2.2.9) (2018-09-11)
+
+**Note:** Version bump only for package @times-components/button
+
+
+
+
+
+<a name="2.2.8"></a>
+## [2.2.8](https://github.com/newsuk/times-components/compare/@times-components/button@2.2.7...@times-components/button@2.2.8) (2018-09-11)
+
+
+### Bug Fixes
+
+* replace RN touchable component with web button ([#1312](https://github.com/newsuk/times-components/issues/1312)) ([b4d93a8](https://github.com/newsuk/times-components/commit/b4d93a8))
+
+
+
+
+
+<a name="2.2.7"></a>
+## [2.2.7](https://github.com/newsuk/times-components/compare/@times-components/button@2.2.6...@times-components/button@2.2.7) (2018-09-07)
+
+**Note:** Version bump only for package @times-components/button
+
+
+
+
+
+<a name="2.2.6"></a>
+## [2.2.6](https://github.com/newsuk/times-components/compare/@times-components/button@2.2.5...@times-components/button@2.2.6) (2018-09-06)
+
+**Note:** Version bump only for package @times-components/button
+
+
+
+
+
+<a name="2.2.5"></a>
+## [2.2.5](https://github.com/newsuk/times-components/compare/@times-components/button@2.2.4...@times-components/button@2.2.5) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/button
+
+
+
+
+
+<a name="2.2.4"></a>
+## [2.2.4](https://github.com/newsuk/times-components/compare/@times-components/button@2.2.3...@times-components/button@2.2.4) (2018-09-03)
+
+**Note:** Version bump only for package @times-components/button
+
+
+
+
+
 <a name="2.2.3"></a>
 ## [2.2.3](https://github.com/newsuk/times-components/compare/@times-components/button@2.2.2...@times-components/button@2.2.3) (2018-08-31)
 

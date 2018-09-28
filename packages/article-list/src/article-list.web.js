@@ -7,6 +7,7 @@ import ErrorView from "@times-components/error-view";
 import { spacing } from "@times-components/styleguide";
 import { withTrackScrollDepth } from "@times-components/tracking";
 import { normaliseWidth } from "@times-components/utils";
+import LazyLoad from "@times-components/lazy-load";
 import { scrollUpToPaging } from "./utils";
 import ArticleListError from "./article-list-error";
 import ArticleListItem from "./article-list-item";
@@ -14,96 +15,26 @@ import ArticleListItemSeparator from "./article-list-item-separator";
 import ArticleListPagination from "./article-list-pagination";
 import { propTypes, defaultProps } from "./article-list-prop-types";
 import ArticleListEmptyState from "./article-list-empty-state";
-import styles from "./styles";
+import styles, { retryButtonStyles } from "./styles";
 import { ListContentContainer } from "./styles/responsive";
 
 class ArticleList extends Component {
+  static getImageSize(node) {
+    if (typeof window === "undefined") {
+      return null;
+    }
+
+    return node ? normaliseWidth(node.clientWidth) : null;
+  }
+
   constructor(props) {
     super(props);
 
     this.advertPosition = 4;
-    this.pending = new Set();
-    this.pendingTimer = null;
-    this.state = {
-      images: new Map()
-    };
-
-    if (typeof window === "undefined" || !("IntersectionObserver" in window)) {
-      return;
-    }
-
-    const options = {
-      rootMargin: spacing(10),
-      threshold: 0.5
-    };
-
-    this.observer = new window.IntersectionObserver(
-      this.handleObservation.bind(this),
-      options
-    );
   }
 
   shouldComponentUpdate(nextProps) {
     return this.props.page === nextProps.page;
-  }
-
-  componentWillUnmount() {
-    if (this.observer) {
-      this.observer.disconnect();
-    }
-
-    clearTimeout(this.pendingTimer);
-    this.pending.clear();
-  }
-
-  getImageSize(nodeId) {
-    if (typeof window === "undefined") {
-      return 100;
-    }
-
-    if (this.observer && nodeId) {
-      return this.state.images.get(nodeId);
-    }
-
-    return normaliseWidth(window.clientWidth);
-  }
-
-  handleObservation(entries) {
-    entries.forEach(({ target, intersectionRatio }) => {
-      if (intersectionRatio >= 0.5 && !this.state.images.get(target.id)) {
-        this.pending.add(target);
-      } else if (intersectionRatio < 0.5 && this.pending.has(target)) {
-        this.pending.delete(target);
-      }
-    });
-
-    if (this.pending.size) {
-      clearTimeout(this.pendingTimer);
-      this.pendingTimer = setTimeout(() => {
-        if (!this.pending.size) {
-          return;
-        }
-
-        const curImages = new Map();
-
-        this.pending.forEach(node =>
-          curImages.set(node.id, normaliseWidth(node.clientWidth))
-        );
-
-        this.setState({
-          images: new Map([...this.state.images, ...curImages])
-        });
-        this.pending.clear();
-      }, 100);
-    }
-  }
-
-  registerNode(node) {
-    if (!node || !this.observer) {
-      return;
-    }
-
-    this.observer.observe(node);
   }
 
   render() {
@@ -153,17 +84,19 @@ class ArticleList extends Component {
         {paginationComponent()}
         <View style={styles.listContentErrorContainer}>
           <ArticleListError />
-          <Button onPress={refetch} style={styles.retryButton} title="Retry" />
+          <Button onPress={refetch} style={retryButtonStyles} title="Retry" />
         </View>
       </ListContentContainer>
     );
 
-    const AdComponent = (
-      <View style={styles.adContainer}>
-        <AdComposer adConfig={adConfig}>
-          <Ad isLoading={articlesLoading} slotName="inline-ad" />
-        </AdComposer>
-      </View>
+    const renderAdComponent = ({ key }) => (
+      <AdComposer adConfig={adConfig} key={key}>
+        <Ad
+          isLoading={articlesLoading}
+          slotName="inline-ad"
+          style={styles.adContainer}
+        />
+      </AdComposer>
     );
 
     const data = articlesLoading
@@ -179,7 +112,7 @@ class ArticleList extends Component {
           elementId: `${article.id}.${index}`
         }));
 
-    const Contents =
+    const Contents = ({ clientHasRendered, observed, registerNode }) =>
       data.length === 0 ? (
         <ArticleListEmptyState message={emptyStateMessage} />
       ) : (
@@ -191,16 +124,12 @@ class ArticleList extends Component {
             data.map((article, index) => {
               const { elementId } = article;
 
-              const renderAd = () => {
-                if (index !== this.advertPosition || !hasAdvertConfig) {
-                  return null;
-                }
-
-                return AdComponent;
-              };
+              if (index === this.advertPosition && hasAdvertConfig) {
+                return renderAdComponent({ key: `advert${index}` });
+              }
 
               const renderSeperator = () => {
-                if (index === 0 || index === this.advertPosition + 1) {
+                if (index === 0) {
                   return null;
                 }
 
@@ -213,7 +142,7 @@ class ArticleList extends Component {
                     accessibility-label={elementId}
                     data-testid={elementId}
                     id={elementId}
-                    ref={node => this.registerNode(node)}
+                    ref={node => registerNode(node)}
                   >
                     <ErrorView>
                       {({ hasError }) =>
@@ -222,10 +151,14 @@ class ArticleList extends Component {
                             {renderSeperator()}
                             <ArticleListItem
                               {...article}
+                              fadeImageIn={clientHasRendered}
+                              highResSize={ArticleList.getImageSize(
+                                observed.get(elementId)
+                              )}
                               imageRatio={imageRatio}
-                              imageSize={this.getImageSize(elementId) || 100}
                               index={index}
                               length={data.length}
+                              lowResSize={100}
                               showImage={showImages}
                             />
                           </ListContentContainer>
@@ -233,7 +166,6 @@ class ArticleList extends Component {
                       }
                     </ErrorView>
                   </div>
-                  {renderAd()}
                 </Fragment>
               );
             })}
@@ -244,10 +176,20 @@ class ArticleList extends Component {
     if (!articlesLoading) receiveChildList(data);
 
     return (
-      <View>
-        {articleListHeader}
-        {error ? ErrorComponent : Contents}
-      </View>
+      <LazyLoad rootMargin={spacing(10)} threshold={0.5}>
+        {({ clientHasRendered, observed, registerNode }) => (
+          <View>
+            {articleListHeader}
+            {error
+              ? ErrorComponent
+              : Contents({
+                  clientHasRendered,
+                  observed,
+                  registerNode
+                })}
+          </View>
+        )}
+      </LazyLoad>
     );
   }
 }

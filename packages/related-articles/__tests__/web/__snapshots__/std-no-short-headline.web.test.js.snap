@@ -15,16 +15,18 @@ exports[`1. no short headline 1`] = `
       <div>
         <div>
           <Link
+            linkStyle={
+              Object {
+                "padding": 10,
+              }
+            }
             url="https://test.io"
           >
             <Card
-              image={
-                Object {
-                  "uri": "https://crop.io",
-                }
-              }
               imageRatio={1.7777777777777777}
+              imageUri="https://crop.io"
               isReversed={false}
+              lowResSize={100}
               showImage={true}
             >
               <div>

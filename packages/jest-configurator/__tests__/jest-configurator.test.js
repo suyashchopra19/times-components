@@ -50,7 +50,7 @@ describe("Jest Configurator Tests", () => {
   describe("Web specific configuration", () => {
     it("should use the module mapper to match react-native to react-native-web", () => {
       const config = jestConfigurator("web", dir);
-      expect(config.moduleNameMapper["react-native"]).toEqual(
+      expect(config.moduleNameMapper["^react-native$"]).toEqual(
         "react-native-web"
       );
     });
@@ -75,16 +75,6 @@ describe("Jest Configurator Tests", () => {
     it("should only define the param as the platform used", () => {
       const config = jestConfigurator("ios", dir);
       expect(config.haste.platforms).toEqual(["ios"]);
-    });
-
-    it("should use the correct module name extensions", () => {
-      const config = jestConfigurator("ios", dir);
-      expect(config.haste.moduleFileExtensions).toEqual([
-        "ios.js",
-        "native.js",
-        "js",
-        "json"
-      ]);
     });
   });
 

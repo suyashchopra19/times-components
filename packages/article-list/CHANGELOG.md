@@ -3,6 +3,240 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="5.2.6"></a>
+## [5.2.6](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.5...@times-components/article-list@5.2.6) (2018-09-27)
+
+
+### Bug Fixes
+
+* update watermark layout in empty article list page ([#1369](https://github.com/newsuk/times-components/issues/1369)) ([e738b5d](https://github.com/newsuk/times-components/commit/e738b5d))
+
+
+
+
+
+<a name="5.2.5"></a>
+## [5.2.5](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.4...@times-components/article-list@5.2.5) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="5.2.4"></a>
+## [5.2.4](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.3...@times-components/article-list@5.2.4) (2018-09-26)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="5.2.3"></a>
+## [5.2.3](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.2...@times-components/article-list@5.2.3) (2018-09-25)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="5.2.2"></a>
+## [5.2.2](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.1...@times-components/article-list@5.2.2) (2018-09-23)
+
+
+### Bug Fixes
+
+* article list inline ad with adblocker keyline bug ([#1341](https://github.com/newsuk/times-components/issues/1341)) ([ba4313d](https://github.com/newsuk/times-components/commit/ba4313d))
+
+
+
+
+
+<a name="5.2.1"></a>
+## [5.2.1](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.0...@times-components/article-list@5.2.1) (2018-09-21)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="5.2.0"></a>
+# [5.2.0](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.1.1...@times-components/article-list@5.2.0) (2018-09-21)
+
+
+### Features
+
+* split out lazy load package ([#1336](https://github.com/newsuk/times-components/issues/1336)) ([c7d6700](https://github.com/newsuk/times-components/commit/c7d6700))
+
+
+
+
+
+<a name="5.1.1"></a>
+## [5.1.1](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.1.0...@times-components/article-list@5.1.1) (2018-09-20)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="5.1.0"></a>
+# [5.1.0](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.0.7...@times-components/article-list@5.1.0) (2018-09-18)
+
+
+### Features
+
+* add hasVideo label ([#1329](https://github.com/newsuk/times-components/issues/1329)) ([9c47964](https://github.com/newsuk/times-components/commit/9c47964))
+
+
+
+
+
+<a name="5.0.7"></a>
+## [5.0.7](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.0.6...@times-components/article-list@5.0.7) (2018-09-17)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="5.0.6"></a>
+## [5.0.6](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.0.5...@times-components/article-list@5.0.6) (2018-09-17)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="5.0.5"></a>
+## [5.0.5](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.0.4...@times-components/article-list@5.0.5) (2018-09-13)
+
+
+### Bug Fixes
+
+* Use shortHeadline as headline fallback in article list ([#1321](https://github.com/newsuk/times-components/issues/1321)) ([98dd9b7](https://github.com/newsuk/times-components/commit/98dd9b7))
+
+
+
+
+
+<a name="5.0.4"></a>
+## [5.0.4](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.0.3...@times-components/article-list@5.0.4) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="5.0.3"></a>
+## [5.0.3](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.0.2...@times-components/article-list@5.0.3) (2018-09-11)
+
+
+### Bug Fixes
+
+* ad blocked layout in article list ([#1315](https://github.com/newsuk/times-components/issues/1315)) ([9bb573e](https://github.com/newsuk/times-components/commit/9bb573e))
+
+
+
+
+
+<a name="5.0.2"></a>
+## [5.0.2](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.0.1...@times-components/article-list@5.0.2) (2018-09-11)
+
+
+### Bug Fixes
+
+* replace RN touchable component with web button ([#1312](https://github.com/newsuk/times-components/issues/1312)) ([b4d93a8](https://github.com/newsuk/times-components/commit/b4d93a8))
+
+
+
+
+
+<a name="5.0.1"></a>
+## [5.0.1](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.0.0...@times-components/article-list@5.0.1) (2018-09-10)
+
+
+### Bug Fixes
+
+* pagination storybook ([#1309](https://github.com/newsuk/times-components/issues/1309)) ([c5f65ae](https://github.com/newsuk/times-components/commit/c5f65ae))
+
+
+
+
+
+<a name="5.0.0"></a>
+# [5.0.0](https://github.com/newsuk/times-components/compare/@times-components/article-list@4.2.1...@times-components/article-list@5.0.0) (2018-09-07)
+
+
+* BREAKING CHANGE: split out high and low res images (#1299) ([cf128dd](https://github.com/newsuk/times-components/commit/cf128dd)), closes [#1299](https://github.com/newsuk/times-components/issues/1299)
+
+
+### BREAKING CHANGES
+
+* split out high and low res images
+* refactor: split out fade-in effect
+* chore: fix meta
+* fix: no observer SSR
+
+
+
+
+
+<a name="4.2.1"></a>
+## [4.2.1](https://github.com/newsuk/times-components/compare/@times-components/article-list@4.2.0...@times-components/article-list@4.2.1) (2018-09-06)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="4.2.0"></a>
+# [4.2.0](https://github.com/newsuk/times-components/compare/@times-components/article-list@4.1.22...@times-components/article-list@4.2.0) (2018-09-04)
+
+
+### Features
+
+* add ss paging ([#1286](https://github.com/newsuk/times-components/issues/1286)) ([c2d14cc](https://github.com/newsuk/times-components/commit/c2d14cc))
+
+
+
+
+
+<a name="4.1.22"></a>
+## [4.1.22](https://github.com/newsuk/times-components/compare/@times-components/article-list@4.1.21...@times-components/article-list@4.1.22) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="4.1.21"></a>
+## [4.1.21](https://github.com/newsuk/times-components/compare/@times-components/article-list@4.1.20...@times-components/article-list@4.1.21) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="4.1.20"></a>
+## [4.1.20](https://github.com/newsuk/times-components/compare/@times-components/article-list@4.1.19...@times-components/article-list@4.1.20) (2018-09-03)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
 <a name="4.1.19"></a>
 ## [4.1.19](https://github.com/newsuk/times-components/compare/@times-components/article-list@4.1.18...@times-components/article-list@4.1.19) (2018-08-31)
 

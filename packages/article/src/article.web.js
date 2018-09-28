@@ -32,6 +32,7 @@ const renderArticle = (
   onTopicPress
 ) => {
   const {
+    hasVideo,
     headline,
     flags,
     standfirst,
@@ -49,7 +50,10 @@ const renderArticle = (
   const displayRelatedArticles = relatedArticleSlice ? (
     <RelatedArticles
       analyticsStream={analyticsStream}
-      slice={relatedArticleSlice}
+      slice={{
+        ...relatedArticleSlice,
+        sliceName: relatedArticleSlice.__typename // eslint-disable-line no-underscore-dangle
+      }}
     />
   ) : null;
 
@@ -68,8 +72,8 @@ const renderArticle = (
           <HeaderContainer>
             <ArticleHeader
               flags={flags}
+              hasVideo={hasVideo}
               headline={headline}
-              isVideo={leadAssetProps.isVideo}
               label={label}
               standfirst={standfirst}
             />

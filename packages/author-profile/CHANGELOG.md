@@ -3,6 +3,210 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.0.57"></a>
+## [4.0.57](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.56...@times-components/author-profile@4.0.57) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.56"></a>
+## [4.0.56](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.55...@times-components/author-profile@4.0.56) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.55"></a>
+## [4.0.55](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.54...@times-components/author-profile@4.0.55) (2018-09-26)
+
+
+### Bug Fixes
+
+* remove hairline width ([#1359](https://github.com/newsuk/times-components/issues/1359)) ([dbc18ba](https://github.com/newsuk/times-components/commit/dbc18ba))
+
+
+
+
+
+<a name="4.0.54"></a>
+## [4.0.54](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.53...@times-components/author-profile@4.0.54) (2018-09-25)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.53"></a>
+## [4.0.53](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.52...@times-components/author-profile@4.0.53) (2018-09-23)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.52"></a>
+## [4.0.52](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.51...@times-components/author-profile@4.0.52) (2018-09-21)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.51"></a>
+## [4.0.51](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.50...@times-components/author-profile@4.0.51) (2018-09-21)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.50"></a>
+## [4.0.50](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.49...@times-components/author-profile@4.0.50) (2018-09-20)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.49"></a>
+## [4.0.49](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.48...@times-components/author-profile@4.0.49) (2018-09-18)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.48"></a>
+## [4.0.48](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.47...@times-components/author-profile@4.0.48) (2018-09-17)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.47"></a>
+## [4.0.47](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.46...@times-components/author-profile@4.0.47) (2018-09-17)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.46"></a>
+## [4.0.46](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.45...@times-components/author-profile@4.0.46) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.45"></a>
+## [4.0.45](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.44...@times-components/author-profile@4.0.45) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.44"></a>
+## [4.0.44](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.43...@times-components/author-profile@4.0.44) (2018-09-11)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.43"></a>
+## [4.0.43](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.42...@times-components/author-profile@4.0.43) (2018-09-11)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.42"></a>
+## [4.0.42](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.41...@times-components/author-profile@4.0.42) (2018-09-10)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.41"></a>
+## [4.0.41](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.40...@times-components/author-profile@4.0.41) (2018-09-07)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.40"></a>
+## [4.0.40](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.39...@times-components/author-profile@4.0.40) (2018-09-06)
+
+
+### Bug Fixes
+
+* dont display author profile head image placeholder when no author image ([#1298](https://github.com/newsuk/times-components/issues/1298)) ([d68d6ed](https://github.com/newsuk/times-components/commit/d68d6ed))
+
+
+
+
+
+<a name="4.0.39"></a>
+## [4.0.39](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.38...@times-components/author-profile@4.0.39) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.38"></a>
+## [4.0.38](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.37...@times-components/author-profile@4.0.38) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.37"></a>
+## [4.0.37](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.36...@times-components/author-profile@4.0.37) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.36"></a>
+## [4.0.36](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.35...@times-components/author-profile@4.0.36) (2018-09-03)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
 <a name="4.0.35"></a>
 ## [4.0.35](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.34...@times-components/author-profile@4.0.35) (2018-08-31)
 

@@ -1,4 +1,3 @@
-import { StyleSheet } from "react-native";
 import styleguideFactory from "@times-components/styleguide";
 
 const { colours, fontFactory, spacing } = styleguideFactory();
@@ -11,7 +10,7 @@ const styles = {
     paddingHorizontal: spacing(2),
     backgroundColor: colours.functional.backgroundPrimary,
     borderBottomColor: colours.functional.border,
-    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomWidth: 1,
     minHeight: 90
   },
   container: {
@@ -19,7 +18,8 @@ const styles = {
   },
   name: {
     ...fontFactory({ font: "headline", fontSize: "pageHeadline" }),
-    color: colours.functional.brandColour
+    color: colours.functional.brandColour,
+    textAlign: "center"
   },
   description: {
     ...fontFactory({ font: "body", fontSize: "tertiary" }),

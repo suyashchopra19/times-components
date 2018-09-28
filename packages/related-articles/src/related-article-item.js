@@ -31,6 +31,7 @@ const RelatedArticleItem = ({
 }) => {
   const {
     byline,
+    hasVideo,
     headline,
     label,
     leadAsset,
@@ -56,14 +57,19 @@ const RelatedArticleItem = ({
       : get(article, `leadAsset.crop${cropSize}.url`);
 
   return (
-    <Link onPress={e => onPress(e, { url: article.url })} url={url}>
+    <Link
+      linkStyle={{ padding: 10 }}
+      onPress={e => onPress(e, { url: article.url })}
+      url={url}
+    >
       <Card
         contentContainerClass={contentContainerClass}
-        image={{ uri: imageUri }}
         imageContainerClass={imageContainerClass}
         imageRatio={imageRatio}
         imageStyle={imageStyle}
+        imageUri={imageUri}
         isReversed={isReversed}
+        lowResSize={100}
         showImage={showImage}
       >
         <ArticleSummary
@@ -105,7 +111,7 @@ const RelatedArticleItem = ({
           )}
           labelProps={{
             color: colours.section[section] || colours.section.default,
-            isVideo: leadAsset && leadAsset.type === "Video",
+            isVideo: hasVideo,
             title: label
           }}
         />

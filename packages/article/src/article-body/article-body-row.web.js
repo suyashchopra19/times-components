@@ -1,13 +1,12 @@
 import React from "react";
-import { StyleSheet } from "react-native";
 import PropTypes from "prop-types";
 import Ad from "@times-components/ad";
 import ArticleImage from "@times-components/article-image";
+import InteractiveWrapper from "@times-components/interactive-wrapper";
 import KeyFacts from "@times-components/key-facts";
 import { renderTree } from "@times-components/markup-forest";
 import coreRenderers from "@times-components/markup";
 import PullQuote from "@times-components/pull-quote";
-import { colours, spacing } from "@times-components/styleguide";
 import Video from "@times-components/video";
 import BodyParagraph from "./article-body-paragraph";
 import ArticleLink from "./article-link";
@@ -17,9 +16,11 @@ import {
   PrimaryImg,
   SecondaryImg,
   InlineImg,
+  InteractiveContainer,
   PullQuoteContainer,
   PullQuoteResp
 } from "../styles/article-body/responsive";
+import styles from "../styles/article-body";
 
 export const responsiveDisplayWrapper = displayType => {
   switch (displayType) {
@@ -31,19 +32,6 @@ export const responsiveDisplayWrapper = displayType => {
       return PrimaryImg;
   }
 };
-
-const styles = StyleSheet.create({
-  ad: {
-    borderTopColor: colours.functional.keyline,
-    borderBottomColor: colours.functional.keyline,
-    borderTopWidth: 1,
-    borderBottomWidth: 1,
-    paddingTop: spacing(2),
-    paddingBottom: spacing(2),
-    marginBottom: spacing(6),
-    marginTop: spacing(6)
-  }
-});
 
 const ArticleRow = ({ content: { data, index } }) =>
   renderTree(data, {
@@ -82,7 +70,7 @@ const ArticleRow = ({ content: { data, index } }) =>
               imageOptions={{
                 display,
                 ratio,
-                url
+                uri: url
               }}
             />
           </MediaWrapper>
@@ -147,6 +135,21 @@ const ArticleRow = ({ content: { data, index } }) =>
           <ArticleLink key={key} target={target} url={href} uuid={index}>
             {children}
           </ArticleLink>
+        )
+      };
+    },
+    interactive(key, { url, element }) {
+      const { attributes, value } = element;
+      return {
+        element: (
+          <InteractiveContainer>
+            <InteractiveWrapper
+              attributes={attributes}
+              element={value}
+              key={key}
+              source={url}
+            />
+          </InteractiveContainer>
         )
       };
     }

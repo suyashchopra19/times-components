@@ -32,6 +32,7 @@ Object {
   "flags": Array [
     "NEW",
   ],
+  "hasVideo": false,
   "headline": "Supplement In Depth Template (Style)",
   "id": "198c4b2f-ecec-4f34-be53-c89f83bc1b44",
   "keywords": Array [
@@ -50,7 +51,6 @@ Object {
     },
     "id": "263b03a1-2ce6-4b94-b053-0d35316548c5",
     "title": "Title",
-    "type": "Image",
     Symbol(id): "Image:263b03a1-2ce6-4b94-b053-0d35316548c5",
   },
   "publicationName": "TIMES",
@@ -71,6 +71,7 @@ Object {
               "name": "text",
             },
           ],
+          "hasVideo": false,
           "headline": "Related Headline",
           "id": "ea16d744-cb4a-11e4-a202-50ac5def393a",
           "label": "Label",
@@ -93,6 +94,7 @@ Object {
           "publicationName": "TIMES",
           "publishedTime": "2015-03-23T19:39:39.000Z",
           "section": "related",
+          "shortHeadline": "Related Short Headline",
           "shortIdentifier": "37b27qd2s",
           "slug": "france-defies-may-over-russia",
           "summary125": Array [
@@ -110,10 +112,10 @@ Object {
         Symbol(id): "$Article:198c4b2f-ecec-4f34-be53-c89f83bc1b44.relatedArticleSlice.items.0",
       },
     ],
-    "sliceName": "StandardSlice",
     Symbol(id): "$Article:198c4b2f-ecec-4f34-be53-c89f83bc1b44.relatedArticleSlice",
   },
   "section": "business",
+  "shortHeadline": "Supplement In Depth Template",
   "shortIdentifier": "37b27qd2s",
   "slug": "france-defies-may-over-russia",
   "standfirst": "Standfirst",

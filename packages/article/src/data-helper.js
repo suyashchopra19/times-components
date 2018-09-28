@@ -20,6 +20,7 @@ const prepareDataForListView = articleData => {
   const { isVideo, leadAsset } = getLeadAsset(articleData);
   const articleHeaderData = {
     label: articleData.label,
+    hasVideo: articleData.hasVideo,
     headline: articleData.headline,
     standfirst: articleData.standfirst,
     flags: articleData.flags,
@@ -30,9 +31,13 @@ const prepareDataForListView = articleData => {
     publishedTime: articleData.publishedTime,
     byline: articleData.byline
   };
+
   const relatedArticleSliceData = articleData.relatedArticleSlice
     ? {
-        relatedArticleSlice: articleData.relatedArticleSlice
+        relatedArticleSlice: {
+          ...articleData.relatedArticleSlice,
+          sliceName: articleData.relatedArticleSlice.__typename // eslint-disable-line no-underscore-dangle
+        }
       }
     : null;
   const commentsData = {

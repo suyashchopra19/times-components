@@ -52,41 +52,7 @@ exports[`1. an error 1`] = `
       We can't load the page you have requested. Please check your network connection and retry to continue
     </Text>
   </View>
-  <View
-    style={
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#006699",
-        "borderRadius": 4,
-        "elevation": 3,
-        "height": 36,
-        "justifyContent": "center",
-        "minWidth": 100,
-        "shadowColor": "#000000",
-        "shadowOffset": Object {
-          "height": 3,
-          "width": 0,
-        },
-        "shadowOpacity": 1,
-        "shadowRadius": 5,
-        "width": "100%",
-      }
-    }
-  >
-    <Text
-      style={
-        Object {
-          "color": "#FFF",
-          "fontFamily": "GillSansMTStd-Medium",
-          "fontSize": 14,
-          "lineHeight": 14,
-          "paddingTop": 0,
-        }
-      }
-    >
-      RETRY
-    </Text>
-  </View>
+  <Button />
 </View>
 `;
 
@@ -172,7 +138,7 @@ exports[`2. a full article with an image as the lead asset 1`] = `
         style={
           Object {
             "borderBottomColor": "#DBDBDB",
-            "borderBottomWidth": 0.5,
+            "borderBottomWidth": 1,
             "marginBottom": 20,
             "marginLeft": 10,
             "marginRight": 10,
@@ -186,7 +152,7 @@ exports[`2. a full article with an image as the lead asset 1`] = `
           style={
             Object {
               "borderTopColor": "#DBDBDB",
-              "borderTopWidth": 0.5,
+              "borderTopWidth": 1,
               "paddingBottom": 6,
               "paddingTop": 7,
             }
@@ -209,7 +175,7 @@ exports[`2. a full article with an image as the lead asset 1`] = `
           style={
             Object {
               "borderTopColor": "#DBDBDB",
-              "borderTopWidth": 0.5,
+              "borderTopWidth": 1,
               "paddingBottom": 6,
               "paddingTop": 7,
             }
@@ -395,7 +361,7 @@ exports[`3. an article with a video as the lead asset 1`] = `
         style={
           Object {
             "borderBottomColor": "#DBDBDB",
-            "borderBottomWidth": 0.5,
+            "borderBottomWidth": 1,
             "marginBottom": 20,
             "marginLeft": 10,
             "marginRight": 10,
@@ -409,7 +375,7 @@ exports[`3. an article with a video as the lead asset 1`] = `
           style={
             Object {
               "borderTopColor": "#DBDBDB",
-              "borderTopWidth": 0.5,
+              "borderTopWidth": 1,
               "paddingBottom": 6,
               "paddingTop": 7,
             }
@@ -497,7 +463,7 @@ exports[`4. an article with no lead asset 1`] = `
         style={
           Object {
             "borderBottomColor": "#DBDBDB",
-            "borderBottomWidth": 0.5,
+            "borderBottomWidth": 1,
             "marginBottom": 20,
             "marginLeft": 10,
             "marginRight": 10,
@@ -511,7 +477,7 @@ exports[`4. an article with no lead asset 1`] = `
           style={
             Object {
               "borderTopColor": "#DBDBDB",
-              "borderTopWidth": 0.5,
+              "borderTopWidth": 1,
               "paddingBottom": 6,
               "paddingTop": 7,
             }
@@ -599,7 +565,7 @@ exports[`5. an article with ads 1`] = `
         style={
           Object {
             "borderBottomColor": "#DBDBDB",
-            "borderBottomWidth": 0.5,
+            "borderBottomWidth": 1,
             "marginBottom": 20,
             "marginLeft": 10,
             "marginRight": 10,
@@ -613,7 +579,7 @@ exports[`5. an article with ads 1`] = `
           style={
             Object {
               "borderTopColor": "#DBDBDB",
-              "borderTopWidth": 0.5,
+              "borderTopWidth": 1,
               "paddingBottom": 6,
               "paddingTop": 7,
             }
@@ -643,8 +609,8 @@ exports[`5. an article with ads 1`] = `
             "borderTopColor": "#DBDBDB",
             "borderTopWidth": 1,
             "marginBottom": 20,
-            "paddingBottom": 10,
-            "paddingTop": 10,
+            "paddingHorizontal": 10,
+            "paddingVertical": 10,
           }
         }
       />
@@ -706,7 +672,7 @@ exports[`7. an article with updated byline 1`] = `
         style={
           Object {
             "borderBottomColor": "#DBDBDB",
-            "borderBottomWidth": 0.5,
+            "borderBottomWidth": 1,
             "marginBottom": 20,
             "marginLeft": 10,
             "marginRight": 10,
@@ -720,7 +686,7 @@ exports[`7. an article with updated byline 1`] = `
           style={
             Object {
               "borderTopColor": "#DBDBDB",
-              "borderTopWidth": 0.5,
+              "borderTopWidth": 1,
               "paddingBottom": 6,
               "paddingTop": 7,
             }
@@ -808,7 +774,7 @@ exports[`7. an article with updated byline 2`] = `
         style={
           Object {
             "borderBottomColor": "#DBDBDB",
-            "borderBottomWidth": 0.5,
+            "borderBottomWidth": 1,
             "marginBottom": 20,
             "marginLeft": 10,
             "marginRight": 10,
@@ -822,7 +788,7 @@ exports[`7. an article with updated byline 2`] = `
           style={
             Object {
               "borderTopColor": "#DBDBDB",
-              "borderTopWidth": 0.5,
+              "borderTopWidth": 1,
               "paddingBottom": 6,
               "paddingTop": 7,
             }
@@ -845,7 +811,7 @@ exports[`7. an article with updated byline 2`] = `
           style={
             Object {
               "borderTopColor": "#DBDBDB",
-              "borderTopWidth": 0.5,
+              "borderTopWidth": 1,
               "paddingBottom": 6,
               "paddingTop": 7,
             }

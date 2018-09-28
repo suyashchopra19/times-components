@@ -15,14 +15,13 @@ const nativeSpecific = (platform: Platform) => ({
   haste: {
     defaultPlatform: platform,
     platforms: [platform],
-    providesModuleNodeModules: ["react", "react-native"],
-    moduleFileExtensions: [`${platform}.js`, "native.js", "js", "json"]
+    providesModuleNodeModules: ["react", "react-native"]
   }
 });
 
 const webSpecific = {
   moduleNameMapper: {
-    "react-native": "react-native-web",
+    "^react-native$": "react-native-web",
     "\\.(png)$": "identity-obj-proxy"
   },
   testEnvironment: "jsdom",
@@ -31,7 +30,7 @@ const webSpecific = {
 
 const nodeSpecific = {
   moduleNameMapper: {
-    "react-native": "react-native-web",
+    "^react-native$": "react-native-web",
     "\\.(png)$": "identity-obj-proxy"
   },
   testEnvironment: "node",

@@ -23,13 +23,11 @@ exports[`1. article list 1`] = `
         >
           <div>
             <Card
-              image={
-                Object {
-                  "uri": "https://lead1.io",
-                }
-              }
+              fadeImageIn={true}
+              highResSize={null}
               imageRatio={1}
-              imageSize={1440}
+              imageUri="https://lead1.io"
+              lowResSize={100}
               showImage={true}
             >
               <ArticleSummary
@@ -43,7 +41,7 @@ exports[`1. article list 1`] = `
                 labelProps={
                   Object {
                     "color": "#636C17",
-                    "isVideo": false,
+                    "isVideo": true,
                     "title": "Label 1",
                   }
                 }
@@ -66,13 +64,11 @@ exports[`1. article list 1`] = `
         >
           <div>
             <Card
-              image={
-                Object {
-                  "uri": "https://lead2.io",
-                }
-              }
+              fadeImageIn={true}
+              highResSize={null}
               imageRatio={1}
-              imageSize={1440}
+              imageUri="https://lead2.io"
+              lowResSize={100}
               showImage={true}
             >
               <ArticleSummary
@@ -128,13 +124,11 @@ exports[`1. article list 1`] = `
         >
           <div>
             <Card
-              image={
-                Object {
-                  "uri": "https://lead3.io",
-                }
-              }
+              fadeImageIn={true}
+              highResSize={null}
               imageRatio={1}
-              imageSize={1440}
+              imageUri="https://lead3.io"
+              lowResSize={100}
               showImage={true}
             >
               <ArticleSummary
@@ -190,13 +184,11 @@ exports[`1. article list 1`] = `
         >
           <div>
             <Card
-              image={
-                Object {
-                  "uri": "https://lead4.io",
-                }
-              }
+              fadeImageIn={true}
+              highResSize={null}
               imageRatio={1}
-              imageSize={1440}
+              imageUri="https://lead4.io"
+              lowResSize={100}
               showImage={true}
             >
               <ArticleSummary
@@ -239,73 +231,9 @@ exports[`1. article list 1`] = `
         </Link>
       </div>
     </div>
-    <div
-      accessibility-label="ca00422e-8e6f-11e8-9eb6-529269fb1459.4"
-      id="ca00422e-8e6f-11e8-9eb6-529269fb1459.4"
-    >
-      <div>
-        <div>
-          <div />
-        </div>
-        <Link
-          url="https://article5.io"
-        >
-          <div>
-            <Card
-              image={
-                Object {
-                  "uri": "https://lead5.io",
-                }
-              }
-              imageRatio={1}
-              imageSize={1440}
-              showImage={true}
-            >
-              <ArticleSummary
-                bylineProps={
-                  Object {
-                    "ast": Array [
-                      Object {
-                        "attributes": Object {},
-                        "children": Array [
-                          Object {
-                            "attributes": Object {
-                              "value": "Byline 5",
-                            },
-                            "children": Array [],
-                            "name": "text",
-                          },
-                        ],
-                        "name": "paragraph",
-                      },
-                    ],
-                    "color": "#333333",
-                  }
-                }
-                datePublicationProps={
-                  Object {
-                    "date": "2017-11-17T00:01:00.000Z",
-                    "publication": "SUNDAYTIMES",
-                  }
-                }
-                labelProps={
-                  Object {
-                    "color": "#333333",
-                    "isVideo": false,
-                    "title": "Label 5",
-                  }
-                }
-              />
-            </Card>
-          </div>
-        </Link>
-      </div>
-    </div>
-    <div>
-      <Ad
-        slotName="inline-ad"
-      />
-    </div>
+    <Ad
+      slotName="inline-ad"
+    />
     <div>
       <div>
         <Pagination
@@ -341,13 +269,11 @@ exports[`2. article list with no images 1`] = `
         >
           <div>
             <Card
-              image={
-                Object {
-                  "uri": "https://lead1.io",
-                }
-              }
+              fadeImageIn={true}
+              highResSize={null}
               imageRatio={1}
-              imageSize={1440}
+              imageUri="https://lead1.io"
+              lowResSize={100}
               showImage={false}
             >
               <div>
@@ -362,7 +288,7 @@ exports[`2. article list with no images 1`] = `
                   labelProps={
                     Object {
                       "color": "#636C17",
-                      "isVideo": false,
+                      "isVideo": true,
                       "title": "Label 1",
                     }
                   }
@@ -380,7 +306,7 @@ exports[`2. article list with no images 1`] = `
                   labelProps={
                     Object {
                       "color": "#636C17",
-                      "isVideo": false,
+                      "isVideo": true,
                       "title": "Label 1",
                     }
                   }
@@ -426,9 +352,11 @@ exports[`3. article list with missing image 1`] = `
         >
           <div>
             <Card
-              image={null}
+              fadeImageIn={true}
+              highResSize={null}
               imageRatio={1}
-              imageSize={1440}
+              imageUri={null}
+              lowResSize={100}
               showImage={false}
             >
               <div>
@@ -443,7 +371,7 @@ exports[`3. article list with missing image 1`] = `
                   labelProps={
                     Object {
                       "color": "#636C17",
-                      "isVideo": false,
+                      "isVideo": true,
                       "title": "Label 1",
                     }
                   }
@@ -461,7 +389,7 @@ exports[`3. article list with missing image 1`] = `
                   labelProps={
                     Object {
                       "color": "#636C17",
-                      "isVideo": false,
+                      "isVideo": true,
                       "title": "Label 1",
                     }
                   }

@@ -33,7 +33,6 @@ Pod::Spec.new do |s|
   # React is split into a set of subspecs, these are the essentials
   
   s.dependency 'React/Core'
-  s.dependency 'React/Fabric'
   s.dependency 'React/CxxBridge'
   s.dependency 'React/RCTAnimation'
   s.dependency 'React/RCTImage'
@@ -47,7 +46,7 @@ Pod::Spec.new do |s|
   # React's dependencies
 
   s.dependency 'RNDeviceInfo'
-  s.dependency 'yoga'
+  s.dependency 'yoga', "#{react_native_version}.React"
   s.dependency 'DoubleConversion'
   s.dependency 'Folly'
   s.dependency 'glog'

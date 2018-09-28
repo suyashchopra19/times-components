@@ -1,49 +1,48 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`1. default image 1`] = `
+.c0 {
+  display: block;
+  opacity: 1;
+  position: absolute;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  width: 100%;
+  z-index: 2;
+}
+
 <style>
 {
   "IS1": {
-    "display": "block",
-    "position": "absolute",
-    "width": "100%",
-    "zIndex": 1,
-  },
-  "IS2": {
     "flex": 1,
   },
-  "IS3": {
-    "bottom": "0px",
-    "left": "0px",
-    "position": "absolute",
-    "right": "0px",
-    "top": "0px",
-  },
-  "IS4": {
+  "IS2": {
     "display": "table",
     "height": 0,
     "overflow": "hidden",
     "paddingBottom": "66.66666666666667%",
   },
   "S1": {
-    "-ms-flex": "1",
     "-ms-flex-align": "stretch",
     "-ms-flex-direction": "column",
-    "-ms-flex-positive": "1 !important",
+    "-ms-flex-positive": "1",
     "-webkit-align-items": "stretch",
     "-webkit-box-align": "stretch",
     "-webkit-box-direction": "normal",
-    "-webkit-box-flex": "1 !important",
+    "-webkit-box-flex": "1",
     "-webkit-box-orient": "vertical",
-    "-webkit-flex": "1",
     "-webkit-flex-direction": "column",
-    "-webkit-flex-grow": "1 !important",
+    "-webkit-flex-grow": "1",
     "align-items": "stretch",
+    "bottom": "0px",
     "display": "flex",
-    "flex": "1",
     "flex-direction": "column",
-    "flex-grow": "1 !important",
+    "flex-grow": "1",
+    "left": "0px",
     "padding-bottom": "0px",
+    "position": "absolute",
+    "right": "0px",
+    "top": "0px",
     "z-index": "0",
   },
   "S2": {
@@ -68,16 +67,16 @@ exports[`1. default image 1`] = `
   className="S2"
 >
   <div
-    className="IS4"
+    className="IS2"
   >
     <img
-      className="IS1"
+      className="c0"
     />
     <div
-      className="S1 IS3"
+      className="S1"
     >
       <Gradient
-        className="IS2"
+        className="IS1"
       />
     </div>
   </div>
@@ -85,49 +84,48 @@ exports[`1. default image 1`] = `
 `;
 
 exports[`2. default modal 1`] = `
+.c0 {
+  display: block;
+  opacity: 1;
+  position: absolute;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  width: 100%;
+  z-index: 2;
+}
+
 <style>
 {
   "IS1": {
-    "display": "block",
-    "position": "absolute",
-    "width": "100%",
-    "zIndex": 1,
-  },
-  "IS2": {
     "flex": 1,
   },
-  "IS3": {
-    "bottom": "0px",
-    "left": "0px",
-    "position": "absolute",
-    "right": "0px",
-    "top": "0px",
-  },
-  "IS4": {
+  "IS2": {
     "display": "table",
     "height": 0,
     "overflow": "hidden",
     "paddingBottom": "66.66666666666667%",
   },
   "S1": {
-    "-ms-flex": "1",
     "-ms-flex-align": "stretch",
     "-ms-flex-direction": "column",
-    "-ms-flex-positive": "1 !important",
+    "-ms-flex-positive": "1",
     "-webkit-align-items": "stretch",
     "-webkit-box-align": "stretch",
     "-webkit-box-direction": "normal",
-    "-webkit-box-flex": "1 !important",
+    "-webkit-box-flex": "1",
     "-webkit-box-orient": "vertical",
-    "-webkit-flex": "1",
     "-webkit-flex-direction": "column",
-    "-webkit-flex-grow": "1 !important",
+    "-webkit-flex-grow": "1",
     "align-items": "stretch",
+    "bottom": "0px",
     "display": "flex",
-    "flex": "1",
     "flex-direction": "column",
-    "flex-grow": "1 !important",
+    "flex-grow": "1",
+    "left": "0px",
     "padding-bottom": "0px",
+    "position": "absolute",
+    "right": "0px",
+    "top": "0px",
     "z-index": "0",
   },
   "S2": {
@@ -152,16 +150,16 @@ exports[`2. default modal 1`] = `
   className="S2"
 >
   <div
-    className="IS4"
+    className="IS2"
   >
     <img
-      className="IS1"
+      className="c0"
     />
     <div
-      className="S1 IS3"
+      className="S1"
     >
       <Gradient
-        className="IS2"
+        className="IS1"
       />
     </div>
   </div>

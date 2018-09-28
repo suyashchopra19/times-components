@@ -2,7 +2,6 @@
 /* eslint-env browser */
 import React from "react";
 import invert from "lodash.invert";
-import { addTypenameToDocument } from "apollo-utilities";
 import Context from "@times-components/context";
 import { ArticleProvider } from "@times-components/provider";
 import { article as articleQuery } from "@times-components/provider-queries";
@@ -28,7 +27,7 @@ const preventDefaultedAction = decorateAction =>
 const mocks = [
   {
     request: {
-      query: addTypenameToDocument(articleQuery),
+      query: articleQuery,
       variables: {
         id: "198c4b2f-ecec-4f34-be53-c89f83bc1b44"
       }
@@ -95,7 +94,9 @@ export default {
         const scale = selectScales(select);
         const sectionColour = selectSection(select);
         return renderArticle(decorateAction, scale, sectionColour, {
-          fixture: fullArticleFixture()
+          fixture: fullArticleFixture({
+            hasVideo: true
+          })
         });
       }
     },
@@ -107,6 +108,7 @@ export default {
         const sectionColour = selectSection(select);
         return renderArticle(decorateAction, scale, sectionColour, {
           fixture: fullArticleFixture({
+            hasVideo: true,
             leadAsset: videoLeadAsset()
           })
         });

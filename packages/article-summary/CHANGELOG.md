@@ -3,6 +3,132 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.2.16"></a>
+## [3.2.16](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.15...@times-components/article-summary@3.2.16) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.15"></a>
+## [3.2.15](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.14...@times-components/article-summary@3.2.15) (2018-09-26)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.14"></a>
+## [3.2.14](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.13...@times-components/article-summary@3.2.14) (2018-09-21)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.13"></a>
+## [3.2.13](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.12...@times-components/article-summary@3.2.13) (2018-09-20)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.12"></a>
+## [3.2.12](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.11...@times-components/article-summary@3.2.12) (2018-09-18)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.11"></a>
+## [3.2.11](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.10...@times-components/article-summary@3.2.11) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.10"></a>
+## [3.2.10](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.9...@times-components/article-summary@3.2.10) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.9"></a>
+## [3.2.9](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.8...@times-components/article-summary@3.2.9) (2018-09-11)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.8"></a>
+## [3.2.8](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.7...@times-components/article-summary@3.2.8) (2018-09-07)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.7"></a>
+## [3.2.7](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.6...@times-components/article-summary@3.2.7) (2018-09-06)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.6"></a>
+## [3.2.6](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.5...@times-components/article-summary@3.2.6) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.5"></a>
+## [3.2.5](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.4...@times-components/article-summary@3.2.5) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.4"></a>
+## [3.2.4](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.3...@times-components/article-summary@3.2.4) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.3"></a>
+## [3.2.3](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.2...@times-components/article-summary@3.2.3) (2018-09-03)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
 <a name="3.2.2"></a>
 ## [3.2.2](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.1...@times-components/article-summary@3.2.2) (2018-08-31)
 

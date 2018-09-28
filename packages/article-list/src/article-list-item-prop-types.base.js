@@ -1,9 +1,10 @@
 import PropTypes from "prop-types";
 
 export const propTypesBase = {
+  fadeImageIn: PropTypes.bool,
   headline: PropTypes.string,
+  highResSize: PropTypes.number,
   id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
-  imageSize: PropTypes.number,
   label: PropTypes.string,
   leadAsset: PropTypes.shape({
     crop: PropTypes.shape({
@@ -14,6 +15,7 @@ export const propTypesBase = {
   longSummary: PropTypes.array,
   publicationName: PropTypes.string,
   publishedTime: PropTypes.string,
+  shortHeadline: PropTypes.string,
   shortSummary: PropTypes.array,
   summary: PropTypes.array,
   url: PropTypes.string
@@ -28,15 +30,17 @@ export const propTypes = {
 };
 
 export const defaultProps = {
+  fadeImageIn: false,
   headline: "",
+  highResSize: null,
   imageRatio: 1,
-  imageSize: null,
   label: "",
   longSummary: [],
   publicationName: "",
   publishedTime: "",
+  shortHeadline: "",
   shortSummary: [],
   showImage: true,
   summary: [],
-  url: ""
+  url: null
 };

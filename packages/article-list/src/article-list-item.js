@@ -9,21 +9,23 @@ import Link from "@times-components/link";
 import { colours } from "@times-components/styleguide";
 import articleListItemTrackingEvents from "./article-list-item-tracking-events";
 import { propTypes, defaultProps } from "./article-list-item-prop-types";
-import getImageUri from "./utils";
+import { getImageUri, getHeadline } from "./utils";
 import styles from "./styles";
 
 const ArticleListItem = props => {
   const {
     byline,
     headline,
+    hasVideo,
+    highResSize,
     imageRatio,
     isLoading,
     label,
-    leadAsset,
     onPress,
     publicationName,
     publishedTime,
     section,
+    shortHeadline,
     shortSummary,
     showImage,
     summary,
@@ -31,15 +33,15 @@ const ArticleListItem = props => {
   } = props;
 
   const imageUri = getImageUri(props);
-
   const content = showImage ? summary : shortSummary;
 
   return (
     <Link onPress={onPress} url={url}>
       <View style={styles.listItemContainer}>
         <Card
-          image={{ uri: imageUri }}
+          highResSize={highResSize}
           imageRatio={imageRatio}
+          imageUri={imageUri}
           isLoading={isLoading}
           showImage={showImage}
         >
@@ -57,10 +59,14 @@ const ArticleListItem = props => {
               date: publishedTime,
               publication: publicationName
             }}
-            headline={() => <ArticleSummaryHeadline headline={headline} />}
+            headline={() => (
+              <ArticleSummaryHeadline
+                headline={getHeadline(headline, shortHeadline)}
+              />
+            )}
             labelProps={{
               color: colours.section[section] || colours.section.default,
-              isVideo: leadAsset && leadAsset.type === "Video",
+              isVideo: hasVideo,
               title: label
             }}
           />

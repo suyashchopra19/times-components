@@ -8,7 +8,7 @@ import Link from "@times-components/link";
 import { colours } from "@times-components/styleguide";
 import articleListItemTrackingEvents from "./article-list-item-tracking-events";
 import { propTypes, defaultProps } from "./article-list-item-prop-types";
-import { getImageUri } from "./utils";
+import { getImageUri, getHeadline } from "./utils";
 import {
   ListItemWrapper,
   ListItemLongText,
@@ -18,16 +18,19 @@ import {
 const ArticleListItem = props => {
   const {
     byline,
+    fadeImageIn,
+    hasVideo,
     headline,
+    highResSize,
     imageRatio,
-    imageSize,
     isLoading,
     label,
-    leadAsset,
+    lowResSize,
     longSummary,
     publicationName,
     publishedTime,
     section,
+    shortHeadline,
     shortSummary,
     showImage,
     summary,
@@ -61,11 +64,13 @@ const ArticleListItem = props => {
       date: publishedTime,
       publication: publicationName
     },
-    headline: () => <ArticleSummaryHeadline headline={headline} />,
+    headline: () => (
+      <ArticleSummaryHeadline headline={getHeadline(headline, shortHeadline)} />
+    ),
     labelProps: {
       title: label,
       color: colours.section[section] || colours.section.default,
-      isVideo: leadAsset && leadAsset.type === "Video"
+      isVideo: hasVideo
     }
   };
 
@@ -96,11 +101,13 @@ const ArticleListItem = props => {
       <ListItemWrapper>
         <Card
           contentContainerClass="articleListContent"
-          image={imageUri ? { uri: imageUri } : null}
+          fadeImageIn={fadeImageIn}
+          highResSize={highResSize}
           imageContainerClass="articleListImage"
           imageRatio={imageRatio}
-          imageSize={imageSize}
+          imageUri={imageUri}
           isLoading={isLoading}
+          lowResSize={lowResSize}
           showImage={showImage}
         >
           {children}

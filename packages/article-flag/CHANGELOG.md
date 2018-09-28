@@ -3,6 +3,108 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.1.36"></a>
+## [2.1.36](https://github.com/newsuk/times-components/compare/@times-components/article-flag@2.1.35...@times-components/article-flag@2.1.36) (2018-09-27)
+
+
+### Bug Fixes
+
+* bump the article flag layout ([#1366](https://github.com/newsuk/times-components/issues/1366)) ([cb28780](https://github.com/newsuk/times-components/commit/cb28780))
+
+
+
+
+
+<a name="2.1.35"></a>
+## [2.1.35](https://github.com/newsuk/times-components/compare/@times-components/article-flag@2.1.34...@times-components/article-flag@2.1.35) (2018-09-26)
+
+**Note:** Version bump only for package @times-components/article-flag
+
+
+
+
+
+<a name="2.1.34"></a>
+## [2.1.34](https://github.com/newsuk/times-components/compare/@times-components/article-flag@2.1.33...@times-components/article-flag@2.1.34) (2018-09-21)
+
+**Note:** Version bump only for package @times-components/article-flag
+
+
+
+
+
+<a name="2.1.33"></a>
+## [2.1.33](https://github.com/newsuk/times-components/compare/@times-components/article-flag@2.1.32...@times-components/article-flag@2.1.33) (2018-09-18)
+
+**Note:** Version bump only for package @times-components/article-flag
+
+
+
+
+
+<a name="2.1.32"></a>
+## [2.1.32](https://github.com/newsuk/times-components/compare/@times-components/article-flag@2.1.31...@times-components/article-flag@2.1.32) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/article-flag
+
+
+
+
+
+<a name="2.1.31"></a>
+## [2.1.31](https://github.com/newsuk/times-components/compare/@times-components/article-flag@2.1.30...@times-components/article-flag@2.1.31) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/article-flag
+
+
+
+
+
+<a name="2.1.30"></a>
+## [2.1.30](https://github.com/newsuk/times-components/compare/@times-components/article-flag@2.1.29...@times-components/article-flag@2.1.30) (2018-09-11)
+
+**Note:** Version bump only for package @times-components/article-flag
+
+
+
+
+
+<a name="2.1.29"></a>
+## [2.1.29](https://github.com/newsuk/times-components/compare/@times-components/article-flag@2.1.28...@times-components/article-flag@2.1.29) (2018-09-07)
+
+**Note:** Version bump only for package @times-components/article-flag
+
+
+
+
+
+<a name="2.1.28"></a>
+## [2.1.28](https://github.com/newsuk/times-components/compare/@times-components/article-flag@2.1.27...@times-components/article-flag@2.1.28) (2018-09-06)
+
+**Note:** Version bump only for package @times-components/article-flag
+
+
+
+
+
+<a name="2.1.27"></a>
+## [2.1.27](https://github.com/newsuk/times-components/compare/@times-components/article-flag@2.1.26...@times-components/article-flag@2.1.27) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/article-flag
+
+
+
+
+
+<a name="2.1.26"></a>
+## [2.1.26](https://github.com/newsuk/times-components/compare/@times-components/article-flag@2.1.25...@times-components/article-flag@2.1.26) (2018-09-03)
+
+**Note:** Version bump only for package @times-components/article-flag
+
+
+
+
+
 <a name="2.1.25"></a>
 ## [2.1.25](https://github.com/newsuk/times-components/compare/@times-components/article-flag@2.1.24...@times-components/article-flag@2.1.25) (2018-08-31)
 

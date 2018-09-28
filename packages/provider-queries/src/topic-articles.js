@@ -1,22 +1,23 @@
+import { addTypenameToDocument } from "apollo-utilities";
 import gql from "graphql-tag";
 
-export default gql`
+export default addTypenameToDocument(gql`
   query TopicArticlesQuery(
-    $slug: Slug!
     $first: Int
-    $skip: Int
     $imageRatio: Ratio!
+    $skip: Int
+    $slug: Slug!
   ) {
     topic(slug: $slug) {
       articles {
         count
         list(first: $first, skip: $skip) {
           byline
+          hasVideo
           headline
           id
           label
           leadAsset {
-            type: __typename
             ... on Image {
               id
               title
@@ -33,25 +34,26 @@ export default gql`
               }
             }
           }
-          section
           publicationName
           publishedTime
+          section
+          shortHeadline
           summary(maxCharCount: 115)
           url
         }
       }
     }
   }
-`;
+`);
 
 export const propsToVariables = ({
-  slug,
-  pageSize,
+  articleImageRatio = "3:2",
   page,
-  articleImageRatio = "3:2"
+  pageSize,
+  slug
 }) => ({
-  slug,
   first: pageSize,
+  imageRatio: articleImageRatio,
   skip: pageSize * (page - 1),
-  imageRatio: articleImageRatio
+  slug
 });

@@ -3,6 +3,132 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.0.35"></a>
+## [3.0.35](https://github.com/newsuk/times-components/compare/@times-components/slice@3.0.34...@times-components/slice@3.0.35) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/slice
+
+
+
+
+
+<a name="3.0.34"></a>
+## [3.0.34](https://github.com/newsuk/times-components/compare/@times-components/slice@3.0.33...@times-components/slice@3.0.34) (2018-09-26)
+
+
+### Bug Fixes
+
+* remove hairline width ([#1359](https://github.com/newsuk/times-components/issues/1359)) ([dbc18ba](https://github.com/newsuk/times-components/commit/dbc18ba))
+
+
+
+
+
+<a name="3.0.33"></a>
+## [3.0.33](https://github.com/newsuk/times-components/compare/@times-components/slice@3.0.32...@times-components/slice@3.0.33) (2018-09-21)
+
+**Note:** Version bump only for package @times-components/slice
+
+
+
+
+
+<a name="3.0.32"></a>
+## [3.0.32](https://github.com/newsuk/times-components/compare/@times-components/slice@3.0.31...@times-components/slice@3.0.32) (2018-09-20)
+
+
+### Bug Fixes
+
+* Padding on the link instead of outside it ([#1339](https://github.com/newsuk/times-components/issues/1339)) ([4f08a82](https://github.com/newsuk/times-components/commit/4f08a82))
+
+
+
+
+
+<a name="3.0.31"></a>
+## [3.0.31](https://github.com/newsuk/times-components/compare/@times-components/slice@3.0.30...@times-components/slice@3.0.31) (2018-09-18)
+
+**Note:** Version bump only for package @times-components/slice
+
+
+
+
+
+<a name="3.0.30"></a>
+## [3.0.30](https://github.com/newsuk/times-components/compare/@times-components/slice@3.0.29...@times-components/slice@3.0.30) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/slice
+
+
+
+
+
+<a name="3.0.29"></a>
+## [3.0.29](https://github.com/newsuk/times-components/compare/@times-components/slice@3.0.28...@times-components/slice@3.0.29) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/slice
+
+
+
+
+
+<a name="3.0.28"></a>
+## [3.0.28](https://github.com/newsuk/times-components/compare/@times-components/slice@3.0.27...@times-components/slice@3.0.28) (2018-09-11)
+
+**Note:** Version bump only for package @times-components/slice
+
+
+
+
+
+<a name="3.0.27"></a>
+## [3.0.27](https://github.com/newsuk/times-components/compare/@times-components/slice@3.0.26...@times-components/slice@3.0.27) (2018-09-07)
+
+
+### Bug Fixes
+
+* slice storybook knob warning ([#1304](https://github.com/newsuk/times-components/issues/1304)) ([f0aa265](https://github.com/newsuk/times-components/commit/f0aa265))
+
+
+
+
+
+<a name="3.0.26"></a>
+## [3.0.26](https://github.com/newsuk/times-components/compare/@times-components/slice@3.0.25...@times-components/slice@3.0.26) (2018-09-07)
+
+**Note:** Version bump only for package @times-components/slice
+
+
+
+
+
+<a name="3.0.25"></a>
+## [3.0.25](https://github.com/newsuk/times-components/compare/@times-components/slice@3.0.24...@times-components/slice@3.0.25) (2018-09-06)
+
+**Note:** Version bump only for package @times-components/slice
+
+
+
+
+
+<a name="3.0.24"></a>
+## [3.0.24](https://github.com/newsuk/times-components/compare/@times-components/slice@3.0.23...@times-components/slice@3.0.24) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/slice
+
+
+
+
+
+<a name="3.0.23"></a>
+## [3.0.23](https://github.com/newsuk/times-components/compare/@times-components/slice@3.0.22...@times-components/slice@3.0.23) (2018-09-03)
+
+**Note:** Version bump only for package @times-components/slice
+
+
+
+
+
 <a name="3.0.22"></a>
 ## [3.0.22](https://github.com/newsuk/times-components/compare/@times-components/slice@3.0.21...@times-components/slice@3.0.22) (2018-08-31)
 

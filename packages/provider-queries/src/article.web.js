@@ -1,6 +1,7 @@
+import { addTypenameToDocument } from "apollo-utilities";
 import gql from "graphql-tag";
 
-export default gql`
+export default addTypenameToDocument(gql`
   query ArticleQuery($id: ID!) {
     article(id: $id) {
       commentCount
@@ -16,10 +17,8 @@ export default gql`
           posterImage {
             ...imageProps
           }
-          type: __typename
         }
         ... on Image {
-          type: __typename
           ...imageProps
         }
       }
@@ -88,6 +87,7 @@ export default gql`
 
   fragment articleProps on Article {
     byline
+    hasVideo
     headline
     id
     label
@@ -136,4 +136,4 @@ export default gql`
     summary175: summary(maxCharCount: 175)
     summary225: summary(maxCharCount: 225)
   }
-`;
+`);

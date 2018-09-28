@@ -1,7 +1,6 @@
 import React from "react";
 import renderer from "react-test-renderer";
 import { MockedProvider } from "@times-components/provider-test-tools";
-import { addTypenameToDocument } from "apollo-utilities";
 import { article as articleQuery } from "@times-components/provider-queries";
 import fixture from "@times-components/provider-test-tools/fixtures/article";
 import { ArticleProvider } from "../src/provider";
@@ -9,7 +8,7 @@ import { ArticleProvider } from "../src/provider";
 const mocks = [
   {
     request: {
-      query: addTypenameToDocument(articleQuery),
+      query: articleQuery,
       variables: {
         id: "113e9875-b7bf-4dd7-ac99-dee231bf6e74"
       }
@@ -40,6 +39,7 @@ const mocks = [
         }
       ],
       flags: ["NEW"],
+      hasVideo: false,
       keywords: ["WORD"],
       leadAsset: {
         type: "Image",
@@ -56,13 +56,14 @@ const mocks = [
       },
       relatedArticleSlice: {
         __typename: "StandardSlice",
-        sliceName: "StandardSlice",
         items: [
           {
             __typename: "Tile",
             article: {
               id: "ea16d744-cb4a-11e4-a202-50ac5def393a",
+              hasVideo: false,
               headline: "Related Headline",
+              shortHeadline: "Related Short Headline",
               section: "related",
               shortIdentifier: "37b27qd2s",
               slug: "france-defies-may-over-russia",

@@ -9,6 +9,7 @@ const { fetch } = NativeModules.NativeFetch;
 const { track } = NativeModules.ReactAnalytics;
 const {
   onArticlePress,
+  onArticleLoaded,
   onAuthorPress,
   onCommentsPress,
   onCommentGuidelinesPress,
@@ -19,13 +20,29 @@ const {
 
 const ArticlePageView = Article(config)(fetch);
 
-const ArticleView = ({ articleId, omitErrors, scale, sectionName }) => {
-  const platformAdConfig = adConfig(config, sectionName);
+const ArticleView = ({
+  adTestMode,
+  articleId,
+  omitErrors,
+  scale,
+  sectionName
+}) => {
+  const platformAdConfig = {
+    ...adConfig(config),
+    sectionName,
+    testMode: adTestMode
+  };
 
   return (
     <ArticlePageView
       articleId={articleId}
-      analyticsStream={track}
+      analyticsStream={event => {
+        if (event.object === "Article" && event.action === "Viewed") {
+          onArticleLoaded(event.attrs.articleId, event);
+        } else {
+          track(event);
+        }
+      }}
       omitErrors={omitErrors}
       onArticlePress={onArticlePress}
       onAuthorPress={onAuthorPress}
@@ -36,11 +53,15 @@ const ArticleView = ({ articleId, omitErrors, scale, sectionName }) => {
       onTopicPress={onTopicPress}
       platformAdConfig={platformAdConfig}
       scale={scale}
-      section={sectionName}
+      sectionName={sectionName}
     />
   );
 };
 
 ArticleView.propTypes = articlePropTypes;
+
+ArticleView.defaultProps = {
+  adTestMode: ""
+};
 
 export default ArticleView;

@@ -34,7 +34,7 @@ exports[`1. a full article with enabled comments 1`] = `
         style={
           Object {
             "borderBottomColor": "#DBDBDB",
-            "borderBottomWidth": 0.5,
+            "borderBottomWidth": 1,
             "marginBottom": 20,
             "marginLeft": 10,
             "marginRight": 10,
@@ -48,7 +48,7 @@ exports[`1. a full article with enabled comments 1`] = `
           style={
             Object {
               "borderTopColor": "#DBDBDB",
-              "borderTopWidth": 0.5,
+              "borderTopWidth": 1,
               "paddingBottom": 4,
               "paddingTop": 9,
             }
@@ -101,7 +101,7 @@ exports[`1. a full article with enabled comments 1`] = `
             "alignItems": "center",
             "borderStyle": "solid",
             "borderTopColor": "#DBDBDB",
-            "borderTopWidth": 0.5,
+            "borderTopWidth": 1,
             "marginBottom": 25,
             "width": "100%",
           }
@@ -147,36 +147,15 @@ exports[`1. a full article with enabled comments 1`] = `
             here
           </Text>
         </Text>
-        <View
+        <Button
           style={
             Object {
-              "alignItems": "center",
-              "backgroundColor": "#006699",
-              "borderRadius": 2,
-              "height": 45,
-              "justifyContent": "center",
-              "marginBottom": 5,
+              "marginBottom": 0,
               "marginTop": 25,
               "maxWidth": 215,
-              "minWidth": 100,
-              "width": "100%",
             }
           }
-        >
-          <Text
-            style={
-              Object {
-                "color": "#FFF",
-                "fontFamily": "GillSansMTStd-Medium",
-                "fontSize": 16,
-                "lineHeight": 16,
-                "paddingTop": 5,
-              }
-            }
-          >
-            View comments
-          </Text>
-        </View>
+        />
       </View>
     </View>
   </View>
@@ -217,7 +196,7 @@ exports[`2. a full article with disabled comments 1`] = `
         style={
           Object {
             "borderBottomColor": "#DBDBDB",
-            "borderBottomWidth": 0.5,
+            "borderBottomWidth": 1,
             "marginBottom": 20,
             "marginLeft": 10,
             "marginRight": 10,
@@ -231,7 +210,7 @@ exports[`2. a full article with disabled comments 1`] = `
           style={
             Object {
               "borderTopColor": "#DBDBDB",
-              "borderTopWidth": 0.5,
+              "borderTopWidth": 1,
               "paddingBottom": 4,
               "paddingTop": 9,
             }
@@ -284,7 +263,7 @@ exports[`2. a full article with disabled comments 1`] = `
             "alignItems": "center",
             "borderStyle": "solid",
             "borderTopColor": "#DBDBDB",
-            "borderTopWidth": 0.5,
+            "borderTopWidth": 1,
             "marginBottom": 25,
             "width": "100%",
           }

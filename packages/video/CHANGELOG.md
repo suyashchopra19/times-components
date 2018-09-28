@@ -3,6 +3,156 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.0.10"></a>
+## [4.0.10](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.9...@times-components/video@4.0.10) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="4.0.9"></a>
+## [4.0.9](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.8...@times-components/video@4.0.9) (2018-09-26)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="4.0.8"></a>
+## [4.0.8](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.7...@times-components/video@4.0.8) (2018-09-21)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="4.0.7"></a>
+## [4.0.7](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.6...@times-components/video@4.0.7) (2018-09-20)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="4.0.6"></a>
+## [4.0.6](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.5...@times-components/video@4.0.6) (2018-09-18)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="4.0.5"></a>
+## [4.0.5](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.4...@times-components/video@4.0.5) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="4.0.4"></a>
+## [4.0.4](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.3...@times-components/video@4.0.4) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="4.0.3"></a>
+## [4.0.3](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.2...@times-components/video@4.0.3) (2018-09-12)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="4.0.2"></a>
+## [4.0.2](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.1...@times-components/video@4.0.2) (2018-09-11)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="4.0.1"></a>
+## [4.0.1](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.0...@times-components/video@4.0.1) (2018-09-10)
+
+
+### Bug Fixes
+
+* update video account and id on test videos ([#1310](https://github.com/newsuk/times-components/issues/1310)) ([85f3413](https://github.com/newsuk/times-components/commit/85f3413))
+
+
+
+
+
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/newsuk/times-components/compare/@times-components/video@3.1.33...@times-components/video@4.0.0) (2018-09-07)
+
+
+* BREAKING CHANGE: split out high and low res images (#1299) ([cf128dd](https://github.com/newsuk/times-components/commit/cf128dd)), closes [#1299](https://github.com/newsuk/times-components/issues/1299)
+
+
+### BREAKING CHANGES
+
+* split out high and low res images
+* refactor: split out fade-in effect
+* chore: fix meta
+* fix: no observer SSR
+
+
+
+
+
+<a name="3.1.33"></a>
+## [3.1.33](https://github.com/newsuk/times-components/compare/@times-components/video@3.1.32...@times-components/video@3.1.33) (2018-09-06)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="3.1.32"></a>
+## [3.1.32](https://github.com/newsuk/times-components/compare/@times-components/video@3.1.31...@times-components/video@3.1.32) (2018-09-04)
+
+
+### Bug Fixes
+
+* brightcove video controls ([#1293](https://github.com/newsuk/times-components/issues/1293)) ([b3c8d72](https://github.com/newsuk/times-components/commit/b3c8d72))
+
+
+
+
+
+<a name="3.1.31"></a>
+## [3.1.31](https://github.com/newsuk/times-components/compare/@times-components/video@3.1.30...@times-components/video@3.1.31) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="3.1.30"></a>
+## [3.1.30](https://github.com/newsuk/times-components/compare/@times-components/video@3.1.29...@times-components/video@3.1.30) (2018-09-03)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
 <a name="3.1.29"></a>
 ## [3.1.29](https://github.com/newsuk/times-components/compare/@times-components/video@3.1.28...@times-components/video@3.1.29) (2018-08-31)
 

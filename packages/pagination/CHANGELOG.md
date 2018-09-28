@@ -3,6 +3,138 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.1.11"></a>
+## [3.1.11](https://github.com/newsuk/times-components/compare/@times-components/pagination@3.1.10...@times-components/pagination@3.1.11) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/pagination
+
+
+
+
+
+<a name="3.1.10"></a>
+## [3.1.10](https://github.com/newsuk/times-components/compare/@times-components/pagination@3.1.9...@times-components/pagination@3.1.10) (2018-09-26)
+
+**Note:** Version bump only for package @times-components/pagination
+
+
+
+
+
+<a name="3.1.9"></a>
+## [3.1.9](https://github.com/newsuk/times-components/compare/@times-components/pagination@3.1.8...@times-components/pagination@3.1.9) (2018-09-21)
+
+**Note:** Version bump only for package @times-components/pagination
+
+
+
+
+
+<a name="3.1.8"></a>
+## [3.1.8](https://github.com/newsuk/times-components/compare/@times-components/pagination@3.1.7...@times-components/pagination@3.1.8) (2018-09-20)
+
+**Note:** Version bump only for package @times-components/pagination
+
+
+
+
+
+<a name="3.1.7"></a>
+## [3.1.7](https://github.com/newsuk/times-components/compare/@times-components/pagination@3.1.6...@times-components/pagination@3.1.7) (2018-09-18)
+
+**Note:** Version bump only for package @times-components/pagination
+
+
+
+
+
+<a name="3.1.6"></a>
+## [3.1.6](https://github.com/newsuk/times-components/compare/@times-components/pagination@3.1.5...@times-components/pagination@3.1.6) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/pagination
+
+
+
+
+
+<a name="3.1.5"></a>
+## [3.1.5](https://github.com/newsuk/times-components/compare/@times-components/pagination@3.1.4...@times-components/pagination@3.1.5) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/pagination
+
+
+
+
+
+<a name="3.1.4"></a>
+## [3.1.4](https://github.com/newsuk/times-components/compare/@times-components/pagination@3.1.3...@times-components/pagination@3.1.4) (2018-09-11)
+
+**Note:** Version bump only for package @times-components/pagination
+
+
+
+
+
+<a name="3.1.3"></a>
+## [3.1.3](https://github.com/newsuk/times-components/compare/@times-components/pagination@3.1.2...@times-components/pagination@3.1.3) (2018-09-10)
+
+
+### Bug Fixes
+
+* pagination storybook ([#1309](https://github.com/newsuk/times-components/issues/1309)) ([c5f65ae](https://github.com/newsuk/times-components/commit/c5f65ae))
+
+
+
+
+
+<a name="3.1.2"></a>
+## [3.1.2](https://github.com/newsuk/times-components/compare/@times-components/pagination@3.1.1...@times-components/pagination@3.1.2) (2018-09-07)
+
+**Note:** Version bump only for package @times-components/pagination
+
+
+
+
+
+<a name="3.1.1"></a>
+## [3.1.1](https://github.com/newsuk/times-components/compare/@times-components/pagination@3.1.0...@times-components/pagination@3.1.1) (2018-09-06)
+
+**Note:** Version bump only for package @times-components/pagination
+
+
+
+
+
+<a name="3.1.0"></a>
+# [3.1.0](https://github.com/newsuk/times-components/compare/@times-components/pagination@3.0.27...@times-components/pagination@3.1.0) (2018-09-04)
+
+
+### Features
+
+* add ss paging ([#1286](https://github.com/newsuk/times-components/issues/1286)) ([c2d14cc](https://github.com/newsuk/times-components/commit/c2d14cc))
+
+
+
+
+
+<a name="3.0.27"></a>
+## [3.0.27](https://github.com/newsuk/times-components/compare/@times-components/pagination@3.0.26...@times-components/pagination@3.0.27) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/pagination
+
+
+
+
+
+<a name="3.0.26"></a>
+## [3.0.26](https://github.com/newsuk/times-components/compare/@times-components/pagination@3.0.25...@times-components/pagination@3.0.26) (2018-09-03)
+
+**Note:** Version bump only for package @times-components/pagination
+
+
+
+
+
 <a name="3.0.25"></a>
 ## [3.0.25](https://github.com/newsuk/times-components/compare/@times-components/pagination@3.0.24...@times-components/pagination@3.0.25) (2018-08-31)
 

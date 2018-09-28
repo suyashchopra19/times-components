@@ -513,6 +513,7 @@ const defaultContent = [
   }
 ];
 const defaultFlags = ["NEW", "EXCLUSIVE"];
+const defaultHasVideo = false;
 const defaultHeadline = "Supplement In Depth Template (Style)";
 const defaultKeywords = ["Supplement", "In", "Depth", "Template", "Style"];
 const defaultLabel = "Random label";
@@ -531,11 +532,12 @@ const defaultLeadAsset = {
   __typename: "Image"
 };
 const defaultRelatedArticleSlice = {
-  sliceName: "StandardSlice",
+  __typename: "StandardSlice",
   items: [
     {
       id: "ea16d744-cb4a-11e4-a202-50ac5def393a",
       headline: "TMS: Pratchett’s law of the jungle - Disable Saving",
+      shortHeadline: "TMS: Pratchett’s law of the jungle",
       section: "sport",
       byline: [
         {
@@ -798,6 +800,8 @@ const defaultRelatedArticleSlice = {
       id: "b09fc422-cb53-11e4-81dd-064fe933cd41",
       headline:
         "Rise of centenarian drivers as elderly push on - V5 Premoderated Comments",
+      shortHeadline:
+        "Rise of centenarian drivers as elderly push on - V5 Premoderated Comments",
       section: "comment",
       byline: [
         {
@@ -980,6 +984,8 @@ const defaultRelatedArticleSlice = {
     {
       id: "8557a3d2-cb55-11e4-81dd-064fe933cd41",
       headline: "Syndicated url: At long last, a burial place fit for a king",
+      shortHeadline:
+        "Syndicated url: At long last, a burial place fit for a king",
       section: "thedish",
       byline: [
         {
@@ -1133,6 +1139,7 @@ const defaultRelatedArticleSlice = {
   ]
 };
 const defaultSection = "business";
+const defaultShortHeadline = "Supplement In Depth Template";
 const defaultStandfirst =
   "How did one of Britain’s top young athletes end up running elite parties for swingers? Chris Reynolds Gordon tells Rick Broadbent about his extraordinary life";
 const defaultTopics = [
@@ -1160,11 +1167,13 @@ export default (
     content = defaultContent,
     flags = defaultFlags,
     headline = defaultHeadline,
+    hasVideo = defaultHasVideo,
     keywords = defaultKeywords,
     label = defaultLabel,
     leadAsset = defaultLeadAsset,
     relatedArticleSlice = defaultRelatedArticleSlice,
     section = defaultSection,
+    shortHeadline = defaultShortHeadline,
     shortIdentifier = defaultShortIdentifier,
     slug = defaultSlug,
     standfirst = defaultStandfirst,
@@ -1180,6 +1189,7 @@ export default (
       commentsEnabled,
       content,
       flags,
+      hasVideo,
       headline,
       id: "198c4b2f-ecec-4f34-be53-c89f83bc1b44",
       keywords,
@@ -1189,6 +1199,7 @@ export default (
       publishedTime: "2015-03-13T18:54:58.000Z",
       relatedArticleSlice,
       section,
+      shortHeadline,
       shortIdentifier,
       slug,
       standfirst,

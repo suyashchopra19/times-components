@@ -31,10 +31,12 @@ This has been made possible using [Fructose](https://github.com/newsuk/fructose)
 ## Getting Started
 
 1. Run `yarn` to install dependencies with a `GRAPHQL_ENDPOINT` envar set for
-   linting
+   linting. _This is simply an example GraphQL endpoint, and you will need to
+   obtain a valid API endpoint in order to successfully work with this
+   repository._
 
 ```
-GRAPHQL_ENDPOINT=api.io/graphql yarn
+GRAPHQL_ENDPOINT="http://localhost:4000/graphql" yarn
 ```
 
 2. Install [fontforge](http://fontforge.github.io/en-US/): `brew install
@@ -93,7 +95,7 @@ tools. These steps assume the use of Chrome DevTools.
 To debug our web Storybook:
 
 1. `yarn storybook`
-2. navigate to `http://localhost:9001
+2. navigate to http://localhost:9001
 3. open DevTools
 4. Click _Sources_
 5. In the _Network_ tab under the leftmost pane, expand _top_ =>

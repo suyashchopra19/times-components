@@ -3,6 +3,42 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.0.2"></a>
+## [4.0.2](https://github.com/newsuk/times-components/compare/@times-components/utils@4.0.1...@times-components/utils@4.0.2) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/utils
+
+
+
+
+
+<a name="4.0.1"></a>
+## [4.0.1](https://github.com/newsuk/times-components/compare/@times-components/utils@4.0.0...@times-components/utils@4.0.1) (2018-09-11)
+
+**Note:** Version bump only for package @times-components/utils
+
+
+
+
+
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/newsuk/times-components/compare/@times-components/utils@3.2.0...@times-components/utils@4.0.0) (2018-09-07)
+
+
+* BREAKING CHANGE: split out high and low res images (#1299) ([cf128dd](https://github.com/newsuk/times-components/commit/cf128dd)), closes [#1299](https://github.com/newsuk/times-components/issues/1299)
+
+
+### BREAKING CHANGES
+
+* split out high and low res images
+* refactor: split out fade-in effect
+* chore: fix meta
+* fix: no observer SSR
+
+
+
+
+
 <a name="3.2.0"></a>
 # [3.2.0](https://github.com/newsuk/times-components/compare/@times-components/utils@3.1.1...@times-components/utils@3.2.0) (2018-08-29)
 

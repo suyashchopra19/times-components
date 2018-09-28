@@ -3,6 +3,141 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.1.39"></a>
+## [2.1.39](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.38...@times-components/ad@2.1.39) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.38"></a>
+## [2.1.38](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.37...@times-components/ad@2.1.38) (2018-09-26)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.37"></a>
+## [2.1.37](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.36...@times-components/ad@2.1.37) (2018-09-25)
+
+
+### Bug Fixes
+
+* enqueue window post messages until it's ready ([#1349](https://github.com/newsuk/times-components/issues/1349)) ([e620b3f](https://github.com/newsuk/times-components/commit/e620b3f))
+
+
+
+
+
+<a name="2.1.36"></a>
+## [2.1.36](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.35...@times-components/ad@2.1.36) (2018-09-21)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.35"></a>
+## [2.1.35](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.34...@times-components/ad@2.1.35) (2018-09-18)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.34"></a>
+## [2.1.34](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.33...@times-components/ad@2.1.34) (2018-09-17)
+
+
+### Bug Fixes
+
+* variable ad height on articlie list pages ([#1333](https://github.com/newsuk/times-components/issues/1333)) ([656e7ac](https://github.com/newsuk/times-components/commit/656e7ac))
+
+
+
+
+
+<a name="2.1.33"></a>
+## [2.1.33](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.32...@times-components/ad@2.1.33) (2018-09-17)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.32"></a>
+## [2.1.32](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.31...@times-components/ad@2.1.32) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.31"></a>
+## [2.1.31](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.30...@times-components/ad@2.1.31) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.30"></a>
+## [2.1.30](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.29...@times-components/ad@2.1.30) (2018-09-11)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.29"></a>
+## [2.1.29](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.28...@times-components/ad@2.1.29) (2018-09-07)
+
+
+### Bug Fixes
+
+* remove ad error, and mock fragment for storybook ([#1303](https://github.com/newsuk/times-components/issues/1303)) ([3655d87](https://github.com/newsuk/times-components/commit/3655d87))
+
+
+
+
+
+<a name="2.1.28"></a>
+## [2.1.28](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.27...@times-components/ad@2.1.28) (2018-09-06)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.27"></a>
+## [2.1.27](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.26...@times-components/ad@2.1.27) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.26"></a>
+## [2.1.26](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.25...@times-components/ad@2.1.26) (2018-09-03)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
 <a name="2.1.25"></a>
 ## [2.1.25](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.24...@times-components/ad@2.1.25) (2018-08-31)
 

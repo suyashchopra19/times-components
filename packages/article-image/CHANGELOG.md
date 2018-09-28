@@ -3,6 +3,123 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.0.8"></a>
+## [4.0.8](https://github.com/newsuk/times-components/compare/@times-components/article-image@4.0.7...@times-components/article-image@4.0.8) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/article-image
+
+
+
+
+
+<a name="4.0.7"></a>
+## [4.0.7](https://github.com/newsuk/times-components/compare/@times-components/article-image@4.0.6...@times-components/article-image@4.0.7) (2018-09-26)
+
+**Note:** Version bump only for package @times-components/article-image
+
+
+
+
+
+<a name="4.0.6"></a>
+## [4.0.6](https://github.com/newsuk/times-components/compare/@times-components/article-image@4.0.5...@times-components/article-image@4.0.6) (2018-09-21)
+
+**Note:** Version bump only for package @times-components/article-image
+
+
+
+
+
+<a name="4.0.5"></a>
+## [4.0.5](https://github.com/newsuk/times-components/compare/@times-components/article-image@4.0.4...@times-components/article-image@4.0.5) (2018-09-20)
+
+**Note:** Version bump only for package @times-components/article-image
+
+
+
+
+
+<a name="4.0.4"></a>
+## [4.0.4](https://github.com/newsuk/times-components/compare/@times-components/article-image@4.0.3...@times-components/article-image@4.0.4) (2018-09-18)
+
+**Note:** Version bump only for package @times-components/article-image
+
+
+
+
+
+<a name="4.0.3"></a>
+## [4.0.3](https://github.com/newsuk/times-components/compare/@times-components/article-image@4.0.2...@times-components/article-image@4.0.3) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/article-image
+
+
+
+
+
+<a name="4.0.2"></a>
+## [4.0.2](https://github.com/newsuk/times-components/compare/@times-components/article-image@4.0.1...@times-components/article-image@4.0.2) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/article-image
+
+
+
+
+
+<a name="4.0.1"></a>
+## [4.0.1](https://github.com/newsuk/times-components/compare/@times-components/article-image@4.0.0...@times-components/article-image@4.0.1) (2018-09-11)
+
+**Note:** Version bump only for package @times-components/article-image
+
+
+
+
+
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/newsuk/times-components/compare/@times-components/article-image@3.2.18...@times-components/article-image@4.0.0) (2018-09-07)
+
+
+* BREAKING CHANGE: split out high and low res images (#1299) ([cf128dd](https://github.com/newsuk/times-components/commit/cf128dd)), closes [#1299](https://github.com/newsuk/times-components/issues/1299)
+
+
+### BREAKING CHANGES
+
+* split out high and low res images
+* refactor: split out fade-in effect
+* chore: fix meta
+* fix: no observer SSR
+
+
+
+
+
+<a name="3.2.18"></a>
+## [3.2.18](https://github.com/newsuk/times-components/compare/@times-components/article-image@3.2.17...@times-components/article-image@3.2.18) (2018-09-06)
+
+**Note:** Version bump only for package @times-components/article-image
+
+
+
+
+
+<a name="3.2.17"></a>
+## [3.2.17](https://github.com/newsuk/times-components/compare/@times-components/article-image@3.2.16...@times-components/article-image@3.2.17) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/article-image
+
+
+
+
+
+<a name="3.2.16"></a>
+## [3.2.16](https://github.com/newsuk/times-components/compare/@times-components/article-image@3.2.15...@times-components/article-image@3.2.16) (2018-09-03)
+
+**Note:** Version bump only for package @times-components/article-image
+
+
+
+
+
 <a name="3.2.15"></a>
 ## [3.2.15](https://github.com/newsuk/times-components/compare/@times-components/article-image@3.2.14...@times-components/article-image@3.2.15) (2018-08-31)
 

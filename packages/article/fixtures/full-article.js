@@ -237,6 +237,20 @@ export const longContent = [
     ]
   },
   {
+    name: "interactive",
+    attributes: {
+      id: "d2f83305-d558-4f78-f582-32115c659355",
+      display: "secondary",
+      element: {
+        value: "times-datawrapper",
+        attributes: { "chart-id": "csmgb" }
+      },
+      url:
+        "//components.timesdev.tools/lib2/times-datawrapper-1.1.0/times-datawrapper.html"
+    },
+    children: []
+  },
+  {
     name: "paragraph",
     attributes: {},
     children: [
@@ -627,9 +641,9 @@ export const videoLeadAsset = (
     url = defaultVideoPosterUrl
   } = {}
 ) => ({
-  brightcoveVideoId: "4084164751001",
+  brightcoveVideoId: "5831024132001",
   brightcovePolicyKey,
-  brightcoveAccountId: "57838016001",
+  brightcoveAccountId: "5436121857001",
   paidOnly: "false",
   caption: "This is video caption",
   posterImage: {
@@ -964,10 +978,10 @@ const defaultContent = [
     attributes: {
       display: "primary",
       posterImageId: "0c0309d4-1aeb-11e8-9010-1eef6ba5d3de",
-      brightcoveVideoId: "4084164751001",
+      brightcoveVideoId: "5831024132001",
       brightcovePolicyKey:
         "BCpkADawqM0NK0Rq8n6sEQyWykemrqeSmIQqqVt3XBrdpl8TYlvqN3hwKphBJRnkPgx6WAbozCW_VgTOBCNf1AQRh8KnmXSXfveQalRc5-pyNlSod5XzP99If2U",
-      brightcoveAccountId: "57838016001",
+      brightcoveAccountId: "5436121857001",
       paidOnly: "false",
       caption: "This is video caption",
       posterImageUrl:
@@ -999,10 +1013,10 @@ const defaultContent = [
     name: "video",
     attributes: {
       display: "secondary",
-      brightcoveVideoId: "4084164751001",
+      brightcoveVideoId: "5831024132001",
       brightcovePolicyKey:
         "BCpkADawqM0NK0Rq8n6sEQyWykemrqeSmIQqqVt3XBrdpl8TYlvqN3hwKphBJRnkPgx6WAbozCW_VgTOBCNf1AQRh8KnmXSXfveQalRc5-pyNlSod5XzP99If2U",
-      brightcoveAccountId: "57838016001",
+      brightcoveAccountId: "5436121857001",
       paidOnly: "false",
       caption: "This is video caption secondary",
       posterImageUrl:
@@ -1035,6 +1049,20 @@ const defaultContent = [
         children: []
       }
     ]
+  },
+  {
+    name: "interactive",
+    attributes: {
+      id: "d2f83305-d558-4f78-f582-32115c659355",
+      display: "secondary",
+      element: {
+        value: "times-datawrapper",
+        attributes: { "chart-id": "csmgb" }
+      },
+      url:
+        "//components.timesdev.tools/lib2/times-datawrapper-1.1.0/times-datawrapper.html"
+    },
+    children: []
   },
   {
     name: "paragraph",
@@ -1255,6 +1283,7 @@ const defaultContent = [
   }
 ];
 const defaultFlags = ["NEW", "EXCLUSIVE"];
+const defaultHasVideo = false;
 const defaultHeadline =
   "Caribbean islands devastated by Hurricane Irma, the worst Atlantic storm on record";
 const defaultKeywords = ["Supplement", "In", "Depth", "Template", "Style"];
@@ -1270,11 +1299,10 @@ const defaultLeadAsset = {
       "//www.thetimes.co.uk/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2F5f243dd6-93aa-11e7-a2ce-ce94682a575d.jpg?crop=3000%2C1687%2C0%2C156",
     __typename: "Crop"
   },
-  type: "Image",
   __typename: "Image"
 };
 const defaultRelatedArticleSlice = {
-  sliceName: "StandardSlice",
+  __typename: "StandardSlice",
   items: [
     {
       article: {
@@ -1299,6 +1327,7 @@ const defaultRelatedArticleSlice = {
         publicationName: "TIMES",
         publishedTime: "2015-03-23T19:39:39.000Z",
         section: "",
+        shortHeadline: "Pratchett’s law of the jungle",
         summary105: [
           {
             name: "paragraph",
@@ -1563,6 +1592,7 @@ const defaultRelatedArticleSlice = {
         publicationName: "TIMES",
         publishedTime: "2015-03-23T20:42:27.000Z",
         section: "",
+        shortHeadline: "Rise of centenarian drivers",
         summary105: [
           {
             name: "paragraph",
@@ -1746,6 +1776,7 @@ const defaultRelatedArticleSlice = {
         label: "Youtube",
         publicationName: "TIMES",
         publishedTime: "2018-04-06T23:01:00.000Z",
+        shortHeadline: "YouTube ignored police pleas",
         summary105: [
           {
             name: "paragraph",
@@ -1914,6 +1945,7 @@ const makeDefaultConfig = (
     commentCount = defaultCommentCount,
     content = defaultContent,
     flags = defaultFlags,
+    hasVideo = defaultHasVideo,
     headline = defaultHeadline,
     keywords = defaultKeywords,
     label = defaultLabel,
@@ -1932,6 +1964,7 @@ const makeDefaultConfig = (
   commentCount,
   content,
   flags,
+  hasVideo,
   headline,
   keywords,
   label,
@@ -1988,6 +2021,7 @@ export const testFixture = {
     }
   ],
   flags: ["NEW"],
+  hasVideo: false,
   headline: "Some Headline",
   label: "Some Label",
   leadAsset: {
@@ -1999,16 +2033,18 @@ export const testFixture = {
     __typename: "Image"
   },
   relatedArticleSlice: {
-    sliceName: "StandardSlice",
+    __typename: "StandardSlice",
     items: [
       {
         article: {
+          hasVideo: false,
           id: "ra-1",
           headline: "RA Headline",
           byline: [],
           label: "RA Label",
           publicationName: "TIMES",
           publishedTime: "2015-03-23T19:39:39.000Z",
+          shortHeadline: "Headline",
           summary105: [],
           summary125: [],
           summary145: [],

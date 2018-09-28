@@ -3,6 +3,166 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.1.4"></a>
+## [4.1.4](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.1.3...@times-components/related-articles@4.1.4) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/related-articles
+
+
+
+
+
+<a name="4.1.3"></a>
+## [4.1.3](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.1.2...@times-components/related-articles@4.1.3) (2018-09-26)
+
+
+### Bug Fixes
+
+* remove hairline width ([#1359](https://github.com/newsuk/times-components/issues/1359)) ([dbc18ba](https://github.com/newsuk/times-components/commit/dbc18ba))
+
+
+
+
+
+<a name="4.1.2"></a>
+## [4.1.2](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.1.1...@times-components/related-articles@4.1.2) (2018-09-21)
+
+**Note:** Version bump only for package @times-components/related-articles
+
+
+
+
+
+<a name="4.1.1"></a>
+## [4.1.1](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.1.0...@times-components/related-articles@4.1.1) (2018-09-20)
+
+
+### Bug Fixes
+
+* Padding on the link instead of outside it ([#1339](https://github.com/newsuk/times-components/issues/1339)) ([4f08a82](https://github.com/newsuk/times-components/commit/4f08a82))
+* use null src rather than uri ([#1342](https://github.com/newsuk/times-components/issues/1342)) ([f6b6d1a](https://github.com/newsuk/times-components/commit/f6b6d1a))
+
+
+
+
+
+<a name="4.1.0"></a>
+# [4.1.0](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.0.4...@times-components/related-articles@4.1.0) (2018-09-18)
+
+
+### Features
+
+* add hasVideo label ([#1329](https://github.com/newsuk/times-components/issues/1329)) ([9c47964](https://github.com/newsuk/times-components/commit/9c47964))
+
+
+
+
+
+<a name="4.0.4"></a>
+## [4.0.4](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.0.3...@times-components/related-articles@4.0.4) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/related-articles
+
+
+
+
+
+<a name="4.0.3"></a>
+## [4.0.3](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.0.2...@times-components/related-articles@4.0.3) (2018-09-13)
+
+
+### Bug Fixes
+
+* missing props article and missing provider params ([#1322](https://github.com/newsuk/times-components/issues/1322)) ([b685d02](https://github.com/newsuk/times-components/commit/b685d02))
+
+
+
+
+
+<a name="4.0.2"></a>
+## [4.0.2](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.0.1...@times-components/related-articles@4.0.2) (2018-09-11)
+
+**Note:** Version bump only for package @times-components/related-articles
+
+
+
+
+
+<a name="4.0.1"></a>
+## [4.0.1](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.0.0...@times-components/related-articles@4.0.1) (2018-09-07)
+
+**Note:** Version bump only for package @times-components/related-articles
+
+
+
+
+
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/newsuk/times-components/compare/@times-components/related-articles@3.4.1...@times-components/related-articles@4.0.0) (2018-09-07)
+
+
+* BREAKING CHANGE: split out high and low res images (#1299) ([cf128dd](https://github.com/newsuk/times-components/commit/cf128dd)), closes [#1299](https://github.com/newsuk/times-components/issues/1299)
+
+
+### BREAKING CHANGES
+
+* split out high and low res images
+* refactor: split out fade-in effect
+* chore: fix meta
+* fix: no observer SSR
+
+
+
+
+
+<a name="3.4.1"></a>
+## [3.4.1](https://github.com/newsuk/times-components/compare/@times-components/related-articles@3.4.0...@times-components/related-articles@3.4.1) (2018-09-06)
+
+**Note:** Version bump only for package @times-components/related-articles
+
+
+
+
+
+<a name="3.4.0"></a>
+# [3.4.0](https://github.com/newsuk/times-components/compare/@times-components/related-articles@3.3.6...@times-components/related-articles@3.4.0) (2018-09-04)
+
+
+### Features
+
+* add ss paging ([#1286](https://github.com/newsuk/times-components/issues/1286)) ([c2d14cc](https://github.com/newsuk/times-components/commit/c2d14cc))
+
+
+
+
+
+<a name="3.3.6"></a>
+## [3.3.6](https://github.com/newsuk/times-components/compare/@times-components/related-articles@3.3.5...@times-components/related-articles@3.3.6) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/related-articles
+
+
+
+
+
+<a name="3.3.5"></a>
+## [3.3.5](https://github.com/newsuk/times-components/compare/@times-components/related-articles@3.3.4...@times-components/related-articles@3.3.5) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/related-articles
+
+
+
+
+
+<a name="3.3.4"></a>
+## [3.3.4](https://github.com/newsuk/times-components/compare/@times-components/related-articles@3.3.3...@times-components/related-articles@3.3.4) (2018-09-03)
+
+**Note:** Version bump only for package @times-components/related-articles
+
+
+
+
+
 <a name="3.3.3"></a>
 ## [3.3.3](https://github.com/newsuk/times-components/compare/@times-components/related-articles@3.3.2...@times-components/related-articles@3.3.3) (2018-08-31)
 

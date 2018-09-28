@@ -7,7 +7,7 @@ exports[`1. an article list header 1`] = `
       "alignItems": "center",
       "backgroundColor": "#F9F9F9",
       "borderBottomColor": "#F0F0F0",
-      "borderBottomWidth": 0.5,
+      "borderBottomWidth": 1,
       "flexDirection": "column",
       "minHeight": 90,
       "paddingHorizontal": 10,
@@ -31,6 +31,7 @@ exports[`1. an article list header 1`] = `
           "fontSize": 40,
           "lineHeight": 40,
           "paddingBottom": 25,
+          "textAlign": "center",
         }
       }
     >
@@ -92,7 +93,7 @@ exports[`2. an article list header loading 1`] = `
       "alignItems": "center",
       "backgroundColor": "#F9F9F9",
       "borderBottomColor": "#F0F0F0",
-      "borderBottomWidth": 0.5,
+      "borderBottomWidth": 1,
       "flexDirection": "column",
       "minHeight": 90,
       "paddingHorizontal": 10,

@@ -9,6 +9,7 @@ const { dispose, fetch } = NativeModules.NativeArticleProvider;
 const { track } = NativeModules.ReactAnalytics;
 const {
   onArticlePress,
+  onArticleLoaded,
   onAuthorPress,
   onCommentsPress,
   onCommentGuidelinesPress,
@@ -17,13 +18,29 @@ const {
   onVideoPress
 } = NativeModules.ArticleEvents;
 
-const ArticleView = ({ articleId, omitErrors, scale, sectionName }) => {
-  const platformAdConfig = adConfig(config, sectionName);
+const ArticleView = ({
+  adTestMode,
+  articleId,
+  omitErrors,
+  scale,
+  sectionName
+}) => {
+  const platformAdConfig = {
+    ...adConfig(config),
+    sectionName,
+    testMode: adTestMode
+  };
 
   return (
     <ArticleWithNativeProvider
       articleId={articleId}
-      analyticsStream={track}
+      analyticsStream={event => {
+        if (event.object === "Article" && event.action === "Viewed") {
+          onArticleLoaded(event.attrs.articleId, event);
+        } else {
+          track(event);
+        }
+      }}
       dispose={dispose}
       fetch={fetch}
       omitErrors={omitErrors}
@@ -36,7 +53,7 @@ const ArticleView = ({ articleId, omitErrors, scale, sectionName }) => {
       onTopicPress={onTopicPress}
       platformAdConfig={platformAdConfig}
       scale={scale}
-      section={sectionName}
+      sectionName={sectionName}
     />
   );
 };

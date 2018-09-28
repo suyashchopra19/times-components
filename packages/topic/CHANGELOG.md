@@ -3,6 +3,231 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.3.27"></a>
+## [3.3.27](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.26...@times-components/topic@3.3.27) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.26"></a>
+## [3.3.26](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.25...@times-components/topic@3.3.26) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.25"></a>
+## [3.3.25](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.24...@times-components/topic@3.3.25) (2018-09-26)
+
+
+### Bug Fixes
+
+* remove hairline width ([#1359](https://github.com/newsuk/times-components/issues/1359)) ([dbc18ba](https://github.com/newsuk/times-components/commit/dbc18ba))
+
+
+
+
+
+<a name="3.3.24"></a>
+## [3.3.24](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.23...@times-components/topic@3.3.24) (2018-09-25)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.23"></a>
+## [3.3.23](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.22...@times-components/topic@3.3.23) (2018-09-23)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.22"></a>
+## [3.3.22](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.21...@times-components/topic@3.3.22) (2018-09-21)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.21"></a>
+## [3.3.21](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.20...@times-components/topic@3.3.21) (2018-09-21)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.20"></a>
+## [3.3.20](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.19...@times-components/topic@3.3.20) (2018-09-20)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.19"></a>
+## [3.3.19](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.18...@times-components/topic@3.3.19) (2018-09-18)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.18"></a>
+## [3.3.18](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.17...@times-components/topic@3.3.18) (2018-09-17)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.17"></a>
+## [3.3.17](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.16...@times-components/topic@3.3.17) (2018-09-17)
+
+
+### Bug Fixes
+
+* Center align topic headline ([#1332](https://github.com/newsuk/times-components/issues/1332)) ([29b7bdf](https://github.com/newsuk/times-components/commit/29b7bdf))
+
+
+
+
+
+<a name="3.3.16"></a>
+## [3.3.16](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.15...@times-components/topic@3.3.16) (2018-09-17)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.15"></a>
+## [3.3.15](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.14...@times-components/topic@3.3.15) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.14"></a>
+## [3.3.14](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.13...@times-components/topic@3.3.14) (2018-09-13)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.13"></a>
+## [3.3.13](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.12...@times-components/topic@3.3.13) (2018-09-11)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.12"></a>
+## [3.3.12](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.11...@times-components/topic@3.3.12) (2018-09-11)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.11"></a>
+## [3.3.11](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.10...@times-components/topic@3.3.11) (2018-09-10)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.10"></a>
+## [3.3.10](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.9...@times-components/topic@3.3.10) (2018-09-07)
+
+
+### Bug Fixes
+
+* topic stories warnings ([#1306](https://github.com/newsuk/times-components/issues/1306)) ([532a050](https://github.com/newsuk/times-components/commit/532a050))
+
+
+
+
+
+<a name="3.3.9"></a>
+## [3.3.9](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.8...@times-components/topic@3.3.9) (2018-09-07)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.8"></a>
+## [3.3.8](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.7...@times-components/topic@3.3.8) (2018-09-06)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.7"></a>
+## [3.3.7](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.6...@times-components/topic@3.3.7) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.6"></a>
+## [3.3.6](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.5...@times-components/topic@3.3.6) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.5"></a>
+## [3.3.5](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.4...@times-components/topic@3.3.5) (2018-09-04)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.4"></a>
+## [3.3.4](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.3...@times-components/topic@3.3.4) (2018-09-03)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
 <a name="3.3.3"></a>
 ## [3.3.3](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.2...@times-components/topic@3.3.3) (2018-08-31)
 

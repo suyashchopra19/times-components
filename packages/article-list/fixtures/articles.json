@@ -1,5 +1,6 @@
 [
   {
+    "hasVideo": true,
     "headline": "Headline 1",
     "id": "d98c257c-cb16-11e7-b529-95e3fc05f40f",
     "label": "Label 1",
@@ -15,6 +16,7 @@
     "publicationName": "TIMES",
     "publishedTime": "2017-11-17T00:01:00.000Z",
     "section": "world",
+    "shortHeadline": "ShortHeadline 1",
     "shortSummary": [
       {
         "name": "paragraph",
@@ -63,6 +65,7 @@
         ]
       }
     ],
+    "hasVideo": false,
     "headline": "Headline 2",
     "id": "4e6894ec-cb18-11e7-b529-95e3fc05f40f",
     "label": "Label 2",
@@ -77,6 +80,7 @@
     },
     "publicationName": "SUNDAYTIMES",
     "publishedTime": "2017-11-17T00:01:00.000Z",
+    "shortHeadline": "ShortHeadline 2",
     "shortSummary": [
       {
         "name": "paragraph",
@@ -125,7 +129,8 @@
         ]
       }
     ],
-    "headline": "Headline 3",
+    "hasVideo": false,
+    "headline": "",
     "id": "ca003c2a-8e6f-11e8-9eb6-529269fb1459",
     "label": "Label 3",
     "leadAsset": {
@@ -139,6 +144,7 @@
     },
     "publicationName": "SUNDAYTIMES",
     "publishedTime": "2017-11-17T00:01:00.000Z",
+    "shortHeadline": "ShortHeadline 3",
     "shortSummary": [
       {
         "name": "paragraph",
@@ -187,6 +193,7 @@
         ]
       }
     ],
+    "hasVideo": false,
     "headline": "Headline 4",
     "id": "ca003fe0-8e6f-11e8-9eb6-529269fb1459",
     "label": "Label 4",
@@ -201,6 +208,7 @@
     },
     "publicationName": "SUNDAYTIMES",
     "publishedTime": "2017-11-17T00:01:00.000Z",
+    "shortHeadline": "ShortHeadline 4",
     "shortSummary": [
       {
         "name": "paragraph",
@@ -249,6 +257,7 @@
         ]
       }
     ],
+    "hasVideo": false,
     "headline": "Headline 5",
     "id": "ca00422e-8e6f-11e8-9eb6-529269fb1459",
     "label": "Label 5",
@@ -263,6 +272,7 @@
     },
     "publicationName": "SUNDAYTIMES",
     "publishedTime": "2017-11-17T00:01:00.000Z",
+    "shortHeadline": "ShortHeadline 5",
     "shortSummary": [
       {
         "name": "paragraph",

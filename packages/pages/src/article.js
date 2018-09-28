@@ -12,7 +12,7 @@ const ArticleDetailsPage = ({ articleId, omitErrors, ...props }) => (
         {...props}
         article={article}
         error={omitErrors ? null : error}
-        isLoading={isLoading || (omitErrors && error !== null)}
+        isLoading={isLoading || (omitErrors && error)}
         refetch={refetch}
       />
     )}

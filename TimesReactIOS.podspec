@@ -42,6 +42,7 @@ Pod::Spec.new do |s|
   s.dependency 'React/RCTWebSocket'
   s.dependency 'React/DevSupport'
   s.dependency 'React/ART'
+  s.dependency 'React/RCTDevSettings'
 
   # React's dependencies
 

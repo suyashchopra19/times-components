@@ -33,28 +33,6 @@ const platformAdConfig = {
   platform: "mobile"
 };
 
-/*
-const platformAdConfig = {
-  adUnit: "thetimes.mob.ios",
-  networkId: "25436805",
-  testMode: "",
-  sectionId: "",
-  sectionName: "",
-  articlePositionInSlot: 0,
-  appVersion: "",
-  operatingSystem: "",
-  operatingSystemVersion: "",
-  cookieEid: "",
-  cookieAcsTnl: "",
-  cookieIamTgt: "",
-  deviceId: "",
-  deviceIdHash: "",
-  environment: "",
-  isLoggedIn: true,
-  platform: "mobile"
-};
-*/
-
 const ArticlePageView = Article(config)(fetch);
 
 const ArticleView = ({ 

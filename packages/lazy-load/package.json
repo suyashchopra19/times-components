@@ -1,6 +1,6 @@
 {
   "name": "@times-components/lazy-load",
-  "version": "0.1.1",
+  "version": "0.1.6",
   "description": "Use IntersectionObserver to lazy load resources",
   "main": "dist/lazy-load",
   "dev": "src/lazy-load",
@@ -35,18 +35,18 @@
   "devDependencies": {
     "@thetimes/jest-lint": "*",
     "@times-components/eslint-config-thetimes": "0.8.0",
-    "@times-components/jest-configurator": "2.1.6",
-    "@times-components/jest-serializer": "3.1.1",
-    "@times-components/storybook": "3.1.11",
-    "@times-components/test-utils": "1.1.0",
-    "@times-components/webpack-configurator": "2.0.5",
+    "@times-components/jest-configurator": "2.1.8",
+    "@times-components/jest-serializer": "3.1.2",
+    "@times-components/storybook": "3.1.15",
+    "@times-components/test-utils": "1.1.2",
+    "@times-components/webpack-configurator": "2.0.6",
     "babel-cli": "6.26.0",
-    "enzyme": "3.3.0",
+    "enzyme": "3.6.0",
     "eslint": "4.9.0",
     "jest": "23.3.0",
     "prettier": "1.8.2",
-    "react": "16.4.2",
-    "react-dom": "16.4.2",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
     "react-native": "0.55.4",
     "styled-components": "3.4.0",
     "webpack": "4.6.0",
@@ -56,10 +56,10 @@
     "prop-types": "15.6.2"
   },
   "peerDependencies": {
-    "react": ">=16.2",
-    "react-dom": ">=16.2",
-    "react-native": ">=0.54",
-    "react-native-web": ">=0.3"
+    "react": ">=16.5",
+    "react-dom": ">=16.5",
+    "react-native": ">=0.55",
+    "react-native-web": "0.9.0"
   },
   "publishConfig": {
     "access": "public"

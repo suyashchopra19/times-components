@@ -1,6 +1,6 @@
 {
   "name": "@times-components/tealium-utils",
-  "version": "0.6.9",
+  "version": "0.6.11",
   "description": "React tealium helpers for Times Components",
   "main": "dist",
   "dev": "src",
@@ -24,13 +24,11 @@
   },
   "homepage": "https://github.com/newsuk/times-components#readme",
   "devDependencies": {
-    "@storybook/addon-actions": "3.4.10",
     "@times-components/eslint-config-thetimes": "0.8.0",
     "babel-core": "6.26.0",
     "babel-loader": "7.1.4",
     "babel-plugin-add-react-displayname": "0.0.5",
     "babel-plugin-flow-react-proptypes": "22.0.0",
-    "babel-plugin-react-native-web": "0.6.1",
     "babel-plugin-styled-components": "1.5.1",
     "babel-preset-react-native": "4.0.0",
     "depcheck": "0.6.9",
@@ -41,13 +39,14 @@
     "webpack-cli": "2.1.4"
   },
   "dependencies": {
-    "@times-components/tealium": "1.6.1"
+    "@storybook/addon-actions": "3.4.10",
+    "@times-components/tealium": "1.6.3"
   },
   "peerDependencies": {
-    "react": ">=16.2",
-    "react-dom": ">=16.2",
-    "react-native": ">=0.54",
-    "react-native-web": ">=0.3"
+    "react": ">=16.5",
+    "react-dom": ">=16.5",
+    "react-native": ">=0.55",
+    "react-native-web": "0.9.0"
   },
   "publishConfig": {
     "access": "public"

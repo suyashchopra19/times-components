@@ -3,6 +3,93 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.3.32"></a>
+## [3.3.32](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.31...@times-components/topic@3.3.32) (2018-10-06)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.31"></a>
+## [3.3.31](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.30...@times-components/topic@3.3.31) (2018-10-03)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.30"></a>
+## [3.3.30](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.29...@times-components/topic@3.3.30) (2018-10-02)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.29"></a>
+## [3.3.29](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.28...@times-components/topic@3.3.29) (2018-09-28)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.28"></a>
+## [3.3.28](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.27...@times-components/topic@3.3.28) (2018-09-28)
+
+
+### Bug Fixes
+
+* remove device info ([#1364](https://github.com/newsuk/times-components/issues/1364)) ([36cdf47](https://github.com/newsuk/times-components/commit/36cdf47))
+
+
+
+
+
+<a name="3.3.27"></a>
+## [3.3.27](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.26...@times-components/topic@3.3.27) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.26"></a>
+## [3.3.26](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.25...@times-components/topic@3.3.26) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
+<a name="3.3.25"></a>
+## [3.3.25](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.24...@times-components/topic@3.3.25) (2018-09-26)
+
+
+### Bug Fixes
+
+* remove hairline width ([#1359](https://github.com/newsuk/times-components/issues/1359)) ([dbc18ba](https://github.com/newsuk/times-components/commit/dbc18ba))
+
+
+
+
+
+<a name="3.3.24"></a>
+## [3.3.24](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.23...@times-components/topic@3.3.24) (2018-09-25)
+
+**Note:** Version bump only for package @times-components/topic
+
+
+
+
+
 <a name="3.3.23"></a>
 ## [3.3.23](https://github.com/newsuk/times-components/compare/@times-components/topic@3.3.22...@times-components/topic@3.3.23) (2018-09-23)
 

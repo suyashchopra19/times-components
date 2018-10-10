@@ -3,6 +3,90 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="5.2.11"></a>
+## [5.2.11](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.10...@times-components/article-list@5.2.11) (2018-10-06)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="5.2.10"></a>
+## [5.2.10](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.9...@times-components/article-list@5.2.10) (2018-10-03)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="5.2.9"></a>
+## [5.2.9](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.8...@times-components/article-list@5.2.9) (2018-10-02)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="5.2.8"></a>
+## [5.2.8](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.7...@times-components/article-list@5.2.8) (2018-09-28)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="5.2.7"></a>
+## [5.2.7](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.6...@times-components/article-list@5.2.7) (2018-09-28)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="5.2.6"></a>
+## [5.2.6](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.5...@times-components/article-list@5.2.6) (2018-09-27)
+
+
+### Bug Fixes
+
+* update watermark layout in empty article list page ([#1369](https://github.com/newsuk/times-components/issues/1369)) ([e738b5d](https://github.com/newsuk/times-components/commit/e738b5d))
+
+
+
+
+
+<a name="5.2.5"></a>
+## [5.2.5](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.4...@times-components/article-list@5.2.5) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="5.2.4"></a>
+## [5.2.4](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.3...@times-components/article-list@5.2.4) (2018-09-26)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
+<a name="5.2.3"></a>
+## [5.2.3](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.2...@times-components/article-list@5.2.3) (2018-09-25)
+
+**Note:** Version bump only for package @times-components/article-list
+
+
+
+
+
 <a name="5.2.2"></a>
 ## [5.2.2](https://github.com/newsuk/times-components/compare/@times-components/article-list@5.2.1...@times-components/article-list@5.2.2) (2018-09-23)
 

@@ -3,6 +3,57 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.6.0"></a>
+# [1.6.0](https://github.com/newsuk/times-components/compare/@times-components/provider-test-tools@1.5.3...@times-components/provider-test-tools@1.6.0) (2018-10-06)
+
+
+### Features
+
+* add Sky sports banner ([#1382](https://github.com/newsuk/times-components/issues/1382)) ([231af44](https://github.com/newsuk/times-components/commit/231af44))
+
+
+
+
+
+<a name="1.5.3"></a>
+## [1.5.3](https://github.com/newsuk/times-components/compare/@times-components/provider-test-tools@1.5.2...@times-components/provider-test-tools@1.5.3) (2018-10-02)
+
+**Note:** Version bump only for package @times-components/provider-test-tools
+
+
+
+
+
+<a name="1.5.2"></a>
+## [1.5.2](https://github.com/newsuk/times-components/compare/@times-components/provider-test-tools@1.5.1...@times-components/provider-test-tools@1.5.2) (2018-09-28)
+
+**Note:** Version bump only for package @times-components/provider-test-tools
+
+
+
+
+
+<a name="1.5.1"></a>
+## [1.5.1](https://github.com/newsuk/times-components/compare/@times-components/provider-test-tools@1.5.0...@times-components/provider-test-tools@1.5.1) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/provider-test-tools
+
+
+
+
+
+<a name="1.5.0"></a>
+# [1.5.0](https://github.com/newsuk/times-components/compare/@times-components/provider-test-tools@1.4.1...@times-components/provider-test-tools@1.5.0) (2018-09-26)
+
+
+### Features
+
+* add hasVideo queries and tests ([#1360](https://github.com/newsuk/times-components/issues/1360)) ([c0e6984](https://github.com/newsuk/times-components/commit/c0e6984))
+
+
+
+
+
 <a name="1.4.1"></a>
 ## [1.4.1](https://github.com/newsuk/times-components/compare/@times-components/provider-test-tools@1.4.0...@times-components/provider-test-tools@1.4.1) (2018-09-21)
 

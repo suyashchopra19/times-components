@@ -3,6 +3,72 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.2.21"></a>
+## [3.2.21](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.20...@times-components/article-summary@3.2.21) (2018-10-06)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.20"></a>
+## [3.2.20](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.19...@times-components/article-summary@3.2.20) (2018-10-03)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.19"></a>
+## [3.2.19](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.18...@times-components/article-summary@3.2.19) (2018-10-02)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.18"></a>
+## [3.2.18](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.17...@times-components/article-summary@3.2.18) (2018-09-28)
+
+
+### Bug Fixes
+
+* Minor Android styling adjustments ([#1370](https://github.com/newsuk/times-components/issues/1370)) ([97bf4ad](https://github.com/newsuk/times-components/commit/97bf4ad))
+
+
+
+
+
+<a name="3.2.17"></a>
+## [3.2.17](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.16...@times-components/article-summary@3.2.17) (2018-09-28)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.16"></a>
+## [3.2.16](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.15...@times-components/article-summary@3.2.16) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
+<a name="3.2.15"></a>
+## [3.2.15](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.14...@times-components/article-summary@3.2.15) (2018-09-26)
+
+**Note:** Version bump only for package @times-components/article-summary
+
+
+
+
+
 <a name="3.2.14"></a>
 ## [3.2.14](https://github.com/newsuk/times-components/compare/@times-components/article-summary@3.2.13...@times-components/article-summary@3.2.14) (2018-09-21)
 

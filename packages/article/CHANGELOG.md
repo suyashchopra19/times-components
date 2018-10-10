@@ -3,6 +3,138 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="5.3.0"></a>
+# [5.3.0](https://github.com/newsuk/times-components/compare/@times-components/article@5.2.9...@times-components/article@5.3.0) (2018-10-06)
+
+
+### Features
+
+* add Sky sports banner ([#1382](https://github.com/newsuk/times-components/issues/1382)) ([231af44](https://github.com/newsuk/times-components/commit/231af44))
+
+
+
+
+
+<a name="5.2.9"></a>
+## [5.2.9](https://github.com/newsuk/times-components/compare/@times-components/article@5.2.8...@times-components/article@5.2.9) (2018-10-04)
+
+
+### Bug Fixes
+
+* ios article storybook has window and DOM references ([#1383](https://github.com/newsuk/times-components/issues/1383)) ([dafa6bf](https://github.com/newsuk/times-components/commit/dafa6bf))
+
+
+
+
+
+<a name="5.2.8"></a>
+## [5.2.8](https://github.com/newsuk/times-components/compare/@times-components/article@5.2.7...@times-components/article@5.2.8) (2018-10-03)
+
+**Note:** Version bump only for package @times-components/article
+
+
+
+
+
+<a name="5.2.7"></a>
+## [5.2.7](https://github.com/newsuk/times-components/compare/@times-components/article@5.2.6...@times-components/article@5.2.7) (2018-10-02)
+
+**Note:** Version bump only for package @times-components/article
+
+
+
+
+
+<a name="5.2.6"></a>
+## [5.2.6](https://github.com/newsuk/times-components/compare/@times-components/article@5.2.5...@times-components/article@5.2.6) (2018-09-28)
+
+
+### Bug Fixes
+
+* Minor Android styling adjustments ([#1370](https://github.com/newsuk/times-components/issues/1370)) ([97bf4ad](https://github.com/newsuk/times-components/commit/97bf4ad))
+
+
+
+
+
+<a name="5.2.5"></a>
+## [5.2.5](https://github.com/newsuk/times-components/compare/@times-components/article@5.2.4...@times-components/article@5.2.5) (2018-09-28)
+
+
+### Bug Fixes
+
+* remove device info ([#1364](https://github.com/newsuk/times-components/issues/1364)) ([36cdf47](https://github.com/newsuk/times-components/commit/36cdf47))
+
+
+
+
+
+<a name="5.2.4"></a>
+## [5.2.4](https://github.com/newsuk/times-components/compare/@times-components/article@5.2.3...@times-components/article@5.2.4) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/article
+
+
+
+
+
+<a name="5.2.3"></a>
+## [5.2.3](https://github.com/newsuk/times-components/compare/@times-components/article@5.2.2...@times-components/article@5.2.3) (2018-09-27)
+
+
+### Bug Fixes
+
+* Ad padding ([#1371](https://github.com/newsuk/times-components/issues/1371)) ([647874c](https://github.com/newsuk/times-components/commit/647874c))
+
+
+
+
+
+<a name="5.2.2"></a>
+## [5.2.2](https://github.com/newsuk/times-components/compare/@times-components/article@5.2.1...@times-components/article@5.2.2) (2018-09-27)
+
+
+### Bug Fixes
+
+* remove shadow from buttons ([#1363](https://github.com/newsuk/times-components/issues/1363)) ([a956eda](https://github.com/newsuk/times-components/commit/a956eda))
+
+
+
+
+
+<a name="5.2.1"></a>
+## [5.2.1](https://github.com/newsuk/times-components/compare/@times-components/article@5.2.0...@times-components/article@5.2.1) (2018-09-26)
+
+
+### Bug Fixes
+
+* remove hairline width ([#1359](https://github.com/newsuk/times-components/issues/1359)) ([dbc18ba](https://github.com/newsuk/times-components/commit/dbc18ba))
+
+
+
+
+
+<a name="5.2.0"></a>
+# [5.2.0](https://github.com/newsuk/times-components/compare/@times-components/article@5.1.4...@times-components/article@5.2.0) (2018-09-26)
+
+
+### Features
+
+* make article text selectable ([#1350](https://github.com/newsuk/times-components/issues/1350)) ([e0b9e39](https://github.com/newsuk/times-components/commit/e0b9e39))
+
+
+
+
+
+<a name="5.1.4"></a>
+## [5.1.4](https://github.com/newsuk/times-components/compare/@times-components/article@5.1.3...@times-components/article@5.1.4) (2018-09-25)
+
+**Note:** Version bump only for package @times-components/article
+
+
+
+
+
 <a name="5.1.3"></a>
 ## [5.1.3](https://github.com/newsuk/times-components/compare/@times-components/article@5.1.2...@times-components/article@5.1.3) (2018-09-21)
 

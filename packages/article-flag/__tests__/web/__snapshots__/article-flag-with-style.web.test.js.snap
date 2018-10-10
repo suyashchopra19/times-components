@@ -4,11 +4,10 @@ exports[`1. red article flag 1`] = `
 <style>
 {
   "IS1": {
-    "marginBottom": "1px",
     "marginRight": "5px",
   },
   "IS2": {
-    "color": "red",
+    "color": "rgba(255,0,0,1.00)",
     "fontFamily": "TimesDigitalW04-RegularSC",
     "fontSize": "12px",
     "fontWeight": "400",
@@ -36,6 +35,7 @@ exports[`1. red article flag 1`] = `
     "-webkit-flex-direction": "column",
     "align-items": "stretch",
     "flex-direction": "column",
+    "margin-bottom": "0px",
   },
   "S2": {
     "margin-bottom": "0px",

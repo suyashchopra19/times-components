@@ -3,6 +3,78 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.5.0"></a>
+# [3.5.0](https://github.com/newsuk/times-components/compare/@times-components/styleguide@3.4.0...@times-components/styleguide@3.5.0) (2018-10-06)
+
+
+### Features
+
+* add Sky sports banner ([#1382](https://github.com/newsuk/times-components/issues/1382)) ([231af44](https://github.com/newsuk/times-components/commit/231af44))
+
+
+
+
+
+<a name="3.4.0"></a>
+# [3.4.0](https://github.com/newsuk/times-components/compare/@times-components/styleguide@3.3.17...@times-components/styleguide@3.4.0) (2018-10-03)
+
+
+### Features
+
+* add an overlay gradient ([#1374](https://github.com/newsuk/times-components/issues/1374)) ([00d47d7](https://github.com/newsuk/times-components/commit/00d47d7))
+
+
+
+
+
+<a name="3.3.17"></a>
+## [3.3.17](https://github.com/newsuk/times-components/compare/@times-components/styleguide@3.3.16...@times-components/styleguide@3.3.17) (2018-10-02)
+
+**Note:** Version bump only for package @times-components/styleguide
+
+
+
+
+
+<a name="3.3.16"></a>
+## [3.3.16](https://github.com/newsuk/times-components/compare/@times-components/styleguide@3.3.15...@times-components/styleguide@3.3.16) (2018-09-28)
+
+
+### Bug Fixes
+
+* Minor Android styling adjustments ([#1370](https://github.com/newsuk/times-components/issues/1370)) ([97bf4ad](https://github.com/newsuk/times-components/commit/97bf4ad))
+
+
+
+
+
+<a name="3.3.15"></a>
+## [3.3.15](https://github.com/newsuk/times-components/compare/@times-components/styleguide@3.3.14...@times-components/styleguide@3.3.15) (2018-09-28)
+
+**Note:** Version bump only for package @times-components/styleguide
+
+
+
+
+
+<a name="3.3.14"></a>
+## [3.3.14](https://github.com/newsuk/times-components/compare/@times-components/styleguide@3.3.13...@times-components/styleguide@3.3.14) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/styleguide
+
+
+
+
+
+<a name="3.3.13"></a>
+## [3.3.13](https://github.com/newsuk/times-components/compare/@times-components/styleguide@3.3.12...@times-components/styleguide@3.3.13) (2018-09-26)
+
+**Note:** Version bump only for package @times-components/styleguide
+
+
+
+
+
 <a name="3.3.12"></a>
 ## [3.3.12](https://github.com/newsuk/times-components/compare/@times-components/styleguide@3.3.11...@times-components/styleguide@3.3.12) (2018-09-21)
 

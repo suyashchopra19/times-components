@@ -3,6 +3,69 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.3.22"></a>
+## [1.3.22](https://github.com/newsuk/times-components/compare/@times-components/key-facts@1.3.21...@times-components/key-facts@1.3.22) (2018-10-06)
+
+**Note:** Version bump only for package @times-components/key-facts
+
+
+
+
+
+<a name="1.3.21"></a>
+## [1.3.21](https://github.com/newsuk/times-components/compare/@times-components/key-facts@1.3.20...@times-components/key-facts@1.3.21) (2018-10-03)
+
+**Note:** Version bump only for package @times-components/key-facts
+
+
+
+
+
+<a name="1.3.20"></a>
+## [1.3.20](https://github.com/newsuk/times-components/compare/@times-components/key-facts@1.3.19...@times-components/key-facts@1.3.20) (2018-10-02)
+
+**Note:** Version bump only for package @times-components/key-facts
+
+
+
+
+
+<a name="1.3.19"></a>
+## [1.3.19](https://github.com/newsuk/times-components/compare/@times-components/key-facts@1.3.18...@times-components/key-facts@1.3.19) (2018-09-28)
+
+**Note:** Version bump only for package @times-components/key-facts
+
+
+
+
+
+<a name="1.3.18"></a>
+## [1.3.18](https://github.com/newsuk/times-components/compare/@times-components/key-facts@1.3.17...@times-components/key-facts@1.3.18) (2018-09-28)
+
+**Note:** Version bump only for package @times-components/key-facts
+
+
+
+
+
+<a name="1.3.17"></a>
+## [1.3.17](https://github.com/newsuk/times-components/compare/@times-components/key-facts@1.3.16...@times-components/key-facts@1.3.17) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/key-facts
+
+
+
+
+
+<a name="1.3.16"></a>
+## [1.3.16](https://github.com/newsuk/times-components/compare/@times-components/key-facts@1.3.15...@times-components/key-facts@1.3.16) (2018-09-26)
+
+**Note:** Version bump only for package @times-components/key-facts
+
+
+
+
+
 <a name="1.3.15"></a>
 ## [1.3.15](https://github.com/newsuk/times-components/compare/@times-components/key-facts@1.3.14...@times-components/key-facts@1.3.15) (2018-09-21)
 

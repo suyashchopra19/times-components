@@ -3,6 +3,78 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.1.9"></a>
+## [4.1.9](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.1.8...@times-components/related-articles@4.1.9) (2018-10-06)
+
+**Note:** Version bump only for package @times-components/related-articles
+
+
+
+
+
+<a name="4.1.8"></a>
+## [4.1.8](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.1.7...@times-components/related-articles@4.1.8) (2018-10-03)
+
+**Note:** Version bump only for package @times-components/related-articles
+
+
+
+
+
+<a name="4.1.7"></a>
+## [4.1.7](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.1.6...@times-components/related-articles@4.1.7) (2018-10-02)
+
+**Note:** Version bump only for package @times-components/related-articles
+
+
+
+
+
+<a name="4.1.6"></a>
+## [4.1.6](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.1.5...@times-components/related-articles@4.1.6) (2018-09-28)
+
+
+### Bug Fixes
+
+* Minor Android styling adjustments ([#1370](https://github.com/newsuk/times-components/issues/1370)) ([97bf4ad](https://github.com/newsuk/times-components/commit/97bf4ad))
+
+
+
+
+
+<a name="4.1.5"></a>
+## [4.1.5](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.1.4...@times-components/related-articles@4.1.5) (2018-09-28)
+
+
+### Bug Fixes
+
+* remove device info ([#1364](https://github.com/newsuk/times-components/issues/1364)) ([36cdf47](https://github.com/newsuk/times-components/commit/36cdf47))
+
+
+
+
+
+<a name="4.1.4"></a>
+## [4.1.4](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.1.3...@times-components/related-articles@4.1.4) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/related-articles
+
+
+
+
+
+<a name="4.1.3"></a>
+## [4.1.3](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.1.2...@times-components/related-articles@4.1.3) (2018-09-26)
+
+
+### Bug Fixes
+
+* remove hairline width ([#1359](https://github.com/newsuk/times-components/issues/1359)) ([dbc18ba](https://github.com/newsuk/times-components/commit/dbc18ba))
+
+
+
+
+
 <a name="4.1.2"></a>
 ## [4.1.2](https://github.com/newsuk/times-components/compare/@times-components/related-articles@4.1.1...@times-components/related-articles@4.1.2) (2018-09-21)
 

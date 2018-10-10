@@ -17,6 +17,7 @@ export default addTypenameToDocument(gql`
           posterImage {
             ...imageProps
           }
+          skySports
         }
         ... on Image {
           ...imageProps
@@ -87,6 +88,7 @@ export default addTypenameToDocument(gql`
 
   fragment articleProps on Article {
     byline
+    hasVideo
     headline
     id
     label

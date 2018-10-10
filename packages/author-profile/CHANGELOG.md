@@ -3,6 +3,93 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.0.62"></a>
+## [4.0.62](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.61...@times-components/author-profile@4.0.62) (2018-10-06)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.61"></a>
+## [4.0.61](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.60...@times-components/author-profile@4.0.61) (2018-10-03)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.60"></a>
+## [4.0.60](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.59...@times-components/author-profile@4.0.60) (2018-10-02)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.59"></a>
+## [4.0.59](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.58...@times-components/author-profile@4.0.59) (2018-09-28)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.58"></a>
+## [4.0.58](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.57...@times-components/author-profile@4.0.58) (2018-09-28)
+
+
+### Bug Fixes
+
+* remove device info ([#1364](https://github.com/newsuk/times-components/issues/1364)) ([36cdf47](https://github.com/newsuk/times-components/commit/36cdf47))
+
+
+
+
+
+<a name="4.0.57"></a>
+## [4.0.57](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.56...@times-components/author-profile@4.0.57) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.56"></a>
+## [4.0.56](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.55...@times-components/author-profile@4.0.56) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
+<a name="4.0.55"></a>
+## [4.0.55](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.54...@times-components/author-profile@4.0.55) (2018-09-26)
+
+
+### Bug Fixes
+
+* remove hairline width ([#1359](https://github.com/newsuk/times-components/issues/1359)) ([dbc18ba](https://github.com/newsuk/times-components/commit/dbc18ba))
+
+
+
+
+
+<a name="4.0.54"></a>
+## [4.0.54](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.53...@times-components/author-profile@4.0.54) (2018-09-25)
+
+**Note:** Version bump only for package @times-components/author-profile
+
+
+
+
+
 <a name="4.0.53"></a>
 ## [4.0.53](https://github.com/newsuk/times-components/compare/@times-components/author-profile@4.0.52...@times-components/author-profile@4.0.53) (2018-09-23)
 

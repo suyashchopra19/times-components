@@ -3,6 +3,69 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.0.42"></a>
+## [3.0.42](https://github.com/newsuk/times-components/compare/@times-components/article-byline@3.0.41...@times-components/article-byline@3.0.42) (2018-10-06)
+
+**Note:** Version bump only for package @times-components/article-byline
+
+
+
+
+
+<a name="3.0.41"></a>
+## [3.0.41](https://github.com/newsuk/times-components/compare/@times-components/article-byline@3.0.40...@times-components/article-byline@3.0.41) (2018-10-03)
+
+**Note:** Version bump only for package @times-components/article-byline
+
+
+
+
+
+<a name="3.0.40"></a>
+## [3.0.40](https://github.com/newsuk/times-components/compare/@times-components/article-byline@3.0.39...@times-components/article-byline@3.0.40) (2018-10-02)
+
+**Note:** Version bump only for package @times-components/article-byline
+
+
+
+
+
+<a name="3.0.39"></a>
+## [3.0.39](https://github.com/newsuk/times-components/compare/@times-components/article-byline@3.0.38...@times-components/article-byline@3.0.39) (2018-09-28)
+
+**Note:** Version bump only for package @times-components/article-byline
+
+
+
+
+
+<a name="3.0.38"></a>
+## [3.0.38](https://github.com/newsuk/times-components/compare/@times-components/article-byline@3.0.37...@times-components/article-byline@3.0.38) (2018-09-28)
+
+**Note:** Version bump only for package @times-components/article-byline
+
+
+
+
+
+<a name="3.0.37"></a>
+## [3.0.37](https://github.com/newsuk/times-components/compare/@times-components/article-byline@3.0.36...@times-components/article-byline@3.0.37) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/article-byline
+
+
+
+
+
+<a name="3.0.36"></a>
+## [3.0.36](https://github.com/newsuk/times-components/compare/@times-components/article-byline@3.0.35...@times-components/article-byline@3.0.36) (2018-09-26)
+
+**Note:** Version bump only for package @times-components/article-byline
+
+
+
+
+
 <a name="3.0.35"></a>
 ## [3.0.35](https://github.com/newsuk/times-components/compare/@times-components/article-byline@3.0.34...@times-components/article-byline@3.0.35) (2018-09-21)
 

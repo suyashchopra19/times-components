@@ -8,18 +8,11 @@ exports[`1. button 1`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "#006699",
-      "borderRadius": 4,
+      "borderRadius": 2,
       "elevation": 3,
       "height": 36,
       "justifyContent": "center",
       "minWidth": 100,
-      "shadowColor": "#000000",
-      "shadowOffset": Object {
-        "height": 3,
-        "width": 0,
-      },
-      "shadowOpacity": 1,
-      "shadowRadius": 5,
       "width": "100%",
     }
   }
@@ -30,14 +23,14 @@ exports[`1. button 1`] = `
       Object {
         "color": "#FFFFFF",
         "fontFamily": "GillSansMTStd-Medium",
-        "fontSize": 14,
+        "fontSize": 16,
         "lineHeight": 14,
         "paddingTop": 0,
       }
     }
-    title="TEST BUTTON"
+    title="Test button"
   >
-    TEST BUTTON
+    Test button
   </Text>
 </TouchableHighlight>
 `;
@@ -50,18 +43,11 @@ exports[`2. button with font and line-height 1`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "#006699",
-      "borderRadius": 4,
+      "borderRadius": 2,
       "elevation": 3,
       "height": 36,
       "justifyContent": "center",
       "minWidth": 100,
-      "shadowColor": "#000000",
-      "shadowOffset": Object {
-        "height": 3,
-        "width": 0,
-      },
-      "shadowOpacity": 1,
-      "shadowRadius": 5,
       "width": "100%",
     }
   }
@@ -77,9 +63,9 @@ exports[`2. button with font and line-height 1`] = `
         "paddingTop": 0,
       }
     }
-    title="TEST BUTTON"
+    title="Test button"
   >
-    TEST BUTTON
+    Test button
   </Text>
 </TouchableHighlight>
 `;

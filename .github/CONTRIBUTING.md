@@ -27,9 +27,6 @@ Following these guidelines helps to get issues organised and PRs merged faster!
   [Prettier](https://github.com/prettier/prettier) to ensure code consistency
   and reliability, this pattern should also be followed to avoid typical dev
   bike-shedding
-* For testing we’re using [Jest](https://facebook.github.io/jest/) for unit and
-  integration tests. React Native integration tests will use
-  [Detox](https://github.com/wix/detox)
 
 ### Heuristics
 
@@ -141,10 +138,6 @@ If the component contains functionality that requires functional testing on a
 device or browser, you can use [Fructose](https://github.com/newsuk/fructose).
 This should follow the naming convention, `XXXX.fructose.js`.
 
-Fructose uses detox to instrument the tests. In order to run the tests you will
-need to install some additional dependencies. Follow steps 1-4 in these
-[detox docs](https://github.com/wix/detox/blob/master/docs/Introduction.GettingStarted.md).
-
 Fructose also relies on an application existing within the project, in this case
 we are using the storybook app. If you have not installed it, you can do so by
 running `yarn ios`. You will need to terminate the server that is run with this
@@ -185,7 +178,7 @@ Follow these steps to deploy storybook native to a real android device.
 * Run `yarn android:device` (to enable Times API)
 * Open [storybook native](http:localhost:7007) on your computer and load a story
 
-#### Troublshooting
+#### Troubleshooting
 
 * If your device is complaining about about `story-loader.js` not existing - run
   `yarn storybook-native` before `yarn android`. This should generate the
@@ -197,11 +190,43 @@ Follow these steps to deploy storybook native to a real android device.
   on your computer for more info on the error
 * If you're still struggling verify that you are able to run `yarn storybook`
   and that it works in web view.
-* If you receive a `":CFBundleIdentifier", Does Not Exist` error when trying to
-  run `yarn ios`, try clearing your React Native cache with `rm -r ~/.rncache`
-  and clearing third part libraries `rm -r
-  <your-project>/node_modules/react-native/third_party`. This happens when React
-  Native caches third party tools for previous versions of React Native.
+
+### iOS
+
+#### Building on Xcode 10
+
+We are currently using React Native 0.55.4 which does not fully support Xcode
+10<sup>[1](https://github.com/facebook/react-native/issues/14382#issuecomment-313163119),
+[2](https://github.com/facebook/react-native/issues/19569#issuecomment-399652331)</sup>.
+If you need to build with Xcode 10, you will need to run the below command,
+**only after you have installed dependencies**.
+
+```
+$ yarn ios; pushd node_modules/react-native/third-party/glog-*; ../../scripts/ios-configure-glog.sh; popd; cp ios/build/Build/Products/Debug-iphonesimulator/libfishhook.a node_modules/react-native/Libraries/WebSocket/;
+```
+
+#### Other iOS Build Issues
+
+If when trying to run `yarn ios` you receive a `":CFBundleIdentifier", Does Not
+Exist` error, either on XCode 10 after attempting the above instructions, or on
+a previous version of Xcode, try clearing your React Native cache with
+
+```
+rm -r ~/.rncache
+```
+
+and clearing third party libraries
+
+```
+rm -r node_modules/react-native/third_party
+```
+
+This happens when React Native caches third party tools for previous versions of
+React Native.
+
+If the above does not work, another approach is to change the XCode build system. Essentially you delete build artifacts by deleting the contents of your `Library/Developer/Xcode/DerivedData` folder.
+
+Then choose the [legacy build system](facebook/react-native#19573). Then clean the XCode project (CMD-Shift-K) and build it again. This did result in a new directory being created but we have [.gitignored it for now](https://github.com/newsuk/times-components/pull/1381) (until RN fix their issues with XCode 10). 
 
 ### Font Naming Conventions
 

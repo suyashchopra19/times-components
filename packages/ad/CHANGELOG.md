@@ -3,6 +3,81 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="2.1.44"></a>
+## [2.1.44](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.43...@times-components/ad@2.1.44) (2018-10-06)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.43"></a>
+## [2.1.43](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.42...@times-components/ad@2.1.43) (2018-10-03)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.42"></a>
+## [2.1.42](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.41...@times-components/ad@2.1.42) (2018-10-02)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.41"></a>
+## [2.1.41](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.40...@times-components/ad@2.1.41) (2018-09-28)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.40"></a>
+## [2.1.40](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.39...@times-components/ad@2.1.40) (2018-09-28)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.39"></a>
+## [2.1.39](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.38...@times-components/ad@2.1.39) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.38"></a>
+## [2.1.38](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.37...@times-components/ad@2.1.38) (2018-09-26)
+
+**Note:** Version bump only for package @times-components/ad
+
+
+
+
+
+<a name="2.1.37"></a>
+## [2.1.37](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.36...@times-components/ad@2.1.37) (2018-09-25)
+
+
+### Bug Fixes
+
+* enqueue window post messages until it's ready ([#1349](https://github.com/newsuk/times-components/issues/1349)) ([e620b3f](https://github.com/newsuk/times-components/commit/e620b3f))
+
+
+
+
+
 <a name="2.1.36"></a>
 ## [2.1.36](https://github.com/newsuk/times-components/compare/@times-components/ad@2.1.35...@times-components/ad@2.1.36) (2018-09-21)
 

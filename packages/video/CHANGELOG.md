@@ -3,6 +3,72 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="4.1.0"></a>
+# [4.1.0](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.14...@times-components/video@4.1.0) (2018-10-06)
+
+
+### Features
+
+* add Sky sports banner ([#1382](https://github.com/newsuk/times-components/issues/1382)) ([231af44](https://github.com/newsuk/times-components/commit/231af44))
+
+
+
+
+
+<a name="4.0.14"></a>
+## [4.0.14](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.13...@times-components/video@4.0.14) (2018-10-03)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="4.0.13"></a>
+## [4.0.13](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.12...@times-components/video@4.0.13) (2018-10-02)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="4.0.12"></a>
+## [4.0.12](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.11...@times-components/video@4.0.12) (2018-09-28)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="4.0.11"></a>
+## [4.0.11](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.10...@times-components/video@4.0.11) (2018-09-28)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="4.0.10"></a>
+## [4.0.10](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.9...@times-components/video@4.0.10) (2018-09-27)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
+<a name="4.0.9"></a>
+## [4.0.9](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.8...@times-components/video@4.0.9) (2018-09-26)
+
+**Note:** Version bump only for package @times-components/video
+
+
+
+
+
 <a name="4.0.8"></a>
 ## [4.0.8](https://github.com/newsuk/times-components/compare/@times-components/video@4.0.7...@times-components/video@4.0.8) (2018-09-21)
 

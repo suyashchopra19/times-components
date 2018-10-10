@@ -1,7 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
 
-const alias = { "react-native": "react-native-web" };
+const alias = { "react-native$": "react-native-web" };
 const extensions = [".web.js", ".js"];
 const mode = "development";
 
@@ -11,11 +11,7 @@ const babelConfig = {
     loader: "babel-loader",
     options: {
       cacheDirectory: true,
-      plugins: [
-        "add-react-displayname",
-        "react-native-web",
-        "styled-components"
-      ],
+      plugins: ["add-react-displayname", "styled-components"],
       presets: ["react-native"]
     }
   }
@@ -28,6 +24,7 @@ if (!process.env.GRAPHQL_ENDPOINT) {
 module.exports = {
   devtool: "inline-source-map",
   entry: {
+    article: "./article.client.js",
     "author-profile": "./author-profile.client.js",
     topic: "./topic.client.js"
   },

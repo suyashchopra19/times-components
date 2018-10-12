@@ -1,9 +1,10 @@
 /* eslint-disable consistent-return */
 
 import React, { Component } from "react";
-import { View } from "react-native";
+import { Text, View } from "react-native";
 import PropTypes from "prop-types";
 import { AdComposer } from "@times-components/ad";
+import Article from "@times-components/article";
 import ArticleHeader from "./article-header/article-header";
 import ArticleLeadAsset from "./article-lead-asset/article-lead-asset";
 import ArticleMeta from "./article-meta/article-meta";
@@ -70,6 +71,22 @@ const renderRow = (
           publishedTime={publishedTime}
         />
       );
+    }
+
+    case "content": {
+      return (
+        <Article
+          article={rowData.data}
+          onAuthorPress={onAuthorPress}
+          onCommentGuidelinesPress={onCommentGuidelinesPress}
+          onCommentsPress={onCommentsPress}
+          onLinkPress={onLinkPress}
+          onRelatedArticlePress={onRelatedArticlePress}
+          onTopicPress={onTopicPress}
+          onTwitterLinkPress={onTwitterLinkPress}
+          onVideoPress={onVideoPress}
+        />
+      )
     }
   }
 };

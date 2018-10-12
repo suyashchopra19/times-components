@@ -1,6 +1,7 @@
 import React from "react";
 import { Text } from "react-native";
 import Ad, { AdComposer } from "@times-components/ad";
+import Article from "@times-components/article";
 import ArticleHeader from "./article-header/article-header";
 import ArticleLoading from "./article-loading";
 import ArticleMeta from "./article-meta/article-meta";
@@ -26,6 +27,7 @@ const renderArticle = (
   article,
   analyticsStream,
   onAuthorPress,
+  onRelatedArticlePress,
   onTopicPress) => {
   const {
     hasVideo,
@@ -80,7 +82,12 @@ const renderArticle = (
             <LeadAssetComponent {...leadAssetProps} />
           </LeadAssetContainer>
         </header>
-        <Text>Article Body will go here</Text>
+        <Article
+          analyticsStream={analyticsStream}
+          article={article}
+          onRelatedArticlePress={onRelatedArticlePress}
+          onTopicPress={onTopicPress}
+        />
         <Ad contextUrl={url} section={section} slotName="pixel" />
         <Ad contextUrl={url} section={section} slotName="pixelteads" />
         <Ad contextUrl={url} section={section} slotName="pixelskin" />

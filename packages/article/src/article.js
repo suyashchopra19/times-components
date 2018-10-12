@@ -40,47 +40,6 @@ const renderRow = (analyticsStream, width) => (
 ) => {
   // eslint-disable-next-line default-case
   switch (rowData.type) {
-    case "leadAsset": {
-      return (
-        <View key="leadAsset" testID="leadAsset">
-          <ArticleLeadAsset
-            data={{ ...rowData.data, onVideoPress }}
-            key={rowData.type}
-            width={width}
-          />
-        </View>
-      );
-    }
-
-    case "header": {
-      const { flags, hasVideo, headline, label, standfirst } = rowData.data;
-      const styles = stylesFactory();
-      return (
-        <ArticleHeader
-          flags={flags}
-          hasVideo={hasVideo}
-          headline={headline}
-          key={rowData.type}
-          label={label}
-          standfirst={standfirst}
-          style={[styles.articleMainContentRow]}
-        />
-      );
-    }
-
-    case "middleContainer": {
-      const { byline, publishedTime, publicationName } = rowData.data;
-      return (
-        <ArticleMeta
-          byline={byline}
-          key={rowData.type}
-          onAuthorPress={onAuthorPress}
-          publicationName={publicationName}
-          publishedTime={publishedTime}
-        />
-      );
-    }
-
     case "articleBodyRow": {
       return (
         <ArticleRow
@@ -151,16 +110,7 @@ class ArticlePage extends Component {
   }
 
   render() {
-    const { error, refetch, isLoading } = this.props;
-
-    if (error) {
-      return <ArticleError refetch={refetch} />;
-    }
-
-    if (isLoading) {
-      return <ArticleLoading />;
-    }
-    const ArticleListView = (
+    return (
       <ArticleContent
         data={this.state.dataSource}
         initialListSize={listViewSize}
@@ -177,15 +127,19 @@ class ArticlePage extends Component {
         scrollRenderAheadDistance={listViewScrollRenderAheadDistance}
       />
     );
-
-    return (
-      <AdComposer adConfig={this.props.adConfig}>{ArticleListView}</AdComposer>
-    );
   }
 }
 
 ArticlePage.propTypes = {
+<<<<<<< HEAD
   ...articlePagePropTypes,
+<<<<<<< HEAD
+=======
+  refetch: PropTypes.func.isRequired,
+=======
+  ...articlePropTypes,
+>>>>>>> feat: Article refactor work in progress
+>>>>>>> feat: Article refactor work in progress
   onAuthorPress: PropTypes.func.isRequired,
   onCommentGuidelinesPress: PropTypes.func.isRequired,
   onCommentsPress: PropTypes.func.isRequired,
@@ -196,4 +150,4 @@ ArticlePage.propTypes = {
 };
 ArticlePage.defaultProps = articlePageDefaultProps;
 
-export default articleTrackingContext(ArticlePage);
+export default ArticlePage;

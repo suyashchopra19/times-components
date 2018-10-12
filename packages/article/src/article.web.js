@@ -26,6 +26,7 @@ import {
   HeaderAdContainer
 } from "./styles/responsive";
 
+<<<<<<< HEAD
 const adStyle = {
   marginBottom: 0
 };
@@ -190,10 +191,45 @@ const ArticlePage = ({
         )}
       </LazyLoad>
     </AdComposer>
+=======
+const ArticlePage = ({
+  analyticsStream,
+  article,
+  onRelatedArticlePress,
+  onTopicPress
+}) => {
+
+  console.log(article);
+
+  const {
+    content,
+    section,
+    url,
+    topics,
+    relatedArticleSlice
+  } = article;
+
+  const displayRelatedArticles = relatedArticleSlice ? (
+    <RelatedArticles
+      analyticsStream={analyticsStream}
+      slice={{
+        ...relatedArticleSlice,
+        sliceName: relatedArticleSlice.__typename // eslint-disable-line no-underscore-dangle
+      }}
+    />
+  ) : null;
+
+  return (
+    <BodyContainer>
+      <ArticleBody content={content} contextUrl={url} section={section} />
+      <ArticleTopics onPress={onTopicPress} topics={topics} />
+      <aside>{displayRelatedArticles}</aside>
+    </BodyContainer>
+>>>>>>> feat: Article refactor work in progress
   );
 };
 
 ArticlePage.propTypes = articlePagePropTypes;
 ArticlePage.defaultProps = articlePageDefaultProps;
 
-export default articleTrackingContext(ArticlePage);
+export default ArticlePage;

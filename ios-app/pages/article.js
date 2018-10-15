@@ -3,6 +3,10 @@ import PropTypes from "prop-types";
 import { NativeModules } from "react-native";
 import { Article } from "@times-components/pages";
 
+const config = NativeModules.NativeModuleReactConfig;
+const { fetch } = NativeModules.NativeModuleFetch;
+const { track } = NativeModules.NativeModuleAnalytics;
+
 const {
   onRelatedArticlePress: onArticlePress,
   onArticleLoaded,
@@ -13,10 +17,6 @@ const {
   onCommentsPress,
   onCommentGuidelinesPress
 } = NativeModules.NativeModuleArticleActions;
-
-const config = NativeModules.NativeModuleReactConfig;
-const { fetch } = NativeModules.NativeModuleFetch;
-const { track } = NativeModules.NativeModuleAnalytics;
 
 const platformAdConfig = {
   adUnit: "thetimes.mob.ios",

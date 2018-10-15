@@ -1,7 +1,8 @@
-import React from "react";
-import { Text } from "react-native";
+import React, { Component } from "react";
 import Ad, { AdComposer } from "@times-components/ad";
 import Article from "@times-components/article";
+import LazyLoad from "@times-components/lazy-load";
+import { spacing } from "@times-components/styleguide";
 import ArticleHeader from "./article-header/article-header";
 import ArticleLoading from "./article-loading";
 import ArticleMeta from "./article-meta/article-meta";
@@ -10,6 +11,10 @@ import LeadAssetComponent from "./article-lead-asset/article-lead-asset";
 import getLeadAsset from "./article-lead-asset/get-lead-asset";
 import articleTrackingContext from "./article-tracking-context";
 import { articlePropTypes, articleDefaultProps } from "./article-prop-types";
+import {
+  articlePagePropTypes,
+  articlePageDefaultProps
+} from "./article-page-prop-types";
 
 import {
   MainContainer,
@@ -23,29 +28,54 @@ const adStyle = {
   marginBottom: 0
 };
 
-const renderArticle = (
-  article,
-  analyticsStream,
-  onAuthorPress,
-  onRelatedArticlePress,
-  onTopicPress) => {
-  const {
-    hasVideo,
-    headline,
-    flags,
-    standfirst,
-    label,
-    byline,
-    publishedTime,
-    publicationName,
-    section,
-    url,
-    topics
-  } = article;
-  const leadAssetProps = getLeadAsset(article);
+class ArticlePage extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      articleWidth: null
+    };
+  }
+
+  componentDidMount() {
+    // eslint-disable-next-line react/no-did-mount-set-state
+    this.setState({
+      articleWidth: this.node && this.node.clientWidth
+    });
+  }
+
+  render() {
+    const {
+      analyticsStream,
+      data: {
+        hasVideo,
+        headline,
+        flags,
+        standfirst,
+        label,
+        byline,
+        publishedTime,
+        publicationName,
+        content,
+        section,
+        url,
+        topics,
+        relatedArticleSlice
+      },
+      observed,
+      onAuthorPress,
+      onRelatedArticlePress,
+      onTopicPress,
+      registerNode
+    } = this.props;
+    const leadAssetProps = getLeadAsset(this.props.data);
 
   return (
-  <article>
+  <article
+    ref={node => {
+      this.node = node;
+    }}
+  >
     <HeaderAdContainer key="headerAd">
         <Ad
           contextUrl={url}
@@ -79,14 +109,19 @@ const renderArticle = (
             />
           </MetaContainer>
           <LeadAssetContainer>
-            <LeadAssetComponent {...leadAssetProps} />
+            <LeadAssetComponent
+              {...leadAssetProps}
+              width={this.state.articleWidth}
+            />
           </LeadAssetContainer>
         </header>
         <Article
           analyticsStream={analyticsStream}
-          article={article}
+          data={this.props.data}
+          observed={observed}
           onRelatedArticlePress={onRelatedArticlePress}
           onTopicPress={onTopicPress}
+          registerNode={registerNode}
         />
         <Ad contextUrl={url} section={section} slotName="pixel" />
         <Ad contextUrl={url} section={section} slotName="pixelteads" />
@@ -95,6 +130,10 @@ const renderArticle = (
   </article>
 );
   }
+}
+
+  ArticlePage.propTypes = articlePropTypes;
+  ArticlePage.defaultProps = articleDefaultProps;
 
 const ArticleMainStandard = ({
   adConfig,
@@ -116,19 +155,24 @@ const ArticleMainStandard = ({
 
   return (
     <AdComposer adConfig={adConfig}>
-      {renderArticle(
-        article,
-        analyticsStream,
-        onAuthorPress,
-        onRelatedArticlePress,
-        onTopicPress
-      )}
+      <LazyLoad rootMargin={spacing(10)} threshold={0.5}>
+        {({ observed, registerNode }) => (
+          <ArticlePage
+            analyticsStream={analyticsStream}
+            data={article}
+            observed={observed}
+            onAuthorPress={onAuthorPress}
+            onTopicPress={onTopicPress}
+            registerNode={registerNode}
+          />
+        )}
+      </LazyLoad>
     </AdComposer>
   );
 }
 
-ArticleMainStandard.propTypes = articlePropTypes;
-ArticleMainStandard.defaultProps = articleDefaultProps;
+ArticleMainStandard.propTypes = articlePagePropTypes;
+ArticleMainStandard.defaultProps = articlePageDefaultProps;
 
 export default articleTrackingContext(ArticleMainStandard);
 

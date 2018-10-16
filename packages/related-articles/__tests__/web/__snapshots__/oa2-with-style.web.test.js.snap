@@ -346,7 +346,9 @@ exports[`default styles 1`] = `
         <div
           className="c6 c7 c8 S4"
         >
-          <div>
+          <div
+            className="S4"
+          >
             <Link>
               <Card>
                 <div
@@ -405,7 +407,7 @@ exports[`default styles 1`] = `
                     className="S10"
                   >
                     <time>
-                      March 13 2015, 06:54pm
+                      March 13 2015, 6:54pm
                     </time>
                   </div>
                 </div>

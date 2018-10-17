@@ -100,7 +100,6 @@ class ArticlePage extends Component {
                 publishedTime={publishedTime}
               />
               <ArticleTopics
-                device="DESKTOP"
                 onPress={onTopicPress}
                 topics={topics}
               />

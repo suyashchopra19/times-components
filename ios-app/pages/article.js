@@ -19,7 +19,7 @@ const {
 } = NativeModules.NativeModuleArticleActions;
 
 const platformAdConfig = {
-  adUnit: "thetimes.mob.ios",
+  adUnit: config.adUnit,
   networkId: config.adNetworkId,
   appVersion: config.appVersion,
   operatingSystem: "IOS",

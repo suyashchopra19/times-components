@@ -2,7 +2,7 @@ import React from "react";
 import { Image, Text, View } from "react-native";
 import PropTypes from "prop-types";
 import Button from "@times-components/button";
-import styles from "./styles/article-error";
+import styles from "./styles";
 
 const ArticleError = ({ refetch }) => (
   <View style={styles.errorContainer}>

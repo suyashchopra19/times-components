@@ -24,9 +24,9 @@ if (!process.env.GRAPHQL_ENDPOINT) {
 module.exports = {
   devtool: "source-map",
   entry: {
-    article: "./article.client.js",
-    "author-profile": "./author-profile.client.js",
-    topic: "./topic.client.js"
+    article: "./src/article.client.js",
+    "author-profile": "./src/author-profile.client.js",
+    topic: "./src/topic.client.js"
   },
   mode,
   module: {

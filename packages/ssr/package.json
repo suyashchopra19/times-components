@@ -1,7 +1,7 @@
 {
   "name": "@times-components/ssr",
   "main": "dist/ssr",
-  "dev": "ssr",
+  "dev": "src/author",
   "version": "1.3.3",
   "scripts": {
     "cleanup-dist": "rm -rf dist",

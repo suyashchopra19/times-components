@@ -44,9 +44,9 @@ module.exports = options => {
   ]);
 
   const client = new ApolloClient({
-    ssrMode: true,
     cache: new InMemoryCache({ fragmentMatcher }),
-    link
+    link,
+    ssrMode: true
   });
 
   return client;

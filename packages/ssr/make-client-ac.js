@@ -21,9 +21,9 @@ module.exports = options => {
 
   const graphqlUri = options.uri;
   const networkInterfaceOptions = {
-    uri: graphqlUri,
+    fetch,
     headers: {},
-    fetch
+    uri: graphqlUri
   };
 
   if (options.headers) {
@@ -45,8 +45,8 @@ module.exports = options => {
 
   const client = new ApolloClient({
     ssrMode: true,
-    link,
-    cache: new InMemoryCache({ fragmentMatcher })
+    cache: new InMemoryCache({ fragmentMatcher }),
+    link
   });
 
   return client;

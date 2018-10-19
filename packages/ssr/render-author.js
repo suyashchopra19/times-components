@@ -5,14 +5,14 @@ const { AuthorProfileWithProvider } = require('./author-profile');
 module.exports = {
     renderAuthorProfile: ({ slug, currentPage, uri, perPage = 20, debounceTime = 0 }) => {
          serverRenderer.getMarkup({
-            name: 'authorProfile',
             element: React.createElement(AuthorProfileWithProvider, {
-                slug,
+                analyticsStream: () => {},
+                debounceTimeMs: debounceTime,
                 page: currentPage,
                 pageSize: perPage,
-                analyticsStream: () => {},
-                debounceTimeMs: debounceTime
+                slug
             }),
+            name: 'authorProfile',
             uri,
             useGET: true
         });

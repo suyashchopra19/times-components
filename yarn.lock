@@ -2128,6 +2128,13 @@ apollo-link-dedup@^1.0.0:
   dependencies:
     apollo-link "^1.2.3"
 
+apollo-link-error@^1.0.7:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/apollo-link-error/-/apollo-link-error-1.1.1.tgz#69d7124d4dc11ce60f505c940f05d4f1aa0945fb"
+  integrity sha512-/yPcaQWcBdB94vpJ4FsiCJt1dAGGRm+6Tsj3wKwP+72taBH+UsGRQQZk7U/1cpZwl1yqhHZn+ZNhVOebpPcIlA==
+  dependencies:
+    apollo-link "^1.2.3"
+
 apollo-link-http-common@^0.2.3:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/apollo-link-http-common/-/apollo-link-http-common-0.2.5.tgz#d094beb7971523203359bf830bfbfa7b4e7c30ed"
@@ -3094,6 +3101,11 @@ babel-plugin-react-docgen@^1.9.0:
     babel-types "^6.24.1"
     lodash "^4.17.0"
     react-docgen "^3.0.0-beta11"
+
+babel-plugin-react-native-web@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.6.1.tgz#9a1434235ead0e16725014367ac1b9cb109f4b27"
+  integrity sha512-bNJk6h06bJ76yrq10UirLQ8FIpGEsXElzHjlZBpKkFC5TucuHi1cge2HIOK+fncd4aL/up2YzQOWQeYljShE9Q==
 
 babel-plugin-react-native-web@0.9.0:
   version "0.9.0"

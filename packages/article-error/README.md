@@ -34,4 +34,3 @@ Or the tests for all platforms can be run
 ```
 yarn test:all
 ```
-

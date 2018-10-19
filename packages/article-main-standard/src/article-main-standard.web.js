@@ -61,8 +61,6 @@ class ArticlePage extends Component {
         url
       },
       observed,
-      onAuthorPress,
-      onTopicPress,
       registerNode
     } = this.props;
     const leadAssetProps = getLeadAsset(this.props.data);
@@ -95,12 +93,10 @@ class ArticlePage extends Component {
             <MetaContainer>
               <ArticleMeta
                 byline={byline}
-                onAuthorPress={onAuthorPress}
                 publicationName={publicationName}
                 publishedTime={publishedTime}
               />
               <ArticleTopics
-                onPress={onTopicPress}
                 topics={topics}
               />
             </MetaContainer>
@@ -115,7 +111,6 @@ class ArticlePage extends Component {
             analyticsStream={analyticsStream}
             data={this.props.data}
             observed={observed}
-            onTopicPress={onTopicPress}
             registerNode={registerNode}
           />
           <Ad contextUrl={url} section={section} slotName="pixel" />
@@ -135,9 +130,7 @@ const ArticleMainStandard = ({
   analyticsStream,
   article,
   error,
-  isLoading,
-  onAuthorPress,
-  onTopicPress
+  isLoading
 }) => {
   if (error) {
     return null;
@@ -155,8 +148,6 @@ const ArticleMainStandard = ({
             analyticsStream={analyticsStream}
             data={article}
             observed={observed}
-            onAuthorPress={onAuthorPress}
-            onTopicPress={onTopicPress}
             registerNode={registerNode}
           />
         )}

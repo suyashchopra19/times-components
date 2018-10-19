@@ -1,7 +1,13 @@
 /* eslint-env browser */
-
-const authorProfile = require("./author-profile");
-const apolloClient = require("./make-client-ac");
+const React = require('react');
 const runClient = require("./run-client");
+const createApp = require("./create-app");
+const AuthorProfileWithProvider = require("./create-app");
 
-runClient(authorProfile(apolloClient(), window.nuk.slug, window.nuk.page));
+const profileClient = (data) => runClient(createApp({
+    element: React.createElement(AuthorProfileWithProvider, data),
+    uri: window.nuk.graphqlapi.url,
+    useGET: true,
+    /* eslint no-underscore-dangle: ["error", { "allow": ["__APOLLO_STATE__"] }] */
+    initialState: window.__APOLLO_STATE__
+  }))

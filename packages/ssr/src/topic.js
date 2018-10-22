@@ -2,10 +2,10 @@
 
 const React = require("react");
 const { ApolloProvider } = require("react-apollo");
-const { TopicProvider } = require("@times-components/provider");
-const Context = require("@times-components/context").default;
-const { scales } = require("@times-components/styleguide");
-const Topic = require("@times-components/topic").default;
+const { TopicProvider } = require("@times-components/provider/rnw");
+const Context = require("@times-components/context/rnw").default;
+const { scales } = require("@times-components/styleguide/rnw");
+const Topic = require("@times-components/topic/rnw").default;
 const makeArticleUrl = require("./make-url");
 
 const scale = scales.large;

@@ -6,8 +6,8 @@ const { ArticleProvider } = require("@times-components/provider");
 const Article = require("@times-components/article").default;
 const Context = require("@times-components/context").default;
 const { scales } = require("@times-components/styleguide");
-const makeArticleUrl = require("./make-url");
-const adConfig = require("./ad-config.json");
+const makeArticleUrl = require("./../make-url");
+const adConfig = require("./../ad-config.json");
 
 const scale = scales.large;
 const sectionColour = "#FFFFFF";

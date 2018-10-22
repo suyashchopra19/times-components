@@ -11,7 +11,7 @@ import ArticleComments from "./article-comments/article-comments";
 import {
   articlePagePropTypes,
   articlePageDefaultProps
-} from "./article-page-prop-types";
+} from "./article-prop-types";
 import listViewDataHelper from "./data-helper";
 
 const listViewPageSize = 1;

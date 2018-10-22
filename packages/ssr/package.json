@@ -1,6 +1,6 @@
 {
   "name": "@times-components/ssr",
-  "main": "dist/ssr",
+  "main": "dist/author",
   "dev": "src/author",
   "version": "1.3.3",
   "scripts": {

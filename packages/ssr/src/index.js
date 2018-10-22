@@ -6,9 +6,9 @@ const { InMemoryCache: Cache } = require("apollo-cache-inmemory");
 const { fragmentMatcher } = require("@times-components/schema");
 const fetch = require("node-fetch");
 const { createHttpLink } = require("apollo-link-http");
-const getData = require("./src/get-data");
-const authorProfile = require("@times-components/ssr");
-const topic = require("./src/topic");
+const getData = require("./get-data");
+const authorProfile = require("./author-profile");
+const topic = require("./topic");
 
 const port = 3000;
 const server = express();
@@ -47,8 +47,8 @@ const makeHtml = (
           <body style="margin:0">
             <div id="app">${html}</div>
           </body>
-          <script src="/vendor.bundle.js"></script>
-          <script src="/${bundleName}.bundle.js"></script>
+          <script="/vendor.bundle.js"></script>
+          <script="/${bundleName}.bundle.js"></script>
         </html>
       `;
 

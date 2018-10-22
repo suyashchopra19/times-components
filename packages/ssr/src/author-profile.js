@@ -7,7 +7,7 @@ const Context = require("@times-components/context").default;
 const { scales } = require("@times-components/styleguide");
 const AuthorProfile = require("@times-components/author-profile").default;
 // const makeArticleUrl = require("./../make-url");
-const makeArticleUrl = require("./../make-url");
+const makeArticleUrl = require("./make-url");
 
 const scale = scales.large;
 const sectionColour = "#FFFFFF";

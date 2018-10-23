@@ -1,7 +1,7 @@
-import renderAuthorProfile from "./render-author";
-import authorProfileClient from "./author-profile.client";
+const renderAuthorProfile = require("./render-author");
+const authorProfileClient = require("./author-profile.client");
 
-export {
+module.exports = {
   authorProfileClient,
   renderAuthorProfile,
 };

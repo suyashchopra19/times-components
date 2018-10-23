@@ -1,5 +1,5 @@
-import createApp from "./create-app";
-import getData from "./get-data";
+const createApp = require("./create-app");
+const getData = require("./get-data");
 
 module.exports = options => {
   const App = createApp(options);

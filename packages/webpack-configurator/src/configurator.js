@@ -1,5 +1,7 @@
 import path from "path";
 
+const nonRNWPackages = ['@times-components/schema'];
+
 export default ({ exists, readFile }, resolve) => {
   const parseJson = async pathToJson =>
     (await exists(pathToJson))
@@ -46,9 +48,11 @@ export default ({ exists, readFile }, resolve) => {
       return cb();
     }
 
-    if (filePath.match(/^@times-components/)) {
+    if (filePath.match(/^@times-components/) && nonRNWPackages.every(pkg => !filePath.includes(pkg))) {
+      console.log(filePath, 'with RNW');
       return cb(null, `commonjs2 ${filePath}/rnw`);
     }
+    console.log(filePath, 'without RNW');
 
     return cb(null, `commonjs2 ${filePath}`);
   }

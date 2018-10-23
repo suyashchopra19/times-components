@@ -58,7 +58,7 @@ class Article extends Component {
         byline,
         publishedTime,
         publicationName,
-        content,
+        seoContent,
         section,
         url,
         topics,
@@ -131,7 +131,7 @@ class Article extends Component {
           </header>
           <BodyContainer>
             <ArticleBody
-              content={content}
+              content={seoContent}
               contextUrl={url}
               observed={observed}
               registerNode={registerNode}
@@ -173,6 +173,8 @@ const ArticlePage = ({
   if (isLoading) {
     return <ArticleLoading />;
   }
+
+  console.log("ARTICLE: ", article);
 
   return (
     <AdComposer adConfig={adConfig}>

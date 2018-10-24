@@ -49,5 +49,6 @@ module.exports = options => {
     ssrMode: true
   });
 
+  console.log('client is', client);
   return client;
 };

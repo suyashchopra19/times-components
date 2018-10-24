@@ -5,7 +5,9 @@ const makeApolloClient = require("./make-client-ac");
 module.exports = options => {
   const client = makeApolloClient(options);
 
-  const App = React.createElement(ApolloProvider, { client }, options.element);
+  console.log('options are', options);
 
-  return App;
+  const App = React.createElement(ApolloProvider, { client }, options.element);
+  console.log('create app', App);
+;  return App;
 };

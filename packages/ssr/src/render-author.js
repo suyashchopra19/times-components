@@ -1,6 +1,7 @@
 const React = require("react");
 const serverRenderer = require("./get-markup");
-const { AuthorProfileWithProvider } = require("./author-profile");
+const AuthorProfileWithProvider = require("./author-profile");
+const makeClient = require('./make-client-ac');
 
 module.exports = {
   renderAuthorProfile: ({
@@ -10,17 +11,35 @@ module.exports = {
     perPage = 20,
     debounceTime = 0
   }) => {
-    serverRenderer.getMarkup({
-      element: React.createElement(AuthorProfileWithProvider, {
-        analyticsStream: () => {},
-        debounceTimeMs: debounceTime,
-        page: currentPage,
-        pageSize: perPage,
-        slug
+
+
+    const props = {
+      analyticsStream: () => {},
+      client: makeClient({
+        element: React.createElement(AuthorProfileWithProvider),
+        name: "authorProfile",
+        uri,
+        useGET: true,
       }),
+      debounceTimeMs: debounceTime,
+      page: currentPage,
+      pageSize: perPage,
+      slug
+  };
+
+    const options = {
+      element: React.createElement(AuthorProfileWithProvider, props),
       name: "authorProfile",
       uri,
-      useGET: true
+      useGET: true,
+
+    };
+
+    // const client = makeClient(options);
+
+
+    serverRenderer({
+      ...options
     });
   }
 };

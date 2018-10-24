@@ -8,15 +8,27 @@ module.exports = App =>
     AppRegistry.registerComponent("App", () => () => App);
 
     const { element, getStyleElement } = AppRegistry.getApplication("App");
+    console.log('IN get-data, element', element);
+    console.log('IN get-data, getStyleElement', getStyleElement);
     const serverStylesheet = new ServerStyleSheet();
 
-    const html = ReactDOMServer.renderToString(
+    const markup = ReactDOMServer.renderToString(
       serverStylesheet.collectStyles(element)
     );
 
-    const scStyles = serverStylesheet.getStyleTags();
+    const extraStyles = serverStylesheet.getStyleTags();
 
-    const rnwStyles = ReactDOMServer.renderToStaticMarkup(getStyleElement());
+    const styles = ReactDOMServer.renderToStaticMarkup(getStyleElement());
 
-    return { html, rnwStyles, scStyles };
+    console.log('IN get-data, html', markup);
+    console.log('IN get-data, rnwStyles', styles);
+    console.log('IN get-data, extraStyles', extraStyles);
+
+    // const initialProps = `<script>window.nuk['${
+    //     options.name
+    //   }'] = ${props};</script>`;
+    // const initialState = `<script>window.__APOLLO_STATE__ = ${state};</script>`;
+
+
+    return { extraStyles, markup, styles };
   });

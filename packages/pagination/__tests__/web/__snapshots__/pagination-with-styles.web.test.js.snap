@@ -162,80 +162,94 @@ exports[`1. renders 1`] = `
 }
 </style>
 
-<div
-  className="c0 S2"
->
+<ForwardRef>
   <div
-    className="c1 S2"
+    className="c0 S2"
   >
-    <div
-      className="S1"
-      data-testid="results-message"
-    >
-      Showing 4 - 6 of 21 results
-    </div>
-  </div>
-  <div
-    className="c2 S2"
-  >
-    <div
-      className="c3 S2"
-    >
-      <a
-        className="IS1"
-        href="?mock-1"
+    <ForwardRef>
+      <div
+        className="c1 S2"
       >
         <div
-          className="S5"
-          data-testid="pagination-button-previous"
+          className="S1"
+          data-testid="results-message"
         >
-          <div
-            className="S4"
-          >
-            <span
-              className="S3"
-            >
-              Previous
-              <span
-                className="c4 S3"
-              >
-                 page
-              </span>
-            </span>
-          </div>
+          Showing 4 - 6 of 21 results
         </div>
-      </a>
-    </div>
-    <div
-      className="c3 S2"
-    >
-      <a
-        className="IS2"
-        href="?mock-3"
+      </div>
+    </ForwardRef>
+    <ForwardRef>
+      <div
+        className="c2 S2"
       >
-        <div
-          className="S5"
-          data-testid="pagination-button-next"
-        >
+        <ForwardRef>
           <div
-            className="S6"
+            className="c3 S2"
           >
-            <span
-              className="S3"
+            <a
+              className="IS1"
+              href="?mock-1"
             >
-              Next
-              <span
-                className="c4 S3"
+              <div
+                className="S5"
+                data-testid="pagination-button-previous"
               >
-                 page
-              </span>
-            </span>
+                <div
+                  className="S4"
+                >
+                  <span
+                    className="S3"
+                  >
+                    Previous
+                    <ForwardRef>
+                      <span
+                        className="c4 S3"
+                      >
+                         page
+                      </span>
+                    </ForwardRef>
+                  </span>
+                </div>
+              </div>
+            </a>
           </div>
-        </div>
-      </a>
-    </div>
+        </ForwardRef>
+        <ForwardRef>
+          <div
+            className="c3 S2"
+          >
+            <a
+              className="IS2"
+              href="?mock-3"
+            >
+              <div
+                className="S5"
+                data-testid="pagination-button-next"
+              >
+                <div
+                  className="S6"
+                >
+                  <span
+                    className="S3"
+                  >
+                    Next
+                    <ForwardRef>
+                      <span
+                        className="c4 S3"
+                      >
+                         page
+                      </span>
+                    </ForwardRef>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </ForwardRef>
+      </div>
+    </ForwardRef>
   </div>
-</div>
+</ForwardRef>
 `;
 
 exports[`2. renders with no results 1`] = `
@@ -297,18 +311,26 @@ exports[`2. renders with no results 1`] = `
 }
 </style>
 
-<div
-  className="c0 S1"
->
+<ForwardRef>
   <div
-    className="c1 S1"
+    className="c0 S1"
   >
-    <div
-      className="c2 S1"
-    />
-    <div
-      className="c2 S1"
-    />
+    <ForwardRef>
+      <div
+        className="c1 S1"
+      >
+        <ForwardRef>
+          <div
+            className="c2 S1"
+          />
+        </ForwardRef>
+        <ForwardRef>
+          <div
+            className="c2 S1"
+          />
+        </ForwardRef>
+      </div>
+    </ForwardRef>
   </div>
-</div>
+</ForwardRef>
 `;

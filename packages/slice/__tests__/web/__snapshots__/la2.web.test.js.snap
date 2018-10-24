@@ -1,64 +1,102 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`1. a single child element 1`] = `
-<div>
+<ForwardRef>
   <div>
-    <div>
+    <ForwardRef>
       <div>
-        <div>
-          lead
-        </div>
+        <ForwardRef>
+          <div>
+            <ForwardRef>
+              <div>
+                <div>
+                  lead
+                </div>
+              </div>
+            </ForwardRef>
+          </div>
+        </ForwardRef>
       </div>
-    </div>
+    </ForwardRef>
   </div>
-</div>
+</ForwardRef>
 `;
 
 exports[`2. two child elements 1`] = `
-<div>
+<ForwardRef>
   <div>
-    <div>
+    <ForwardRef>
       <div>
-        <div>
-          lead
-        </div>
-      </div>
-      <div />
-      <div>
-        <div>
+        <ForwardRef>
           <div>
-            support-1
+            <ForwardRef>
+              <div>
+                <div>
+                  lead
+                </div>
+              </div>
+            </ForwardRef>
+            <ForwardRef>
+              <div />
+            </ForwardRef>
+            <ForwardRef>
+              <div>
+                <ForwardRef>
+                  <div>
+                    <div>
+                      support-1
+                    </div>
+                  </div>
+                </ForwardRef>
+              </div>
+            </ForwardRef>
           </div>
-        </div>
+        </ForwardRef>
       </div>
-    </div>
+    </ForwardRef>
   </div>
-</div>
+</ForwardRef>
 `;
 
 exports[`3. three child elements 1`] = `
-<div>
+<ForwardRef>
   <div>
-    <div>
+    <ForwardRef>
       <div>
-        <div>
-          lead
-        </div>
-      </div>
-      <div />
-      <div>
-        <div>
+        <ForwardRef>
           <div>
-            support-1
+            <ForwardRef>
+              <div>
+                <div>
+                  lead
+                </div>
+              </div>
+            </ForwardRef>
+            <ForwardRef>
+              <div />
+            </ForwardRef>
+            <ForwardRef>
+              <div>
+                <ForwardRef>
+                  <div>
+                    <div>
+                      support-1
+                    </div>
+                  </div>
+                </ForwardRef>
+                <ForwardRef>
+                  <div>
+                    <div>
+                      support-2
+                    </div>
+                  </div>
+                </ForwardRef>
+              </div>
+            </ForwardRef>
           </div>
-        </div>
-        <div>
-          <div>
-            support-2
-          </div>
-        </div>
+        </ForwardRef>
       </div>
-    </div>
+    </ForwardRef>
   </div>
-</div>
+</ForwardRef>
 `;

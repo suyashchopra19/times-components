@@ -34,22 +34,51 @@ Array [
     />
   </div>,
   <div>
-    <responsiveweb__InsetCaptionStyle>
-      <div
-        className="c1"
+    <ForwardRef>
+      <StyledComponent
+        forwardedClass={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "responsiveweb__InsetCaptionStyle-azHNY",
+              "isStatic": true,
+              "lastClassName": "c1",
+              "rules": Array [
+                "padding-left:",
+                "10px",
+                ";@media (min-width:",
+                "768",
+                "px){padding-left:0px;}",
+              ],
+            },
+            "displayName": "responsiveweb__InsetCaptionStyle",
+            "render": [Function],
+            "styledComponentId": "responsiveweb__InsetCaptionStyle-azHNY",
+            "target": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+            Symbol(Symbol.hasInstance): [Function],
+          }
+        }
+        forwardedRef={null}
       >
-        <div>
+        <div
+          className="c1"
+        >
           <div>
             <div>
-              Some caption
-            </div>
-            <div>
-              SOME CREDITS
+              <div>
+                Some caption
+              </div>
+              <div>
+                SOME CREDITS
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </responsiveweb__InsetCaptionStyle>
+      </StyledComponent>
+    </ForwardRef>
   </div>,
 ]
 `;
@@ -160,37 +189,113 @@ exports[`3. inline image (landscape) with caption and credits 1`] = `
 }
 
 <figure>
-  <responsiveweb__InsetImageStyle>
-    <div
-      className="c0"
+  <ForwardRef>
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "responsiveweb__InsetImageStyle-fmSPsg",
+            "isStatic": true,
+            "lastClassName": "c0",
+            "rules": Array [
+              "display:inline-block;padding-bottom:",
+              "20px",
+              ";vertical-align:top;width:50%;@media (min-width:",
+              "768",
+              "px){clear:left;float:left;padding-bottom:0px;padding-top:",
+              "5px",
+              ";padding-right:",
+              "20px",
+              ";width:30%;}@media (min-width:",
+              "1024",
+              "px){clear:left;width:35.71429%;}",
+            ],
+          },
+          "displayName": "responsiveweb__InsetImageStyle",
+          "render": [Function],
+          "styledComponentId": "responsiveweb__InsetImageStyle-fmSPsg",
+          "target": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        }
+      }
+      forwardedRef={null}
     >
-      <TimesImage
-        aspectRatio={1.5}
-        fadeImageIn={false}
-        highResSize={null}
-        lowResSize={null}
-        uri="https://imageserver/someImage"
-      />
-    </div>
-  </responsiveweb__InsetImageStyle>
-  <responsiveweb__InsetCaptionContainerStyle>
-    <div
-      className="c2"
+      <div
+        className="c0"
+      >
+        <TimesImage
+          aspectRatio={1.5}
+          fadeImageIn={false}
+          highResSize={null}
+          lowResSize={null}
+          uri="https://imageserver/someImage"
+        />
+      </div>
+    </StyledComponent>
+  </ForwardRef>
+  <ForwardRef>
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "responsiveweb__InsetCaptionContainerStyle-eIVNxF",
+            "isStatic": true,
+            "lastClassName": "c2",
+            "rules": Array [
+              "display:inline-block;margin-top:",
+              "-10px",
+              ";padding-bottom:",
+              "20px",
+              ";padding-left:",
+              "10px",
+              ";padding-right:",
+              "10px",
+              ";padding-top:0;vertical-align:top;width:50%;@media (min-width:",
+              "768",
+              "px){clear:left;float:left;margin-top:0px;padding-bottom:",
+              "20px",
+              ";padding-left:0px;padding-top:0px;padding-right:",
+              "20px",
+              ";width:30%;}@media (min-width:",
+              "1024",
+              "px){padding-left:0px;width:35.71429%;}",
+            ],
+          },
+          "displayName": "responsiveweb__InsetCaptionContainerStyle",
+          "render": [Function],
+          "styledComponentId": "responsiveweb__InsetCaptionContainerStyle-eIVNxF",
+          "target": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        }
+      }
+      forwardedRef={null}
     >
-      <figcaption>
-        <div>
+      <div
+        className="c2"
+      >
+        <figcaption>
           <div>
             <div>
-              Landscape caption
-            </div>
-            <div>
-              LANDSCAPE CREDITS
+              <div>
+                Landscape caption
+              </div>
+              <div>
+                LANDSCAPE CREDITS
+              </div>
             </div>
           </div>
-        </div>
-      </figcaption>
-    </div>
-  </responsiveweb__InsetCaptionContainerStyle>
+        </figcaption>
+      </div>
+    </StyledComponent>
+  </ForwardRef>
 </figure>
 `;
 
@@ -262,36 +367,112 @@ exports[`4. inline image (portrait) with caption and credits 1`] = `
 }
 
 <figure>
-  <responsiveweb__InsetImageStyle>
-    <div
-      className="c0"
+  <ForwardRef>
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "responsiveweb__InsetImageStyle-fmSPsg",
+            "isStatic": true,
+            "lastClassName": "c0",
+            "rules": Array [
+              "display:inline-block;padding-bottom:",
+              "20px",
+              ";vertical-align:top;width:50%;@media (min-width:",
+              "768",
+              "px){clear:left;float:left;padding-bottom:0px;padding-top:",
+              "5px",
+              ";padding-right:",
+              "20px",
+              ";width:30%;}@media (min-width:",
+              "1024",
+              "px){clear:left;width:35.71429%;}",
+            ],
+          },
+          "displayName": "responsiveweb__InsetImageStyle",
+          "render": [Function],
+          "styledComponentId": "responsiveweb__InsetImageStyle-fmSPsg",
+          "target": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        }
+      }
+      forwardedRef={null}
     >
-      <TimesImage
-        aspectRatio={0.6666666666666666}
-        fadeImageIn={false}
-        highResSize={null}
-        lowResSize={null}
-        uri="https://imageserver/someImage"
-      />
-    </div>
-  </responsiveweb__InsetImageStyle>
-  <responsiveweb__InsetCaptionContainerStyle>
-    <div
-      className="c2"
+      <div
+        className="c0"
+      >
+        <TimesImage
+          aspectRatio={0.6666666666666666}
+          fadeImageIn={false}
+          highResSize={null}
+          lowResSize={null}
+          uri="https://imageserver/someImage"
+        />
+      </div>
+    </StyledComponent>
+  </ForwardRef>
+  <ForwardRef>
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "responsiveweb__InsetCaptionContainerStyle-eIVNxF",
+            "isStatic": true,
+            "lastClassName": "c2",
+            "rules": Array [
+              "display:inline-block;margin-top:",
+              "-10px",
+              ";padding-bottom:",
+              "20px",
+              ";padding-left:",
+              "10px",
+              ";padding-right:",
+              "10px",
+              ";padding-top:0;vertical-align:top;width:50%;@media (min-width:",
+              "768",
+              "px){clear:left;float:left;margin-top:0px;padding-bottom:",
+              "20px",
+              ";padding-left:0px;padding-top:0px;padding-right:",
+              "20px",
+              ";width:30%;}@media (min-width:",
+              "1024",
+              "px){padding-left:0px;width:35.71429%;}",
+            ],
+          },
+          "displayName": "responsiveweb__InsetCaptionContainerStyle",
+          "render": [Function],
+          "styledComponentId": "responsiveweb__InsetCaptionContainerStyle-eIVNxF",
+          "target": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        }
+      }
+      forwardedRef={null}
     >
-      <figcaption>
-        <div>
+      <div
+        className="c2"
+      >
+        <figcaption>
           <div>
             <div>
-              Portrait caption
-            </div>
-            <div>
-              PORTRAIT CREDITS
+              <div>
+                Portrait caption
+              </div>
+              <div>
+                PORTRAIT CREDITS
+              </div>
             </div>
           </div>
-        </div>
-      </figcaption>
-    </div>
-  </responsiveweb__InsetCaptionContainerStyle>
+        </figcaption>
+      </div>
+    </StyledComponent>
+  </ForwardRef>
 </figure>
 `;

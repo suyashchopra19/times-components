@@ -52,7 +52,7 @@
     "depcheck": "0.6.9",
     "eslint": "4.19.1",
     "jest": "23.3.0",
-    "jest-styled-components": "5.0.1",
+    "jest-styled-components": "6.2.2",
     "prettier": "1.14.3",
     "react": "16.5.2",
     "react-art": "16.5.2",
@@ -73,7 +73,7 @@
     "@times-components/svgs": "2.1.16",
     "@times-components/utils": "4.0.7",
     "prop-types": "15.6.2",
-    "styled-components": "3.4.0"
+    "styled-components": "4.0.2"
   },
   "peerDependencies": {
     "react": ">=16.5",

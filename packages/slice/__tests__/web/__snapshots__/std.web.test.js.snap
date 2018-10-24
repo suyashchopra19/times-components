@@ -3,61 +3,97 @@
 exports[`1. no child elements 1`] = `""`;
 
 exports[`2. a single child element 1`] = `
-<div>
+<ForwardRef>
   <div>
-    <div>
+    <ForwardRef>
       <div>
-        <div>
-          standard-1
-        </div>
+        <ForwardRef>
+          <div>
+            <ForwardRef>
+              <div>
+                <div>
+                  standard-1
+                </div>
+              </div>
+            </ForwardRef>
+          </div>
+        </ForwardRef>
       </div>
-    </div>
+    </ForwardRef>
   </div>
-</div>
+</ForwardRef>
 `;
 
 exports[`3. two child elements 1`] = `
-<div>
+<ForwardRef>
   <div>
-    <div>
+    <ForwardRef>
       <div>
-        <div>
-          standard-1
-        </div>
+        <ForwardRef>
+          <div>
+            <ForwardRef>
+              <div>
+                <div>
+                  standard-1
+                </div>
+              </div>
+            </ForwardRef>
+            <ForwardRef>
+              <div />
+            </ForwardRef>
+            <ForwardRef>
+              <div>
+                <div>
+                  standard-2
+                </div>
+              </div>
+            </ForwardRef>
+          </div>
+        </ForwardRef>
       </div>
-      <div />
-      <div>
-        <div>
-          standard-2
-        </div>
-      </div>
-    </div>
+    </ForwardRef>
   </div>
-</div>
+</ForwardRef>
 `;
 
 exports[`4. three child elements 1`] = `
-<div>
+<ForwardRef>
   <div>
-    <div>
+    <ForwardRef>
       <div>
-        <div>
-          standard-1
-        </div>
+        <ForwardRef>
+          <div>
+            <ForwardRef>
+              <div>
+                <div>
+                  standard-1
+                </div>
+              </div>
+            </ForwardRef>
+            <ForwardRef>
+              <div />
+            </ForwardRef>
+            <ForwardRef>
+              <div>
+                <div>
+                  standard-2
+                </div>
+              </div>
+            </ForwardRef>
+            <ForwardRef>
+              <div />
+            </ForwardRef>
+            <ForwardRef>
+              <div>
+                <div>
+                  standard-3
+                </div>
+              </div>
+            </ForwardRef>
+          </div>
+        </ForwardRef>
       </div>
-      <div />
-      <div>
-        <div>
-          standard-2
-        </div>
-      </div>
-      <div />
-      <div>
-        <div>
-          standard-3
-        </div>
-      </div>
-    </div>
+    </ForwardRef>
   </div>
-</div>
+</ForwardRef>
 `;

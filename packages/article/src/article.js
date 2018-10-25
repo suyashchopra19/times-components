@@ -79,7 +79,7 @@ class Article extends Component {
     if (!props.isLoading && !props.error) {
       return {
         ...state,
-        dataSource: listViewDataHelper(props.article)
+        dataSource: listViewDataHelper(props.data)
       };
     }
     return state;
@@ -88,9 +88,9 @@ class Article extends Component {
   constructor(props) {
     super(props);
 
-    if (props.article && !props.isLoading && !props.error) {
+    if (props.data && !props.isLoading && !props.error) {
       this.state = {
-        dataSource: listViewDataHelper(props.article),
+        dataSource: listViewDataHelper(props.data),
         width: normaliseWidth(screenWidthInPixels())
       };
     } else {
